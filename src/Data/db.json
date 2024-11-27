@@ -1,0 +1,3536 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ektorp Sofa",
+      "description": "A comfortable and stylish sofa for your living room.",
+      "category": "Sofas",
+      "sales": 221,
+      "price": 299,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194853_pe902103_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194852_pe902102_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194830_pe902079_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194831_pe902080_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__0717901_pe731384_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__0733160_pe738876_s5.jpg"
+      ],
+      "colors": ["Grey", "Blue", "Red"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 200,
+        "depth": 90,
+        "height": 80
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great sofa, very comfortable."
+        },
+        {
+          "rating": 5,
+          "comment": "Love the design and the color options."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Malmo Chair",
+      "description": "A modern, minimalist chair perfect for any room.",
+      "category": "Chairs",
+      "sales": 304,
+      "price": 129,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1409673_pe972365_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__0209109_pe323885_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__0946318_ph172952_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1052477_pe846140_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1052478_pe846141_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1052475_pe846138_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1127792_pe876401_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Grey"],
+      "materials": ["Plastic", "Metal"],
+      "dimensions": {
+        "width": 50,
+        "depth": 50,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Sleek and stylish, very comfortable to sit in."
+        },
+        {
+          "rating": 3,
+          "comment": "Good chair, but a little too firm for long sittings."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Hemnes Bed Frame",
+      "description": "A classic bed frame made of solid wood with a timeless design.",
+      "category": "Beds",
+      "sales": 206,
+      "price": 349,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain__0637616_pe698429_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__0742589_ph159784_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__1101521_pe866700_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__1101520_pe866699_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__1101522_pe866701_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__0742588_ph159783_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__0752902_pe747502_s5.jpg"
+      ],
+      "colors": ["White", "Brown"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very sturdy and easy to assemble."
+        },
+        {
+          "rating": 5,
+          "comment": "Great quality bed, looks beautiful in the bedroom."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Lack Coffee Table",
+      "description": "A minimalist coffee table with a sleek, modern design.",
+      "category": "Tables",
+      "sales": 257,
+      "price": 59,
+      "discount": 10,
+      "stock": 9,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__57540_pe163122_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__0835835_pe601383_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__0258017_pe401973_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__0664929_pe712922_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Wood", "Laminate"],
+      "dimensions": {
+        "width": 100,
+        "depth": 50,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good value for the price, looks great in my living room."
+        },
+        {
+          "rating": 3,
+          "comment": "A little small, but good for the price."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Frosta Stool",
+      "description": "A simple wooden stool with a versatile design for any room.",
+      "category": "Chairs",
+      "sales": 601,
+      "price": 19,
+      "discount": 10,
+      "stock": 8,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/marius-stool-black__0727386_pe735638_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/marius-stool-black__1294232_ph170163_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/marius-stool-black__1053323_pe846903_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/marius-stool-black__1053323_pe846903_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/marius-stool-black__0871987_pe590538_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/marius-stool-black__1154596_pe886224_s5.jpg"
+      ],
+      "colors": ["Wood"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 30,
+        "depth": 30,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for extra seating and very affordable."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit wobbly, but still useful and stylish."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ribba Frame",
+      "description": "A classic photo frame with a simple design that suits any decor.",
+      "category": "Storage",
+      "sales": 280,
+      "price": 9,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0898049_pe782453_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0945737_ph172196_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0940842_pe795216_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0898070_pe782466_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0928719_pe789962_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Natural wood"],
+      "materials": ["Wood", "Glass"],
+      "dimensions": {
+        "width": 40,
+        "depth": 2,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Nice frame, but wish it had more color options."
+        },
+        {
+          "rating": 5,
+          "comment": "Perfect for displaying photos, looks great."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ivar Shelf",
+      "description": "A versatile shelving unit that can be customized for different spaces.",
+      "category": "Storage",
+      "sales": 325,
+      "price": 49,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/global/assets/range-categorisation/images/ivar-combinations-11704.jpeg",
+        "https://www.ikea.com/global/assets/range-categorisation/images/ivar-system-11703.jpeg",
+        "https://www.ikea.com/images/a-large-ivar-storage-combination-in-natural-pine-and-dark-gr-2853f736536936f941963ee6f179899b.jpg",
+        "https://www.ikea.com/images/a-wide-ivar-cabinet-combination-with-woven-bamboo-doors-is-s-b04fbc161356955fb6b5e2e27a62b334.jpg"
+      ],
+      "colors": ["Natural wood", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 90,
+        "depth": 30,
+        "height": 180
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Incredibly sturdy and holds everything I need."
+        },
+        {
+          "rating": 4,
+          "comment": "Great shelf, a little tricky to assemble."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Kallax Unit",
+      "description": "A simple and stylish cube storage unit that can be used vertically or horizontally.",
+      "category": "Storage",
+      "sales": 745,
+      "price": 69,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white__1245496_pe921638_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white__1246691_pe922236_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white__1063294_pe851317_s5.jpg"
+      ],
+      "colors": ["White", "Black", "Oak"],
+      "materials": ["Wood", "Laminate"],
+      "dimensions": {
+        "width": 77,
+        "depth": 39,
+        "height": 77
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for organizing books and decor."
+        },
+        {
+          "rating": 4,
+          "comment": "Very functional, but it could be a bit sturdier."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hemnes Dresser",
+      "description": "A classic dresser with plenty of storage space and a clean, timeless design.",
+      "category": "Storage",
+      "sales": 120,
+      "price": 199,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0651176_pe706788_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0132795_pe202008_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0600229_pe287153_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0859101_pe557653_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0380367_pe555288_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__1126814_pe875869_s5.jpg"
+      ],
+      "colors": ["White", "Brown"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 120,
+        "depth": 50,
+        "height": 80
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great storage and very sturdy."
+        },
+        {
+          "rating": 4,
+          "comment": "Looks amazing, but a bit tricky to assemble."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lack TV Unit",
+      "description": "A sleek and simple TV unit with storage for electronics.",
+      "category": "Storage",
+      "sales": 174,
+      "price": 49,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__0984218_pe816164_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__0984219_pe816163_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__1120654_pe873914_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__1092885_pe863123_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__0955263_pe803703_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__1009129_pe827482_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Wood", "Laminate"],
+      "dimensions": {
+        "width": 120,
+        "depth": 35,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Simple design, great for any room."
+        },
+        {
+          "rating": 3,
+          "comment": "Cheap but not very durable."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Agen Dining Table",
+      "description": "A modern dining table made of solid wood with a natural finish.",
+      "category": "Tables",
+      "sales": 189,
+      "price": 399,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0918115_pe786051_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0946312_ph172540_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0946313_ph172539_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0946314_ph172541_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__1160114_ph186599_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0946318_ph172952_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0918152_pe786077_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0963458_pe808507_s5.jpg"
+      ],
+      "colors": ["Natural wood", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 150,
+        "depth": 80,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Beautiful and sturdy table, easy to assemble."
+        },
+        {
+          "rating": 4,
+          "comment": "Perfect for family dinners, but could be larger."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Färlöv Bed Frame",
+      "description": "A modern bed frame with a low profile and soft fabric upholstery.",
+      "category": "Beds",
+      "sales": 524,
+      "price": 499,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0752420_pe747436_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0752413_pe747432_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0752414_pe747434_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0752415_pe747433_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0722034_pe733476_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Sleek design and very comfortable."
+        },
+        {
+          "rating": 5,
+          "comment": "Great quality and perfect size for our room."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Stornas Dining Chairs",
+      "description": "Elegant dining chairs made of solid wood with padded seats.",
+      "category": "Chairs",
+      "sales": 502,
+      "price": 129,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-brown-orrsta-light-grey__0728287_pe736164_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__0719172_pe731899_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__0719172_pe731899_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__1052575_pe846230_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__1052574_pe846229_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__1052573_pe846228_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__0947751_pe798632_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Wood", "Fabric"],
+      "dimensions": {
+        "width": 45,
+        "depth": 45,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very sturdy and comfortable, perfect for dining."
+        },
+        {
+          "rating": 4,
+          "comment": "Great quality but a little too high for some tables."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Rösta Bench",
+      "description": "A versatile bench made of durable wood, perfect for the entryway.",
+      "category": "Storage",
+      "sales": 408,
+      "price": 79,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1109691_pe870156_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1109690_pe870157_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1109689_pe870158_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1109688_pe870155_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1161813_pe889527_s5.jpg"
+      ],
+      "colors": ["Natural wood", "White"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 120,
+        "depth": 35,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Stylish and functional, but not very comfortable to sit on for long."
+        },
+        {
+          "rating": 5,
+          "comment": "Perfect for the entryway, easy to assemble."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Varde Storage Unit",
+      "description": "A compact and functional storage unit for organizing your home.",
+      "category": "Storage",
+      "sales": 438,
+      "price": 149,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1038847_pe839901_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1048516_pe843777_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1051541_pe845558_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1051540_pe845592_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1051540_pe845592_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 60,
+        "depth": 40,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for small spaces, very functional."
+        },
+        {
+          "rating": 4,
+          "comment": "Good quality, but it could use a bit more space."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Nordli Bedside Table",
+      "description": "A sleek and modern bedside table with storage space.",
+      "category": "Storage",
+      "sales": 337,
+      "price": 79,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nodeland-bedside-table-medium-brown__0752423_pe747438_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-bedside-table-medium-brown__0752421_pe747437_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-bedside-table-medium-brown__0752422_pe747439_s5.jpg"
+      ],
+      "colors": ["White", "Oak"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 40,
+        "depth": 35,
+        "height": 60
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my small bedroom, love the design!"
+        },
+        {
+          "rating": 4,
+          "comment": "Sturdy, but the drawers could be a bit deeper."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Sundvik Changing Table",
+      "description": "A practical and stylish changing table for the nursery.",
+      "category": "Children's",
+      "sales": 229,
+      "price": 149,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0735849_pe740214_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0915503_ph168407_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0876341_pe642052_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0763203_ph158873_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__1012435_ph170907_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 80,
+        "depth": 70,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great design, easy to assemble, and functional."
+        },
+        {
+          "rating": 4,
+          "comment": "Perfect for the nursery, but could use more storage space."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Färgrik Dinner Plates",
+      "description": "Colorful ceramic dinner plates, ideal for everyday use.",
+      "category": "Kitchen",
+      "sales": 568,
+      "price": 19,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__0958984_pe805580_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__0958999_pe805589_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__0958998_pe805587_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__0959000_pe805588_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__1036737_pe838523_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__1038755_pe839867_s5.jpg"
+      ],
+      "colors": ["Red", "Blue", "Yellow"],
+      "materials": ["Ceramic"],
+      "dimensions": {
+        "width": 25,
+        "depth": 25,
+        "height": 2
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Great plates, very durable."
+        },
+        {
+          "rating": 5,
+          "comment": "Love the colors and design!"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Rörelse Desk Lamp",
+      "description": "A sleek and modern desk lamp with adjustable height and angle.",
+      "category": "Lighting",
+      "sales": 654,
+      "price": 39,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1222797_pe914356_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1178035_pe895619_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1277758_pe931108_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1178034_pe895616_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1222795_pe914355_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1222796_pe914357_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Metal", "Plastic"],
+      "dimensions": {
+        "width": 25,
+        "depth": 25,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Good lamp, but the base could be heavier."
+        },
+        {
+          "rating": 5,
+          "comment": "Perfect lighting for my desk!"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Hemsjö Recliner",
+      "description": "A cozy recliner with padded armrests for ultimate relaxation.",
+      "category": "Chairs",
+      "sales": 287,
+      "price": 249,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0908536_pe783303_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0908537_pe783270_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0908538_pe783271_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0908540_pe783273_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0681591_pe720190_s5.jpg"
+      ],
+      "colors": ["Grey", "Black"],
+      "materials": ["Fabric", "Metal"],
+      "dimensions": {
+        "width": 80,
+        "depth": 85,
+        "height": 105
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Incredibly comfortable and easy to recline!"
+        },
+        {
+          "rating": 4,
+          "comment": "Great chair, but a little bulky."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Vittsjo TV Unit",
+      "description": "A modern and minimalistic TV unit made from tempered glass and metal.",
+      "category": "Storage",
+      "sales": 287,
+      "price": 99,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0767557_pe754140_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__1052041_pe845893_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__1052041_pe845893_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0802185_pe768399_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0671200_ph153107_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0778385_pe758941_s5.jpg"
+      ],
+      "colors": ["Black", "Glass"],
+      "materials": ["Glass", "Metal"],
+      "dimensions": {
+        "width": 120,
+        "depth": 35,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Stylish and sleek, perfect for my living room!"
+        },
+        {
+          "rating": 4,
+          "comment": "Love it, but the glass can get smudged easily."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Seltro Armchair",
+      "description": "A plush armchair with tufted cushions and wooden legs.",
+      "category": "Chairs",
+      "sales": 190,
+      "price": 179,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864924_pe781283_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864925_pe781284_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864927_pe781286_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864928_pe781287_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864929_pe781285_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864926_pe781288_s5.jpg"
+      ],
+      "colors": ["Beige", "Grey", "Green"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 75,
+        "depth": 80,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Super comfortable, love the look of the wooden legs."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit firmer than expected, but great overall."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Vikbol Storage Box",
+      "description": "A stackable storage box perfect for organizing your home.",
+      "category": "Storage",
+      "sales": 178,
+      "price": 12,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1177697_pe895387_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1177048_pe895214_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1177703_pe895390_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1177703_pe895390_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1189873_pe900030_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1189873_pe900030_s5.jpg"
+      ],
+      "colors": ["White", "Blue"],
+      "materials": ["Plastic"],
+      "dimensions": {
+        "width": 40,
+        "depth": 30,
+        "height": 25
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for organizing toys and clothes."
+        },
+        {
+          "rating": 4,
+          "comment": "Very sturdy, but a little bulky for small spaces."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Bjursta Extending Table",
+      "description": "A beautiful extending table that is perfect for family gatherings.",
+      "category": "Tables",
+      "sales": 600,
+      "price": 229,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/global/assets/range-categorisation/images/wall-mounted-tables-25206.jpeg",
+        "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg"
+      ],
+      "colors": ["Brown", "Oak"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 140,
+        "depth": 85,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for hosting, easy to extend and store."
+        },
+        {
+          "rating": 4,
+          "comment": "Good size, but a little heavy."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Fladis Basket",
+      "description": "A woven storage basket perfect for organizing items.",
+      "category": "Storage",
+      "sales": 468,
+      "price": 15,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224557_pe915026_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224571_pe915038_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224572_pe915039_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224572_pe915039_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224572_pe915039_s5.jpg"
+      ],
+      "colors": ["Natural", "Brown"],
+      "materials": ["Wicker", "Seagrass"],
+      "dimensions": {
+        "width": 40,
+        "depth": 40,
+        "height": 25
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for storing blankets and toys."
+        },
+        {
+          "rating": 4,
+          "comment": "Great size, but wish it had handles."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Lack Wall Shelf",
+      "description": "A minimalist wall shelf that’s perfect for displaying your decor items.",
+      "category": "Storage",
+      "sales": 472,
+      "price": 29,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/global/assets/range-categorisation/images/lack-series-09063.jpeg",
+        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg"
+      ],
+      "colors": ["White", "Black", "Oak"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 110,
+        "depth": 20,
+        "height": 15
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for small spaces, holds all my books and small decor."
+        },
+        {
+          "rating": 4,
+          "comment": "Good shelf, but requires more secure mounting."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Rånarp Coffee Table",
+      "description": "A stylish coffee table made from tempered glass and wood, with storage.",
+      "category": "Tables",
+      "sales": 318,
+      "price": 129,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__0135348_pe292039_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__0836655_pe601386_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__0184627_pe316778_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__1058803_ph181553_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__1420929_ph181562_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__1420929_ph181562_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__0719688_pe732149_s5.jpg"
+      ],
+      "colors": ["Black", "Wooden"],
+      "materials": ["Glass", "Wood"],
+      "dimensions": {
+        "width": 100,
+        "depth": 50,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Love the modern design and the storage underneath!"
+        },
+        {
+          "rating": 4,
+          "comment": "Great table, but It's a bit heavy to move."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Sander Rug",
+      "description": "A soft, cozy rug perfect for adding warmth to any room.",
+      "category": "Living Room",
+      "sales": 357,
+      "price": 59,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086042_pe860315_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086041_pe860316_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086041_pe860316_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086041_pe860316_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086041_pe860316_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086040_pe860317_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige"],
+      "materials": ["Polyester"],
+      "dimensions": {
+        "width": 160,
+        "depth": 230,
+        "height": 1
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very soft and perfect for my living room."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice rug, but it sheds a bit initially."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Hårte Sink Cabinet",
+      "description": "A functional sink cabinet with extra storage space for your bathroom essentials.",
+      "category": "Bathroom",
+      "sales": 775,
+      "price": 149,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__0216801_pe371169_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__0260116_pe403633_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__1030336_ph172894_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__1030336_ph172894_s5.jpg"
+      ],
+      "colors": ["White", "Gray"],
+      "materials": ["Wood", "Ceramic"],
+      "dimensions": {
+        "width": 60,
+        "depth": 40,
+        "height": 80
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for our small bathroom, looks great!"
+        },
+        {
+          "rating": 4,
+          "comment": "Sturdy, but installation was a bit tricky."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Kallax Shelving Unit",
+      "description": "A versatile shelving unit perfect for organizing books and decor.",
+      "category": "Storage",
+      "sales": 821,
+      "price": 69,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__0644756_pe702940_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1084742_pe859829_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1084735_pe859822_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1106841_pe868817_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1106841_pe868817_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1215324_pe911961_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 77,
+        "depth": 39,
+        "height": 77
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very sturdy, perfect for organizing my books and plants."
+        },
+        {
+          "rating": 4,
+          "comment": "Great, but its heavy to move once assembled."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Björksta Picture Frame",
+      "description": "A simple and elegant picture frame, available in multiple sizes.",
+      "category": "Living Room",
+      "sales": 659,
+      "price": 19,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1279758_pe931527_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1278967_pe931199_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1298272_pe936173_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1298272_pe936173_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1298298_pe936193_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1330543_pe945715_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Natural"],
+      "materials": ["Wood", "Glass"],
+      "dimensions": {
+        "width": 40,
+        "depth": 2,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect frame, looks great with my artwork."
+        },
+        {
+          "rating": 4,
+          "comment": "Simple design, but could be more sturdy."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Malm Bed Frame",
+      "description": "A minimalist bed frame that fits into any bedroom style.",
+      "category": "Beds",
+      "sales": 661,
+      "price": 199,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1154393_pe886042_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__0800857_ph163673_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1101597_pe866769_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1101598_pe866682_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1101529_pe866708_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1154397_pe886046_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__0730841_pe737814_s5.jpg"
+      ],
+      "colors": ["Black-brown", "White"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 35
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Sleek and comfortable, easy to assemble."
+        },
+        {
+          "rating": 4,
+          "comment": "Great bed, but it squeaks a little."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Luröy Bed Base",
+      "description": "A supportive slatted bed base for a more comfortable sleep.",
+      "category": "Beds",
+      "sales": 535,
+      "price": 89,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/luroey-slatted-bed-base__0268301_pe406268_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/luroey-slatted-bed-base__1273465_pe930077_s5.jpg"
+      ],
+      "colors": ["Wooden"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 5
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Provides excellent support, great for any mattress."
+        },
+        {
+          "rating": 4,
+          "comment": "Good quality, but it can be hard to assemble."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Besta TV Storage",
+      "description": "A modern TV storage unit with sliding doors and plenty of space for electronics.",
+      "category": "Storage",
+      "sales": 271,
+      "price": 169,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0645048_pe703184_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0991883_pe819657_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0842978_pe535774_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0394116_pe560939_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0763982_pe753016_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__1026892_pe834629_s5.jpg"
+      ],
+      "colors": ["Black", "Oak"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 160,
+        "depth": 40,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my living room, holds everything I need!"
+        },
+        {
+          "rating": 4,
+          "comment": "Great storage, but the doors slide a bit too easily."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Ektorp Armchair",
+      "description": "A classic armchair with soft, durable fabric for ultimate comfort.",
+      "category": "Chairs",
+      "sales": 283,
+      "price": 199,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1247965_pe922911_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1242735_pe920363_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1242735_pe920363_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1247952_pe922900_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1144353_pe881795_s5.jpg"
+      ],
+      "colors": ["Beige", "Green", "Blue"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 80,
+        "depth": 90,
+        "height": 100
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Incredibly comfortable, perfect for my living room."
+        },
+        {
+          "rating": 4,
+          "comment": "Great chair, but could be a little firmer."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Överallt Floor Lamp",
+      "description": "A sleek and modern floor lamp with an adjustable arm for precise lighting.",
+      "category": "Lighting",
+      "sales": 382,
+      "price": 89,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0859365_pe780895_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0789143_pe763842_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0759291_pe750285_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0880289_pe730685_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Metal", "Plastic"],
+      "dimensions": {
+        "width": 25,
+        "depth": 25,
+        "height": 150
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect lighting for my reading nook, easy to adjust."
+        },
+        {
+          "rating": 4,
+          "comment": "Good lamp, but the base could be heavier for stability."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Pax Wardrobe",
+      "description": "A customizable wardrobe system with plenty of storage space.",
+      "category": "Storage",
+      "sales": 432,
+      "price": 229,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1038498_pe839701_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1183092_pe897428_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1187256_pe899141_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1182667_pe897284_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1184486_pe897918_s5.jpg"
+      ],
+      "colors": ["White", "Oak", "Black-brown"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 100,
+        "depth": 60,
+        "height": 200
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very spacious and customizable, great for organizing."
+        },
+        {
+          "rating": 4,
+          "comment": "Takes time to assemble, but worth it for the price."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Kivit Mirror",
+      "description": "A stylish round mirror with a metal frame, perfect for any room.",
+      "category": "Living Room",
+      "sales": 234,
+      "price": 49,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0633564_pe695916_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0380218_pe555163_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0906072_pe556142_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0906064_pe555927_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0906064_pe555927_s5.jpg"
+      ],
+      "colors": ["Black", "Gold"],
+      "materials": ["Metal", "Glass"],
+      "dimensions": {
+        "width": 60,
+        "depth": 4,
+        "height": 60
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Looks great above my console table!"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice mirror, but the frame is a bit delicate."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Hemmafon Bluetooth Speaker",
+      "description": "A compact and portable Bluetooth speaker with excellent sound quality.",
+      "category": "Electronics",
+      "sales": 423,
+      "price": 79,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1025506_pe834047_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1025509_pe834050_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1025508_pe834051_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1025510_pe834049_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1180731_pe896431_s5.jpg"
+      ],
+      "colors": ["Black", "Red"],
+      "materials": ["Plastic", "Metal"],
+      "dimensions": {
+        "width": 10,
+        "depth": 10,
+        "height": 20
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Amazing sound quality for such a compact speaker."
+        },
+        {
+          "rating": 4,
+          "comment": "Great speaker, but the battery could last longer."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Före Shelf Unit",
+      "description": "A simple yet stylish shelf unit that works well in any room for storage or display.",
+      "category": "Storage",
+      "sales": 413,
+      "price": 89,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0472902_pe614311_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0476333_pe616239_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__1038941_pe840083_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0845325_pe616240_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0476335_pe616238_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0553788_pe659558_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 80,
+        "depth": 35,
+        "height": 150
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for my office, lots of space for books and plants."
+        },
+        {
+          "rating": 4,
+          "comment": "Great value, but the finish on the metal could be better."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Lövet Rug",
+      "description": "A soft, woven rug with a geometric pattern, adding warmth and style to your space.",
+      "category": "Living Room",
+      "sales": 416,
+      "price": 69,
+      "discount": 10,
+      "stock": 8,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/toftlund-rug-grey__0834498_pe778811_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/toftlund-rug-grey__0834499_pe778810_s5.jpg"
+      ],
+      "colors": ["Grey", "Black", "White"],
+      "materials": ["Polyester", "Cotton"],
+      "dimensions": {
+        "width": 140,
+        "depth": 200,
+        "height": 1
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "The perfect addition to my living room, very soft."
+        },
+        {
+          "rating": 4,
+          "comment": "Looks great, but a little difficult to clean."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Borrby Lantern",
+      "description": "A rustic lantern that provides a warm glow, perfect for outdoor settings.",
+      "category": "Outdoor",
+      "sales": 214,
+      "price": 39,
+      "discount": 10,
+      "stock": 9,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1076462_pe856793_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1005813_pe825545_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1005773_pe825527_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1005812_pe825546_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1079462_pe857539_s5.jpg"
+      ],
+      "colors": ["Black", "Silver"],
+      "materials": ["Metal", "Glass"],
+      "dimensions": {
+        "width": 25,
+        "depth": 25,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Beautiful lantern, adds charm to my outdoor space."
+        },
+        {
+          "rating": 4,
+          "comment": "Lovely design, but It's a bit fragile."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Lilleby Bed Frame",
+      "description": "A stylish bed frame with a high headboard, perfect for any bedroom decor.",
+      "category": "Beds",
+      "sales": 265,
+      "price": 299,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035360_pe840536_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1097674_pe865098_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035352_pe840526_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035352_pe840526_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035716_pe838155_s5.jpg"
+      ],
+      "colors": ["Dark Grey", "Light Beige"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 120
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "This bed frame is so comfortable and looks amazing!"
+        },
+        {
+          "rating": 4,
+          "comment": "Great design, but the fabric tends to collect dust."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Rast Chest of Drawers",
+      "description": "A simple chest of drawers with a natural wood finish, perfect for organizing clothes.",
+      "category": "Storage",
+      "sales": 307,
+      "price": 79,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818652_pe774528_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818650_pe774527_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818651_pe774529_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818659_pe774533_s5.jpg"
+      ],
+      "colors": ["Natural Wood", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 80,
+        "depth": 45,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for organizing my clothes, very sturdy."
+        },
+        {
+          "rating": 4,
+          "comment": "Simple and practical, but could use more drawer depth."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Fyrkantig Outdoor Chair",
+      "description": "A modern outdoor chair with a durable frame, designed for comfort and style.",
+      "category": "Outdoor",
+      "sales": 317,
+      "price": 149,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__1245814_pe921796_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__1299166_pe936476_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__1245927_pe921864_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__0940866_pe795223_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige"],
+      "materials": ["Metal", "Fabric"],
+      "dimensions": {
+        "width": 70,
+        "depth": 70,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and looks great on the patio."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit pricey, but very durable and comfortable."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Fyrsta Dining Table",
+      "description": "A modern, minimalistic dining table perfect for any dining room or kitchen.",
+      "category": "Dining",
+      "sales": 228,
+      "price": 199,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0737108_pe740890_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__1209072_pe909012_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__1143378_pe881483_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0719380_pe732028_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0871205_pe594901_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0976344_pe813145_s5.jpg"
+      ],
+      "colors": ["Wooden", "White"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 180,
+        "depth": 90,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very sturdy and stylish, fits perfectly in my dining room."
+        },
+        {
+          "rating": 4,
+          "comment": "Great table, but it requires assembly."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Söderhamn Modular Sofa",
+      "description": "A stylish and customizable modular sofa that can be adjusted to your living room space.",
+      "category": "Sofas",
+      "sales": 156,
+      "price": 899,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057824_pe849005_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057823_pe849006_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057819_pe849002_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057803_pe848986_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057802_pe848985_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057804_pe848990_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1350206_pe951654_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige", "Blue"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 300,
+        "depth": 90,
+        "height": 80
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Incredibly comfortable and looks great in my living room."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit expensive, but the quality is fantastic."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Ekenäset Armchair",
+      "description": "A classic armchair with a traditional design, featuring plush cushions for comfort.",
+      "category": "Chairs",
+      "sales": 227,
+      "price": 249,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1179060_pe895831_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1110707_pe870568_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1110707_pe870568_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__0940909_pe795235_s5.jpg"
+      ],
+      "colors": ["Beige", "Red"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 75,
+        "depth": 80,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and well-made, perfect for reading."
+        },
+        {
+          "rating": 4,
+          "comment": "A little bulky, but very comfy."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Lövbacken Coffee Table",
+      "description": "A small and compact coffee table with a wooden finish and a contemporary design.",
+      "category": "Tables",
+      "sales": 168,
+      "price": 99,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__0173699_pe327848_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__0258094_pe402078_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__1372857_ph195746_s5.jpg"
+      ],
+      "colors": ["Wooden", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 90,
+        "depth": 50,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my apartment, very sturdy."
+        },
+        {
+          "rating": 4,
+          "comment": "Great table, but the surface gets scratched easily."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Malm Storage Bed",
+      "description": "A bed frame with built-in storage, perfect for small spaces and keeping your room organized.",
+      "category": "Beds",
+      "sales": 250,
+      "price": 249,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1154412_pe886059_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg"
+      ],
+      "colors": ["White", "Black-brown"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 35
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great bed with plenty of storage space underneath."
+        },
+        {
+          "rating": 4,
+          "comment": "The assembly took some time, but It's worth it."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Lättsam Kitchen Cart",
+      "description": "A mobile kitchen cart that adds extra counter space and storage to your kitchen.",
+      "category": "Kitchen",
+      "sales": 303,
+      "price": 999,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/enhet-kitchen-white-grey-frame__0983959_pe816120_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/enhet-kitchen-white-grey-frame__0991960_pe819713_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/enhet-kitchen-white-grey-frame__1003056_pe825015_s5.jpg"
+      ],
+      "colors": ["White", "Natural Wood"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 80,
+        "depth": 40,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very handy and practical in my small kitchen."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice cart, but a little wobbly when fully loaded."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Rörets Bathroom Shelf",
+      "description": "A small bathroom shelf perfect for storing toiletries and accessories.",
+      "category": "Bathroom",
+      "sales": 267,
+      "price": 39,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vesken-corner-shelf-unit-white__0831999_pe777543_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vesken-corner-shelf-unit-white__0832000_pe777544_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vesken-corner-shelf-unit-white__0832000_pe777544_s5.jpg"
+      ],
+      "colors": ["White", "Grey"],
+      "materials": ["Metal", "Wood"],
+      "dimensions": {
+        "width": 60,
+        "depth": 25,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great size for a small bathroom, looks modern."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice shelf, but the metal frame is a little thin."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Hästens Bed Frame",
+      "description": "A premium bed frame with a luxurious feel and comfortable design.",
+      "category": "Beds",
+      "sales": 304,
+      "price": 1299,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__0916066_pe784942_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__1063809_ph182861_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__1063810_ph182860_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__1063811_ph182859_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__0932344_pe791460_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__1101606_pe866776_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__0934823_pe792547_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 180,
+        "depth": 200,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "The most comfortable bed I’ve ever had, worth the price!"
+        },
+        {
+          "rating": 4,
+          "comment": "Very comfortable, but the price is a bit high."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Solvinden Outdoor Lantern",
+      "description": "A solar-powered outdoor lantern that provides soft ambient lighting.",
+      "category": "Outdoor",
+      "sales": 502,
+      "price": 29,
+      "discount": 10,
+      "stock": 9,
+      "images": [
+        "https://www.ikea.com/global/assets/range-categorisation/images/decorative-lighting-14971.jpeg",
+        "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__0719937_ph156570_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__0719937_ph156570_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__0884657_pe674256_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__1116061_ph179907_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__0687608_pe722094_s5.jpg"
+      ],
+      "colors": ["White", "Orange"],
+      "materials": ["Plastic", "Glass"],
+      "dimensions": {
+        "width": 20,
+        "depth": 20,
+        "height": 30
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for outdoor parties, gives off a nice glow."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice lantern, but it could last longer on a full charge."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Besta TV Unit",
+      "description": "A minimalist TV unit with ample storage for your entertainment essentials.",
+      "category": "Storage",
+      "sales": 173,
+      "price": 169,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0992629_pe820147_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0995022_pe821663_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0995022_pe821663_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0995022_pe821663_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0763977_pe753011_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__1026902_pe834627_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Oak"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 120,
+        "depth": 40,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for my TV and media equipment, very stylish."
+        },
+        {
+          "rating": 4,
+          "comment": "Great storage, but the assembly was a bit tricky."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Rösta Lounge Chair",
+      "description": "A comfortable lounge chair with soft cushioning and modern design.",
+      "category": "Chairs",
+      "sales": 352,
+      "price": 249,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__0169629_pe323574_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__1061716_ph177951_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__0256705_pe400728_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__0840386_pe585812_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__1249048_pe923327_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige", "Blue"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 75,
+        "depth": 80,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable, perfect for relaxing in my living room."
+        },
+        {
+          "rating": 4,
+          "comment": "Great chair, but the fabric could be softer."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Algot Shelf System",
+      "description": "A customizable shelving unit that allows you to organize your space with ease.",
+      "category": "Storage",
+      "sales": 428,
+      "price": 129,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0472902_pe614311_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__1038941_pe840083_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0845325_pe616240_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0476335_pe616238_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0553788_pe659558_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Metal", "Wood"],
+      "dimensions": {
+        "width": 120,
+        "depth": 30,
+        "height": 180
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great storage solution, very versatile and easy to install."
+        },
+        {
+          "rating": 4,
+          "comment": "Looks great, but the metal brackets could be stronger."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Skarpo Desk",
+      "description": "A simple and functional desk for your home office with plenty of storage space.",
+      "category": "Furniture",
+      "sales": 307,
+      "price": 149,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__0976080_pe812978_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__0977795_pe813778_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__0977795_pe813778_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__1028363_pe835300_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__1013517_pe829229_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 120,
+        "depth": 60,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my home office, very sturdy."
+        },
+        {
+          "rating": 4,
+          "comment": "Great desk, but the drawers could have more space."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Kallax Bookcase",
+      "description": "A versatile and popular bookcase that fits well in any room, ideal for books, decor, and storage.",
+      "category": "Storage",
+      "sales": 209,
+      "price": 79,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__0645237_pe703346_s5.jpg",
+        "kallax-shelving-unit-with-doors-white",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__1106842_pe868819_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__1106846_pe868822_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__1215327_pe911964_s5.jpg"
+      ],
+      "colors": ["Black-brown", "White", "Oak"],
+      "materials": ["Wood", "Plastic"],
+      "dimensions": {
+        "width": 77,
+        "depth": 39,
+        "height": 147
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very sturdy, fits all my books and decor items perfectly."
+        },
+        {
+          "rating": 4,
+          "comment": "A little tricky to assemble, but great once It's done."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Hårtegn Wall Lamp",
+      "description": "A modern and minimalist wall lamp that adds a touch of elegance to your space.",
+      "category": "Lighting",
+      "sales": 267,
+      "price": 39,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0606627_pe682427_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0879039_pe654344_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0879035_pe618779_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__1101397_pe866657_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__1101516_pe866695_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0178614_pe245813_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0459991_ph132611_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Metal", "Glass"],
+      "dimensions": {
+        "width": 30,
+        "depth": 10,
+        "height": 20
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for accent lighting, gives a beautiful glow."
+        },
+        {
+          "rating": 4,
+          "comment": "Looks great, but the installation was a bit challenging."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Höfner Chest of Drawers",
+      "description": "A stylish and spacious chest of drawers for your bedroom or living room.",
+      "category": "Storage",
+      "sales": 387,
+      "price": 169,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__0627347_pe693303_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__0328233_pe519831_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__0334737_pe523975_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__0334737_pe523975_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__1329683_pe945243_s5.jpg"
+      ],
+      "colors": ["White", "Grey", "Oak"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 100,
+        "depth": 50,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Spacious and stylish, exactly what I needed."
+        },
+        {
+          "rating": 4,
+          "comment": "Good value for money, but drawers are a bit shallow."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Riktig Dining Chairs",
+      "description": "Comfortable dining chairs with a modern design and sturdy construction.",
+      "category": "Chairs",
+      "sales": 265,
+      "price": 89,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1068130_pe852977_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1027685_pe834982_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1027685_pe834982_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1061036_pe850233_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1061036_pe850233_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1028047_pe835187_s5.jpg"
+      ],
+      "colors": ["Beige", "Black", "Red"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 45,
+        "depth": 50,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and stylish, perfect for our dining table."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit smaller than expected, but still good quality."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Fridfull Throw Blanket",
+      "description": "A cozy throw blanket for adding warmth and texture to your sofa or bed.",
+      "category": "Living Room",
+      "sales": 38,
+      "price": 29,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1157597_pe887774_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1157596_pe887787_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1174527_pe894515_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1157595_pe887786_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1285727_pe933382_s5.jpg"
+      ],
+      "colors": ["Grey", "Blue", "Beige"],
+      "materials": ["Cotton", "Polyester"],
+      "dimensions": {
+        "width": 130,
+        "depth": 180,
+        "height": 1
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Soft and warm, perfect for chilly nights."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice texture, but it sheds a bit when new."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Vimle Sofa Bed",
+      "description": "A comfortable sofa bed that easily converts into a bed for guests or lounging.",
+      "category": "Sofas",
+      "sales": 65,
+      "price": 499,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__1171930_pe893212_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__1092117_pe863030_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__1101301_pe866570_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__0734641_pe739552_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__1026757_pe834509_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__0767736_pe754240_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige", "Blue"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 200,
+        "depth": 90,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "So comfortable and perfect for my guest room."
+        },
+        {
+          "rating": 4,
+          "comment": "Great sofa bed, but a little firm for some."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Färgrik Dinnerware Set",
+      "description": "A colorful and vibrant dinnerware set that adds a pop of color to your dining table.",
+      "category": "Kitchen",
+      "sales": 21,
+      "price": 39,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__1214586_pe911673_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__0958995_pe805584_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__0958946_pe805527_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__1383705_pe962648_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__1038689_pe839820_s5.jpg"
+      ],
+      "colors": ["Multi-color"],
+      "materials": ["Ceramic"],
+      "dimensions": {
+        "width": 25,
+        "depth": 25,
+        "height": 10
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Love the colors and quality of these dishes!"
+        },
+        {
+          "rating": 4,
+          "comment": "Great set, but the plates are a little smaller than expected."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Före Outdoor Chair",
+      "description": "A lightweight and comfortable outdoor chair, perfect for patios and gardens.",
+      "category": "Outdoor",
+      "sales": 347,
+      "price": 79,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0728346_pe736205_s5.jpg",
+        ", https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0907677_pe616813_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0907227_pe617047_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0943757_pe797034_s5.jpg"
+      ],
+      "colors": ["Black", "Green", "Grey"],
+      "materials": ["Plastic", "Aluminum"],
+      "dimensions": {
+        "width": 60,
+        "depth": 60,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and durable for outdoor use."
+        },
+        {
+          "rating": 4,
+          "comment": "Great chair, but it could use more padding."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Viggo Dining Table",
+      "description": "A spacious and modern dining table that fits large families and gatherings.",
+      "category": "Dining",
+      "sales": 423,
+      "price": 349,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/docksta-table-white-white__0803262_pe768820_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/docksta-table-white-white__1339180_pe948414_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/docksta-table-white-white__1099612_pe865813_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/docksta-table-white-white__1111486_pe870782_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/docksta-table-white-white__0981151_pe815274_s5.jpg"
+      ],
+      "colors": ["Black", "Oak", "White"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 200,
+        "depth": 90,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for family dinners, very sturdy."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit difficult to assemble, but worth it."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Stig Armchair",
+      "description": "A cozy armchair with plush cushions and a classic design, perfect for any living room.",
+      "category": "Chairs",
+      "sales": 387,
+      "price": 199,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920165_pe786885_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920166_pe786886_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0919593_pe786680_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920168_pe786888_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920167_pe786890_s5.jpg"
+      ],
+      "colors": ["Grey", "Red", "Blue"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 80,
+        "depth": 85,
+        "height": 95
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and looks great in my living room."
+        },
+        {
+          "rating": 4,
+          "comment": "A little too firm for my liking, but still good."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Norvik Desk Lamp",
+      "description": "A sleek and modern desk lamp with adjustable brightness for your workspace.",
+      "category": "Lighting",
+      "sales": 140,
+      "price": 59,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__0928818_pe789977_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__0933375_pe791866_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__1049495_pe844178_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__1049491_pe844177_s5.jpg"
+      ],
+      "colors": ["Black", "Silver", "White"],
+      "materials": ["Metal", "Plastic"],
+      "dimensions": {
+        "width": 15,
+        "depth": 15,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect lighting for my desk, very adjustable."
+        },
+        {
+          "rating": 4,
+          "comment": "The base could be a bit heavier for better stability."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Klyft Table Runner",
+      "description": "A stylish table runner to add a pop of color and texture to your dining table.",
+      "category": "Dining",
+      "sales": 351,
+      "price": 29,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089709_pe861668_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089708_pe861669_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089706_pe861667_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089707_pe861670_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089707_pe861670_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1196690_pe903167_s5.jpg"
+      ],
+      "colors": ["Red", "Grey", "Black"],
+      "materials": ["Fabric"],
+      "dimensions": {
+        "width": 35,
+        "depth": 120,
+        "height": 1
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Love the texture and color of this runner!"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice runner, but the fabric wrinkles easily."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Kallax Storage Box",
+      "description": "A convenient storage box designed to fit perfectly in Kallax shelving units.",
+      "category": "Storage",
+      "sales": 273,
+      "price": 19,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1139591_pe880451_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1139589_pe880453_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1139587_pe880449_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1139588_pe880450_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1103348_pe867259_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Grey"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 35,
+        "depth": 35,
+        "height": 35
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for the Kallax unit, very useful."
+        },
+        {
+          "rating": 4,
+          "comment": "Great for organizing, but could use more color options."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Skrivbord Writing Desk",
+      "description": "A simple and functional writing desk with plenty of space for work and study.",
+      "category": "Furniture",
+      "sales": 330,
+      "price": 129,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1292582_pe935056_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1333937_pe946614_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1355162_pe952944_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1353809_pe952333_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1274811_pe930482_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 120,
+        "depth": 60,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great desk for my study, sturdy and stylish."
+        },
+        {
+          "rating": 4,
+          "comment": "Would be better with more drawer space."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "RÅSKOG Utility knife",
+      "description": "A versatile and mobile utility knife, ideal for organizing your home or office space.",
+      "category": "Kitchen",
+      "sales": 285,
+      "price": 49,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0710376_pe727504_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0245203_pe384487_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0366398_pe549244_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0245206_pe384474_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0171932_pe241594_s5.jpg"
+      ],
+      "colors": ["Green", "Black", "Grey"],
+      "materials": ["Metal"],
+      "dimensions": {
+        "width": 35,
+        "depth": 45,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for organizing my kitchen tools."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice knife, but it could be a bit taller."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "LÄTTHET Rug",
+      "description": "A soft and cozy rug to add warmth and texture to your living room or bedroom.",
+      "category": "Living Room",
+      "sales": 44,
+      "price": 59,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088024_pe861013_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1071214_pe854886_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088020_pe861011_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088020_pe861011_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088022_pe861015_s5.jpghttps://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1092547_pe862904_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1099699_pe865858_s5.jpg"
+      ],
+      "colors": ["Grey", "Blue", "Red"],
+      "materials": ["Cotton", "Polyester"],
+      "dimensions": {
+        "width": 120,
+        "depth": 180,
+        "height": 1
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very soft and warm, perfect for my living room."
+        },
+        {
+          "rating": 4,
+          "comment": "Great rug, but it sheds a little at first."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Eivor Throw Pillow",
+      "description": "A decorative throw pillow to add comfort and style to your sofa or bed.",
+      "category": "Living Room",
+      "sales": 325,
+      "price": 25,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__0963713_pe809745_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__1342593_pe949071_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__0963718_pe809746_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__0963715_pe809747_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige", "Pink"],
+      "materials": ["Fabric", "Polyester"],
+      "dimensions": {
+        "width": 45,
+        "depth": 45,
+        "height": 1
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and soft, adds a nice touch to my couch."
+        },
+        {
+          "rating": 4,
+          "comment": "Good quality, but it could be a little bigger."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Vittsjö Coffee Table",
+      "description": "A sleek, modern coffee table with a minimalist design and glass top.",
+      "category": "Tables",
+      "sales": 129,
+      "price": 890,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0735687_pe740087_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__1058808_ph176254_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__1058808_ph176254_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0738814_ph151995_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0719689_pe732148_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Glass", "Metal"],
+      "dimensions": {
+        "width": 110,
+        "depth": 60,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Beautiful design and very sturdy!"
+        },
+        {
+          "rating": 4,
+          "comment": "Easy to assemble, but the glass top is a little delicate."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Nornäs TV Unit",
+      "description": "A contemporary TV unit with ample storage space and clean lines.",
+      "category": "Living Room",
+      "sales": 234,
+      "price": 199,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0341771_pe531784_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0999539_pe823609_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0394596_pe561419_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0843438_pe535720_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0763972_pe753006_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__1026888_pe834620_s5.jpg"
+      ],
+      "colors": ["Oak", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 160,
+        "depth": 40,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my TV and looks great in the living room."
+        },
+        {
+          "rating": 4,
+          "comment": "Solid construction, but a bit challenging to assemble."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Knocka Floor Lamp",
+      "description": "A modern floor lamp with adjustable lighting, perfect for adding ambiance.",
+      "category": "Lighting",
+      "sales": 336,
+      "price": 119,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244478_pe921198_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244477_pe921199_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244476_pe921200_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244475_pe921197_s5.jpg"
+      ],
+      "colors": ["Gold", "Black"],
+      "materials": ["Metal", "Fabric"],
+      "dimensions": {
+        "width": 25,
+        "depth": 25,
+        "height": 150
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Lovely lamp, gives great light and adds style to the room."
+        },
+        {
+          "rating": 4,
+          "comment": "Good quality, but the cord could be a little longer."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Ramsjö Armchair",
+      "description": "A comfortable armchair with soft cushions and a sleek design, great for any space.",
+      "category": "Chairs",
+      "sales": 145,
+      "price": 149,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0793271_pe765307_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0818334_ph167582_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0809741_pe771124_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0809770_pe771141_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0815168_pe772789_s5.jpg"
+      ],
+      "colors": ["Beige", "Grey", "Blue"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 75,
+        "depth": 80,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Super comfortable and stylish, perfect for my reading nook."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit firmer than expected, but still a great chair."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Åre Side Table",
+      "description": "A compact side table with a chic design, perfect for any room in your home.",
+      "category": "Tables",
+      "sales": 367,
+      "price": 49,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1150822_pe884680_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1189234_ph191986_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1208142_ph191913_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1189232_ph191917_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1157495_pe887719_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1233791_pe916969_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 45,
+        "depth": 45,
+        "height": 50
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect little table for my living room, love the design!"
+        },
+        {
+          "rating": 4,
+          "comment": "Good quality, but could be a bit more stable."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Malm Chest of Drawers",
+      "description": "A classic, functional chest of drawers with ample storage space for your bedroom.",
+      "category": "Storage",
+      "sales": 147,
+      "price": 179,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__0484891_pe621335_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__1154552_pe886132_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__1154554_pe886133_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__1154553_pe886134_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__0766581_pe753827_s5.jpg"
+      ],
+      "colors": ["White", "Black-brown"],
+      "materials": ["Wood", "Fiberboard"],
+      "dimensions": {
+        "width": 120,
+        "depth": 40,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "So much storage space, and it looks great in my bedroom!"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice drawers, but a bit difficult to assemble."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Klippan Loveseat",
+      "description": "A simple, affordable loveseat with a comfortable fabric covering.",
+      "category": "Sofas",
+      "sales": 482,
+      "price": 199,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0239990_pe379591_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0820948_pe709146_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0820907_pe709145_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0721437_ph143338_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0721439_ph151991_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0562987_pe663640_s5.jpg"
+      ],
+      "colors": ["Red", "Blue", "Grey"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 150,
+        "depth": 85,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great loveseat, very comfortable and affordable."
+        },
+        {
+          "rating": 4,
+          "comment": "It is a bit smaller than expected, but still very cozy."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Sundvik Changing Table",
+      "description": "A sturdy changing table with ample storage for all your baby essentials.",
+      "category": "Children's",
+      "sales": 267,
+      "price": 129,
+      "discount": 10,
+      "stock": 8,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0735849_pe740214_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0915503_ph168407_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0876341_pe642052_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__1012435_ph170907_s5.jpg"
+      ],
+      "colors": ["White", "Oak"],
+      "materials": ["Wood", "MDF"],
+      "dimensions": {
+        "width": 80,
+        "depth": 55,
+        "height": 95
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for our nursery, very functional and easy to assemble."
+        },
+        {
+          "rating": 4,
+          "comment": "Great changing table, but could use a bit more storage space."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Lillången Mirror",
+      "description": "A full-length mirror with a sleek design, perfect for your hallway or bedroom.",
+      "category": "Furniture",
+      "sales": 220,
+      "price": 79,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__0637801_pe698597_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__0459574_pe606201_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__1343067_pe949301_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__1315306_ph184476_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Silver"],
+      "materials": ["Glass", "Metal"],
+      "dimensions": {
+        "width": 40,
+        "depth": 5,
+        "height": 150
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect mirror for my bedroom, looks sleek and modern."
+        },
+        {
+          "rating": 4,
+          "comment": "Great mirror, but it was a bit tricky to hang."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Hedda Bed Frame",
+      "description": "A sturdy and stylish bed frame, perfect for a restful night’s sleep.",
+      "category": "Beds",
+      "sales": 264,
+      "price": 249,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0800862_ph162917_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1101505_pe866684_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1150679_pe884643_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0752928_pe747519_s5.jpg"
+      ],
+      "colors": ["Black", "Brown"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 160,
+        "depth": 200,
+        "height": 35
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable, and the design is beautiful!"
+        },
+        {
+          "rating": 4,
+          "comment": "Good bed frame, but assembly took a bit longer than expected."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Möbler Desk",
+      "description": "A modern and spacious desk with a sleek design, ideal for work or study.",
+      "category": "Furniture",
+      "sales": 169,
+      "price": 159,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__1328492_pe944819_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__1325018_pe943745_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__1328483_pe944810_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__0734654_pe739562_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__1343926_pe949656_s5.jpg"
+      ],
+      "colors": ["Oak", "White"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 140,
+        "depth": 60,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect desk for my home office, plenty of space."
+        },
+        {
+          "rating": 4,
+          "comment": "Great quality but could have more drawer space."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Björk Wall Shelf",
+      "description": "A stylish wall shelf to help you organize your home or office space.",
+      "category": "Storage",
+      "sales": 335,
+      "price": 29,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1241192_pe919716_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1300414_pe937138_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1314881_pe940305_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1298974_pe936411_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1298975_pe936410_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 80,
+        "depth": 25,
+        "height": 20
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my books, looks great on the wall."
+        },
+        {
+          "rating": 4,
+          "comment": "Good shelf, but the installation instructions could be clearer."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Hjem Dining Chair",
+      "description": "A comfortable and stylish dining chair that complements any dining table.",
+      "category": "Chairs",
+      "sales": 289,
+      "price": 79,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__0710743_pe727761_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__1151277_pe886187_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__1151447_pe886183_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__0391729_pe559950_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__1153985_pe885915_s5.jpg"
+      ],
+      "colors": ["Brown", "White", "Grey"],
+      "materials": ["Wood", "Fabric"],
+      "dimensions": {
+        "width": 50,
+        "depth": 60,
+        "height": 85
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Comfortable and stylish, perfect for my dining room."
+        },
+        {
+          "rating": 4,
+          "comment": "Could be a bit more padded, but still a great chair."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Blixt Outdoor Sofa",
+      "description": "A durable and comfortable outdoor sofa that is perfect for relaxing in your garden.",
+      "category": "Outdoor",
+      "sales": 281,
+      "price": 399,
+      "discount": 10,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1138956_pe880161_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1180716_pe896424_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1191479_ph191232_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1175328_pe894656_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige"],
+      "materials": ["Fabric", "Steel"],
+      "dimensions": {
+        "width": 200,
+        "depth": 90,
+        "height": 80
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great sofa for outdoor relaxation, very comfortable."
+        },
+        {
+          "rating": 4,
+          "comment": "The cushions are a bit thin, but overall a good purchase."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Fliro Floor Cushion",
+      "description": "A soft and large floor cushion for extra seating or lounging in any room.",
+      "category": "Living Room",
+      "sales": 265,
+      "price": 49,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/gurli-floor-cushion-grey__0606159_pe682087_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gurli-floor-cushion-grey__0889604_pe682088_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/gurli-floor-cushion-grey__0606157_pe682086_s5.jpg"
+      ],
+      "colors": ["Grey", "Beige", "Pink"],
+      "materials": ["Cotton", "Polyester"],
+      "dimensions": {
+        "width": 90,
+        "depth": 90,
+        "height": 15
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Super comfy and perfect for extra seating!"
+        },
+        {
+          "rating": 4,
+          "comment": "A bit too large for my space, but still a great cushion."
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Tänka Coffee Mug",
+      "description": "A simple yet elegant coffee mug for your daily coffee or tea.",
+      "category": "Kitchen",
+      "sales": 331,
+      "price": 12,
+      "discount": 10,
+      "stock": 1,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200179_pe904876_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200178_pe904873_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200176_pe904874_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200177_pe904875_s5.jpg"
+      ],
+      "colors": ["White", "Blue"],
+      "materials": ["Ceramic"],
+      "dimensions": {
+        "width": 10,
+        "depth": 10,
+        "height": 12
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect size for my morning coffee, love the design!"
+        },
+        {
+          "rating": 4,
+          "comment": "Nice mug, but a little heavy for my taste."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Kant Sofa Table",
+      "description": "A versatile sofa table that provides extra storage and a sleek design for your living room.",
+      "category": "Furniture",
+      "sales": 364,
+      "price": 129,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974637_pe812499_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974638_pe812501_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974639_pe812500_s5.jpg"
+      ],
+      "colors": ["Oak", "Black"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 120,
+        "depth": 35,
+        "height": 60
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "A great addition to my living room, provides both style and function."
+        },
+        {
+          "rating": 4,
+          "comment": "It's a bit smaller than I expected, but still a nice piece."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Kivik Ottoman",
+      "description": "A comfortable ottoman that doubles as extra seating or a footrest.",
+      "category": "Living Room",
+      "sales": 369,
+      "price": 129,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/kivik-cover-for-footstool-with-storage-tibbleby-beige-grey__1208578_pe908643_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kivik-cover-for-footstool-with-storage-tibbleby-beige-grey__1056133_pe848264_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/kivik-cover-for-footstool-with-storage-tibbleby-beige-grey__1056130_pe848263_s5.jpg"
+      ],
+      "colors": ["Blue", "Grey", "Beige"],
+      "materials": ["Fabric", "Wood"],
+      "dimensions": {
+        "width": 60,
+        "depth": 60,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very comfortable and versatile, love it as a footrest."
+        },
+        {
+          "rating": 4,
+          "comment": "It could use a bit more padding, but still great overall."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Storstad Dining Table",
+      "description": "A beautiful, solid wood dining table with ample space for family dinners.",
+      "category": "Dining",
+      "sales": 246,
+      "price": 499,
+      "discount": 10,
+      "stock": 5,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1106462_pe868734_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1127601_pe879142_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1160704_ph186994_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1217861_ph185238_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1113426_pe871469_s5.jpg"
+      ],
+      "colors": ["Oak", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 200,
+        "depth": 90,
+        "height": 75
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Sturdy and spacious, perfect for our large family."
+        },
+        {
+          "rating": 4,
+          "comment": "A bit expensive, but the quality is amazing."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Slättö Dining Bench",
+      "description": "A simple and stylish dining bench, perfect for extra seating at the table.",
+      "category": "Dining",
+      "sales": 465,
+      "price": 89,
+      "discount": 10,
+      "stock": 3,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/naemmaroe-table-2-chairs-bench-outdoor-light-brown-stained__1231262_pe915759_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/naemmaroe-table-2-chairs-bench-outdoor-light-brown-stained__1231261_pe915758_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/naemmaroe-table-2-chairs-bench-outdoor-light-brown-stained__1125470_pe875438_s5.jpg"
+      ],
+      "colors": ["Brown", "Black"],
+      "materials": ["Wood"],
+      "dimensions": {
+        "width": 140,
+        "depth": 35,
+        "height": 45
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great for adding extra seating at dinner time!"
+        },
+        {
+          "rating": 4,
+          "comment": "It's a bit narrow, but still very useful."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Sundvik Changing Unit",
+      "description": "A versatile changing unit that can also be used as a dresser for your baby’s clothes.",
+      "category": "Children's",
+      "sales": 333,
+      "price": 179,
+      "discount": 10,
+      "stock": 6,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0710905_pe727833_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0730265_pe737477_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0730265_pe737477_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0744369_pe743238_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0909406_pe654339_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0623110_pe690935_s5.jpg"
+      ],
+      "colors": ["White", "Grey"],
+      "materials": ["Wood", "MDF"],
+      "dimensions": {
+        "width": 80,
+        "depth": 50,
+        "height": 90
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Super practical and stylish, works perfectly in my nursery."
+        },
+        {
+          "rating": 4,
+          "comment": "The assembly was a bit tricky, but the unit is great."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Skrutt Desk Lamp",
+      "description": "A small, adjustable desk lamp that provides soft lighting for work or study.",
+      "category": "Lighting",
+      "sales": 314,
+      "price": 29,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0459937_pe606395_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__1158339_pe888103_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0879285_pe632935_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0177096_pe245534_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0177096_pe245534_s5.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "materials": ["Plastic", "Metal"],
+      "dimensions": {
+        "width": 15,
+        "depth": 15,
+        "height": 40
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect little desk lamp, the light is just right for reading."
+        },
+        {
+          "rating": 4,
+          "comment": "Nice lamp, but it could use a slightly longer cord."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Eldfjäder Fireplace",
+      "description": "A stylish and functional electric fireplace to add warmth and ambiance to your living room.",
+      "category": "Living Room",
+      "sales": 163,
+      "price": 299,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/ext/ingkadam/m/830138192d03f46/original/PH165490-crop001.jpg",
+        "https://www.ikea.com/in/en/images/products/sortera-waste-sorting-bin-with-lid-white__0612581_ph142060_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sortera-waste-sorting-bin-with-lid-white__0369166_pe400206_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sortera-waste-sorting-bin-with-lid-white__0612583_pe374571_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/sortera-waste-sorting-bin-with-lid-white__0612583_pe374571_s5.jpg"
+      ],
+      "colors": ["Black", "White"],
+      "materials": ["Metal", "Glass"],
+      "dimensions": {
+        "width": 120,
+        "depth": 30,
+        "height": 60
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Beautiful fireplace, really warms up the room and adds charm."
+        },
+        {
+          "rating": 4,
+          "comment": "It's a bit noisy on the highest setting, but still very effective."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Hemma Wall Hook",
+      "description": "A practical and decorative wall hook to keep your coats and bags organized.",
+      "category": "Storage",
+      "sales": 219,
+      "price": 9,
+      "discount": 10,
+      "stock": 4,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0710550_pe727629_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0908923_pe558475_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0683198_ph119820_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0683200_ph130970_s5.jpg"
+      ],
+      "colors": ["Black", "White", "Wood"],
+      "materials": ["Metal", "Wood"],
+      "dimensions": {
+        "width": 10,
+        "depth": 5,
+        "height": 15
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Perfect for organizing my hallway, very sturdy."
+        },
+        {
+          "rating": 4,
+          "comment": "It's a bit small, but works great for light coats and bags."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Asta Wardrobe",
+      "description": "A spacious wardrobe with multiple compartments for organized clothing storage.",
+      "category": "Storage",
+      "sales": 337,
+      "price": 249,
+      "discount": 10,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__0592302_pe674454_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__1131653_pe878066_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__1131652_pe878064_s5.jpg",
+        "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__1135083_pe878916_s5.jpg"
+      ],
+      "colors": ["White", "Black-brown"],
+      "materials": ["Wood", "Metal"],
+      "dimensions": {
+        "width": 150,
+        "depth": 60,
+        "height": 200
+      },
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Amazing wardrobe, perfect size and very functional."
+        },
+        {
+          "rating": 4,
+          "comment": "Took a while to assemble, but worth it for the space."
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "Sofas",
+    "Chairs",
+    "Tables",
+    "Beds",
+    "Storage",
+    "Lighting",
+    "Kitchen",
+    "Bathroom",
+    "Outdoor",
+    "Children's"
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Narasimha",
+      "surname": "Rao",
+      "role": "user",
+      "email": "tnrao@gmail.com",
+      "password": "Narasimha@12345",
+      "gender": "male",
+      "address": "Bengaluru, Karnataka",
+      "pincode": "560035",
+      "phoneno": 9876543210,
+      "orders": [1, 1, 4, 6]
+    },
+    {
+      "id": 2,
+      "name": "Aviral",
+      "surname": "Malik",
+      "role": "user",
+      "email": "aviral@gmail.com",
+      "password": "Aviral@12345",
+      "gender": "male",
+      "address": "Delhi, Delhi",
+      "pincode": "650033",
+      "phoneno": 9875315910,
+      "orders": [66, 2, 3]
+    },
+    {
+      "id": 3,
+      "name": "Archit",
+      "surname": "Kumar",
+      "role": "user",
+      "email": "aarchit@gmail.com",
+      "password": "Archit@12345",
+      "gender": "male",
+      "address": "Haridwar, Uttarakhand",
+      "pincode": "360045",
+      "phoneno": 9874265310,
+      "orders": [5, 88]
+    },
+    {
+      "id": 4,
+      "name": "Sameer",
+      "surname": "Chand",
+      "role": "user",
+      "email": "sameer@gmail.com",
+      "password": "Sameer@12345",
+      "gender": "male",
+      "address": "Laknow, Uttar pradesh",
+      "pincode": "345634",
+      "phoneno": 7895641230,
+      "orders": [3, 33]
+    },
+    {
+      "id": 5,
+      "name": "Priyanka",
+      "surname": "R",
+      "role": "user",
+      "email": "priyanka@gmail.com",
+      "password": "Priyanka@12345",
+      "gender": "female",
+      "address": "Dharwad, Karnataka",
+      "pincode": "578345",
+      "phoneno": 6361586499,
+      "orders": [37, 46, 99]
+    },
+    {
+      "id": 6,
+      "name": "siri",
+      "surname": "I",
+      "role": "user",
+      "email": "siri@gmail.com",
+      "password": "siri@12345",
+      "gender": "Other",
+      "address": "Mumbai, Maharastra",
+      "pincode": "876543",
+      "phoneno": 8495687412,
+      "orders": [23, 58, 92]
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "role": "admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@12345"
+    },
+    {
+      "id": 2,
+      "name": "Aditya",
+      "role": "admin",
+      "email": "aditya@gmail.com",
+      "password": "Aditya@12345"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Supplier 1",
+      "role": "supplier",
+      "email": "supplier1@gmail.com",
+      "password": "Supplier1@12345"
+    },
+    {
+      "id": 2,
+      "name": "Supplier 2",
+      "role": "supplier",
+      "email": "supplier2@gmail.com",
+      "password": "Supplier@12345"
+    }
+  ]
+}
