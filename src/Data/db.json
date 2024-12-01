@@ -8,6 +8,7 @@
       "sales": 221,
       "price": 299,
       "discount": 10,
+      "supplierId": 1,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194853_pe902103_s5.jpg",
@@ -43,6 +44,7 @@
       "sales": 304,
       "price": 129,
       "discount": 10,
+      "supplierId": 2,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg",
@@ -80,6 +82,7 @@
       "sales": 206,
       "price": 349,
       "discount": 10,
+      "supplierId": 4,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain__0637616_pe698429_s5.jpg",
@@ -116,6 +119,7 @@
       "sales": 257,
       "price": 59,
       "discount": 10,
+      "supplierId": 3,
       "stock": 9,
       "images": [
         "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__57540_pe163122_s5.jpg",
@@ -149,6 +153,7 @@
       "sales": 601,
       "price": 19,
       "discount": 10,
+      "supplierId": 2,
       "stock": 8,
       "images": [
         "https://www.ikea.com/in/en/images/products/marius-stool-black__0727386_pe735638_s5.jpg",
@@ -184,6 +189,7 @@
       "sales": 280,
       "price": 9,
       "discount": 10,
+      "supplierId": 5,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0898049_pe782453_s5.jpg",
@@ -218,6 +224,7 @@
       "sales": 325,
       "price": 49,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/global/assets/range-categorisation/images/ivar-combinations-11704.jpeg",
@@ -251,6 +258,7 @@
       "sales": 745,
       "price": 69,
       "discount": 10,
+      "supplierId": 5,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white__1245496_pe921638_s5.jpg",
@@ -283,6 +291,7 @@
       "sales": 120,
       "price": 199,
       "discount": 10,
+      "supplierId": 5,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0651176_pe706788_s5.jpg",
@@ -318,6 +327,7 @@
       "sales": 174,
       "price": 49,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__0984218_pe816164_s5.jpg",
@@ -353,6 +363,7 @@
       "sales": 189,
       "price": 399,
       "discount": 10,
+      "supplierId": 3,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0918115_pe786051_s5.jpg",
@@ -390,6 +401,7 @@
       "sales": 524,
       "price": 499,
       "discount": 10,
+      "supplierId": 4,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0752420_pe747436_s5.jpg",
@@ -424,6 +436,7 @@
       "sales": 502,
       "price": 129,
       "discount": 10,
+      "supplierId": 2,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/ekedalen-chair-brown-orrsta-light-grey__0728287_pe736164_s5.jpg",
@@ -460,6 +473,7 @@
       "sales": 408,
       "price": 79,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1109691_pe870156_s5.jpg",
@@ -494,6 +508,7 @@
       "sales": 438,
       "price": 149,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1038847_pe839901_s5.jpg",
@@ -528,6 +543,7 @@
       "sales": 337,
       "price": 79,
       "discount": 10,
+      "supplierId": 5,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/nodeland-bedside-table-medium-brown__0752423_pe747438_s5.jpg",
@@ -556,10 +572,11 @@
       "id": 17,
       "name": "Sundvik Changing Table",
       "description": "A practical and stylish changing table for the nursery.",
-      "category": "Children's",
+      "category": "Childrens",
       "sales": 229,
       "price": 149,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0735849_pe740214_s5.jpg",
@@ -594,6 +611,7 @@
       "sales": 568,
       "price": 19,
       "discount": 10,
+      "supplierId": 2,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__0958984_pe805580_s5.jpg",
@@ -629,6 +647,7 @@
       "sales": 654,
       "price": 39,
       "discount": 10,
+      "supplierId": 1,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1222797_pe914356_s5.jpg",
@@ -664,6 +683,7 @@
       "sales": 287,
       "price": 249,
       "discount": 10,
+      "supplierId": 2,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0908536_pe783303_s5.jpg",
@@ -698,6 +718,7 @@
       "sales": 287,
       "price": 99,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0767557_pe754140_s5.jpg",
@@ -733,6 +754,7 @@
       "sales": 190,
       "price": 179,
       "discount": 10,
+      "supplierId": 2,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864924_pe781283_s5.jpg",
@@ -768,6 +790,7 @@
       "sales": 178,
       "price": 12,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1177697_pe895387_s5.jpg",
@@ -803,6 +826,7 @@
       "sales": 600,
       "price": 229,
       "discount": 10,
+      "supplierId": 3,
       "stock": 6,
       "images": [
         "https://www.ikea.com/global/assets/range-categorisation/images/wall-mounted-tables-25206.jpeg",
@@ -838,6 +862,7 @@
       "sales": 468,
       "price": 15,
       "discount": 10,
+      "supplierId": 5,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224557_pe915026_s5.jpg",
@@ -872,6 +897,7 @@
       "sales": 472,
       "price": 29,
       "discount": 10,
+      "supplierId": 5,
       "stock": 3,
       "images": [
         "https://www.ikea.com/global/assets/range-categorisation/images/lack-series-09063.jpeg",
@@ -906,6 +932,7 @@
       "sales": 318,
       "price": 129,
       "discount": 10,
+      "supplierId": 3,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__0135348_pe292039_s5.jpg",
@@ -938,10 +965,11 @@
       "id": 28,
       "name": "Sander Rug",
       "description": "A soft, cozy rug perfect for adding warmth to any room.",
-      "category": "Living Room",
+      "category": "Beds",
       "sales": 357,
       "price": 59,
       "discount": 10,
+      "supplierId": 3,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086042_pe860315_s5.jpg",
@@ -977,6 +1005,7 @@
       "sales": 775,
       "price": 149,
       "discount": 10,
+      "supplierId": 3,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__0216801_pe371169_s5.jpg",
@@ -1010,6 +1039,7 @@
       "sales": 821,
       "price": 69,
       "discount": 10,
+      "supplierId": 5,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__0644756_pe702940_s5.jpg",
@@ -1041,10 +1071,11 @@
       "id": 31,
       "name": "Björksta Picture Frame",
       "description": "A simple and elegant picture frame, available in multiple sizes.",
-      "category": "Living Room",
+      "category": "Outdoor",
       "sales": 659,
       "price": 19,
       "discount": 10,
+      "supplierId": 4,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1279758_pe931527_s5.jpg",
@@ -1080,6 +1111,7 @@
       "sales": 661,
       "price": 199,
       "discount": 10,
+      "supplierId": 4,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1154393_pe886042_s5.jpg",
@@ -1116,6 +1148,7 @@
       "sales": 535,
       "price": 89,
       "discount": 10,
+      "supplierId": 4,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/luroey-slatted-bed-base__0268301_pe406268_s5.jpg",
@@ -1147,6 +1180,7 @@
       "sales": 271,
       "price": 169,
       "discount": 10,
+      "supplierId": 5,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0645048_pe703184_s5.jpg",
@@ -1182,6 +1216,7 @@
       "sales": 283,
       "price": 199,
       "discount": 10,
+      "supplierId": 2,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1247965_pe922911_s5.jpg",
@@ -1216,6 +1251,7 @@
       "sales": 382,
       "price": 89,
       "discount": 10,
+      "supplierId": 1,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0859365_pe780895_s5.jpg",
@@ -1249,6 +1285,7 @@
       "sales": 432,
       "price": 229,
       "discount": 10,
+      "supplierId": 5,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1038498_pe839701_s5.jpg",
@@ -1279,10 +1316,11 @@
       "id": 38,
       "name": "Kivit Mirror",
       "description": "A stylish round mirror with a metal frame, perfect for any room.",
-      "category": "Living Room",
+      "category": "Outdoor",
       "sales": 234,
       "price": 49,
       "discount": 10,
+      "supplierId": 2,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0633564_pe695916_s5.jpg",
@@ -1313,10 +1351,11 @@
       "id": 39,
       "name": "Hemmafon Bluetooth Speaker",
       "description": "A compact and portable Bluetooth speaker with excellent sound quality.",
-      "category": "Electronics",
+      "category": "Lighting",
       "sales": 423,
       "price": 79,
       "discount": 10,
+      "supplierId": 4,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1025506_pe834047_s5.jpg",
@@ -1351,6 +1390,7 @@
       "sales": 413,
       "price": 89,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0472902_pe614311_s5.jpg",
@@ -1382,10 +1422,11 @@
       "id": 41,
       "name": "Lövet Rug",
       "description": "A soft, woven rug with a geometric pattern, adding warmth and style to your space.",
-      "category": "Living Room",
+      "category": "Beds",
       "sales": 416,
       "price": 69,
       "discount": 10,
+      "supplierId": 2,
       "stock": 8,
       "images": [
         "https://www.ikea.com/in/en/images/products/toftlund-rug-grey__0834498_pe778811_s5.jpg",
@@ -1417,6 +1458,7 @@
       "sales": 214,
       "price": 39,
       "discount": 10,
+      "supplierId": 4,
       "stock": 9,
       "images": [
         "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1076462_pe856793_s5.jpg",
@@ -1451,6 +1493,7 @@
       "sales": 265,
       "price": 299,
       "discount": 10,
+      "supplierId": 4,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035360_pe840536_s5.jpg",
@@ -1485,6 +1528,7 @@
       "sales": 307,
       "price": 79,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818652_pe774528_s5.jpg",
@@ -1518,6 +1562,7 @@
       "sales": 317,
       "price": 149,
       "discount": 10,
+      "supplierId": 4,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__1245814_pe921796_s5.jpg",
@@ -1551,6 +1596,7 @@
       "sales": 228,
       "price": 199,
       "discount": 10,
+      "supplierId": 2,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0737108_pe740890_s5.jpg",
@@ -1586,6 +1632,7 @@
       "sales": 156,
       "price": 899,
       "discount": 10,
+      "supplierId": 1,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057824_pe849005_s5.jpg",
@@ -1622,6 +1669,7 @@
       "sales": 227,
       "price": 249,
       "discount": 10,
+      "supplierId": 2,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg",
@@ -1656,6 +1704,7 @@
       "sales": 168,
       "price": 99,
       "discount": 10,
+      "supplierId": 3,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__0173699_pe327848_s5.jpg",
@@ -1688,6 +1737,7 @@
       "sales": 250,
       "price": 249,
       "discount": 10,
+      "supplierId": 4,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1154412_pe886059_s5.jpg",
@@ -1724,6 +1774,7 @@
       "sales": 303,
       "price": 999,
       "discount": 10,
+      "supplierId": 2,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/enhet-kitchen-white-grey-frame__0983959_pe816120_s5.jpg",
@@ -1756,6 +1807,7 @@
       "sales": 267,
       "price": 39,
       "discount": 10,
+      "supplierId": 3,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/vesken-corner-shelf-unit-white__0831999_pe777543_s5.jpg",
@@ -1788,6 +1840,7 @@
       "sales": 304,
       "price": 1299,
       "discount": 10,
+      "supplierId": 4,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__0916066_pe784942_s5.jpg",
@@ -1824,6 +1877,7 @@
       "sales": 502,
       "price": 29,
       "discount": 10,
+      "supplierId": 4,
       "stock": 9,
       "images": [
         "https://www.ikea.com/global/assets/range-categorisation/images/decorative-lighting-14971.jpeg",
@@ -1859,6 +1913,7 @@
       "sales": 173,
       "price": 169,
       "discount": 10,
+      "supplierId": 5,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0992629_pe820147_s5.jpg",
@@ -1894,6 +1949,7 @@
       "sales": 352,
       "price": 249,
       "discount": 10,
+      "supplierId": 2,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__0169629_pe323574_s5.jpg",
@@ -1928,6 +1984,7 @@
       "sales": 428,
       "price": 129,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0472902_pe614311_s5.jpg",
@@ -1958,10 +2015,11 @@
       "id": 58,
       "name": "Skarpo Desk",
       "description": "A simple and functional desk for your home office with plenty of storage space.",
-      "category": "Furniture",
+      "category": "Tables",
       "sales": 307,
       "price": 149,
       "discount": 10,
+      "supplierId": 1,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__0976080_pe812978_s5.jpg",
@@ -1996,6 +2054,7 @@
       "sales": 209,
       "price": 79,
       "discount": 10,
+      "supplierId": 5,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__0645237_pe703346_s5.jpg",
@@ -2030,6 +2089,7 @@
       "sales": 267,
       "price": 39,
       "discount": 10,
+      "supplierId": 1,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0606627_pe682427_s5.jpg",
@@ -2066,6 +2126,7 @@
       "sales": 387,
       "price": 169,
       "discount": 10,
+      "supplierId": 5,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__0627347_pe693303_s5.jpg",
@@ -2100,6 +2161,7 @@
       "sales": 265,
       "price": 89,
       "discount": 10,
+      "supplierId": 2,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1068130_pe852977_s5.jpg",
@@ -2131,10 +2193,11 @@
       "id": 63,
       "name": "Fridfull Throw Blanket",
       "description": "A cozy throw blanket for adding warmth and texture to your sofa or bed.",
-      "category": "Living Room",
+      "category": "Beds",
       "sales": 38,
       "price": 29,
       "discount": 10,
+      "supplierId": 2,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1157597_pe887774_s5.jpg",
@@ -2169,6 +2232,7 @@
       "sales": 65,
       "price": 499,
       "discount": 10,
+      "supplierId": 1,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__1171930_pe893212_s5.jpg",
@@ -2204,6 +2268,7 @@
       "sales": 21,
       "price": 39,
       "discount": 10,
+      "supplierId": 2,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__1214586_pe911673_s5.jpg",
@@ -2238,6 +2303,7 @@
       "sales": 347,
       "price": 79,
       "discount": 10,
+      "supplierId": 4,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0728346_pe736205_s5.jpg",
@@ -2267,10 +2333,11 @@
       "id": 67,
       "name": "Viggo Dining Table",
       "description": "A spacious and modern dining table that fits large families and gatherings.",
-      "category": "Dining",
+      "category": "Tables",
       "sales": 423,
       "price": 349,
       "discount": 10,
+      "supplierId": 3,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/docksta-table-white-white__0803262_pe768820_s5.jpg",
@@ -2305,6 +2372,7 @@
       "sales": 387,
       "price": 199,
       "discount": 10,
+      "supplierId": 2,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920165_pe786885_s5.jpg",
@@ -2339,6 +2407,7 @@
       "sales": 140,
       "price": 59,
       "discount": 10,
+      "supplierId": 1,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__0928818_pe789977_s5.jpg",
@@ -2368,10 +2437,11 @@
       "id": 70,
       "name": "Klyft Table Runner",
       "description": "A stylish table runner to add a pop of color and texture to your dining table.",
-      "category": "Dining",
+      "category": "Tables",
       "sales": 351,
       "price": 29,
       "discount": 10,
+      "supplierId": 3,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089709_pe861668_s5.jpg",
@@ -2407,6 +2477,7 @@
       "sales": 273,
       "price": 19,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1139591_pe880451_s5.jpg",
@@ -2437,10 +2508,11 @@
       "id": 72,
       "name": "Skrivbord Writing Desk",
       "description": "A simple and functional writing desk with plenty of space for work and study.",
-      "category": "Furniture",
+      "category": "Tables",
       "sales": 330,
       "price": 129,
       "discount": 10,
+      "supplierId": 3,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1292582_pe935056_s5.jpg",
@@ -2475,6 +2547,7 @@
       "sales": 285,
       "price": 49,
       "discount": 10,
+      "supplierId": 2,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0710376_pe727504_s5.jpg",
@@ -2505,10 +2578,11 @@
       "id": 74,
       "name": "LÄTTHET Rug",
       "description": "A soft and cozy rug to add warmth and texture to your living room or bedroom.",
-      "category": "Living Room",
+      "category": "Beds",
       "sales": 44,
       "price": 59,
       "discount": 10,
+      "supplierId": 1,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088024_pe861013_s5.jpg",
@@ -2540,10 +2614,11 @@
       "id": 75,
       "name": "Eivor Throw Pillow",
       "description": "A decorative throw pillow to add comfort and style to your sofa or bed.",
-      "category": "Living Room",
+      "category": "Beds",
       "sales": 325,
       "price": 25,
       "discount": 10,
+      "supplierId": 3,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__0963713_pe809745_s5.jpg",
@@ -2577,6 +2652,7 @@
       "sales": 129,
       "price": 890,
       "discount": 10,
+      "supplierId": 3,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0735687_pe740087_s5.jpg",
@@ -2611,6 +2687,7 @@
       "sales": 234,
       "price": 199,
       "discount": 10,
+      "supplierId": 5,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0341771_pe531784_s5.jpg",
@@ -2646,6 +2723,7 @@
       "sales": 336,
       "price": 119,
       "discount": 10,
+      "supplierId": 1,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244478_pe921198_s5.jpg",
@@ -2679,6 +2757,7 @@
       "sales": 145,
       "price": 149,
       "discount": 10,
+      "supplierId": 2,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0793271_pe765307_s5.jpg",
@@ -2713,6 +2792,7 @@
       "sales": 367,
       "price": 49,
       "discount": 10,
+      "supplierId": 3,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1150822_pe884680_s5.jpg",
@@ -2748,6 +2828,7 @@
       "sales": 147,
       "price": 179,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__0484891_pe621335_s5.jpg",
@@ -2782,6 +2863,7 @@
       "sales": 482,
       "price": 199,
       "discount": 10,
+      "supplierId": 1,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0239990_pe379591_s5.jpg",
@@ -2813,10 +2895,11 @@
       "id": 83,
       "name": "Sundvik Changing Table",
       "description": "A sturdy changing table with ample storage for all your baby essentials.",
-      "category": "Children's",
+      "category": "Childrens",
       "sales": 267,
       "price": 129,
       "discount": 10,
+      "supplierId": 5,
       "stock": 8,
       "images": [
         "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0735849_pe740214_s5.jpg",
@@ -2846,10 +2929,11 @@
       "id": 84,
       "name": "Lillången Mirror",
       "description": "A full-length mirror with a sleek design, perfect for your hallway or bedroom.",
-      "category": "Furniture",
+      "category": "Outdoor",
       "sales": 220,
       "price": 79,
       "discount": 10,
+      "supplierId": 5,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__0637801_pe698597_s5.jpg",
@@ -2883,6 +2967,7 @@
       "sales": 264,
       "price": 249,
       "discount": 10,
+      "supplierId": 4,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0638582_pe699001_s5.jpg",
@@ -2913,10 +2998,11 @@
       "id": 86,
       "name": "Möbler Desk",
       "description": "A modern and spacious desk with a sleek design, ideal for work or study.",
-      "category": "Furniture",
+      "category": "Tables",
       "sales": 169,
       "price": 159,
       "discount": 10,
+      "supplierId": 3,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__1328492_pe944819_s5.jpg",
@@ -2951,6 +3037,7 @@
       "sales": 335,
       "price": 29,
       "discount": 10,
+      "supplierId": 5,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1241192_pe919716_s5.jpg",
@@ -2985,6 +3072,7 @@
       "sales": 289,
       "price": 79,
       "discount": 10,
+      "supplierId": 2,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__0710743_pe727761_s5.jpg",
@@ -3019,6 +3107,7 @@
       "sales": 281,
       "price": 399,
       "discount": 10,
+      "supplierId": 4,
       "stock": 7,
       "images": [
         "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1138956_pe880161_s5.jpg",
@@ -3048,10 +3137,11 @@
       "id": 90,
       "name": "Fliro Floor Cushion",
       "description": "A soft and large floor cushion for extra seating or lounging in any room.",
-      "category": "Living Room",
+      "category": "Childrens",
       "sales": 265,
       "price": 49,
       "discount": 10,
+      "supplierId": 1,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/gurli-floor-cushion-grey__0606159_pe682087_s5.jpg",
@@ -3084,6 +3174,7 @@
       "sales": 331,
       "price": 12,
       "discount": 10,
+      "supplierId": 2,
       "stock": 1,
       "images": [
         "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200179_pe904876_s5.jpg",
@@ -3113,10 +3204,11 @@
       "id": 92,
       "name": "Kant Sofa Table",
       "description": "A versatile sofa table that provides extra storage and a sleek design for your living room.",
-      "category": "Furniture",
+      "category": "Sofas",
       "sales": 364,
       "price": 129,
       "discount": 10,
+      "supplierId": 1,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974637_pe812499_s5.jpg",
@@ -3145,10 +3237,11 @@
       "id": 93,
       "name": "Kivik Ottoman",
       "description": "A comfortable ottoman that doubles as extra seating or a footrest.",
-      "category": "Living Room",
+      "category": "Outdoor",
       "sales": 369,
       "price": 129,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/kivik-cover-for-footstool-with-storage-tibbleby-beige-grey__1208578_pe908643_s5.jpg",
@@ -3177,10 +3270,11 @@
       "id": 94,
       "name": "Storstad Dining Table",
       "description": "A beautiful, solid wood dining table with ample space for family dinners.",
-      "category": "Dining",
+      "category": "Tables",
       "sales": 246,
       "price": 499,
       "discount": 10,
+      "supplierId": 3,
       "stock": 5,
       "images": [
         "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1106462_pe868734_s5.jpg",
@@ -3215,6 +3309,7 @@
       "sales": 465,
       "price": 89,
       "discount": 10,
+      "supplierId": 4,
       "stock": 3,
       "images": [
         "https://www.ikea.com/in/en/images/products/naemmaroe-table-2-chairs-bench-outdoor-light-brown-stained__1231262_pe915759_s5.jpg",
@@ -3243,10 +3338,11 @@
       "id": 96,
       "name": "Sundvik Changing Unit",
       "description": "A versatile changing unit that can also be used as a dresser for your baby’s clothes.",
-      "category": "Children's",
+      "category": "Childrens",
       "sales": 333,
       "price": 179,
       "discount": 10,
+      "supplierId": 5,
       "stock": 6,
       "images": [
         "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0710905_pe727833_s5.jpg",
@@ -3282,6 +3378,7 @@
       "sales": 314,
       "price": 29,
       "discount": 10,
+      "supplierId": 1,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0459937_pe606395_s5.jpg",
@@ -3312,10 +3409,11 @@
       "id": 98,
       "name": "Eldfjäder Fireplace",
       "description": "A stylish and functional electric fireplace to add warmth and ambiance to your living room.",
-      "category": "Living Room",
+      "category": "Outdoor",
       "sales": 163,
       "price": 299,
       "discount": 10,
+      "supplierId": 5,
       "stock": 2,
       "images": [
         "https://www.ikea.com/ext/ingkadam/m/830138192d03f46/original/PH165490-crop001.jpg",
@@ -3350,6 +3448,7 @@
       "sales": 219,
       "price": 9,
       "discount": 10,
+      "supplierId": 5,
       "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0710550_pe727629_s5.jpg",
@@ -3383,6 +3482,7 @@
       "sales": 337,
       "price": 249,
       "discount": 10,
+      "supplierId": 5,
       "stock": 2,
       "images": [
         "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__0592302_pe674454_s5.jpg",
@@ -3419,7 +3519,7 @@
     "Kitchen",
     "Bathroom",
     "Outdoor",
-    "Children's"
+    "Childrens"
   ],
   "customers": [
     {
@@ -3433,7 +3533,24 @@
       "address": "Bengaluru, Karnataka",
       "pincode": "560035",
       "phoneno": 9876543210,
-      "orders": [1, 1, 4, 6]
+      "orders": [
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 23,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": 2,
@@ -3446,7 +3563,20 @@
       "address": "Delhi, Delhi",
       "pincode": "650033",
       "phoneno": 9875315910,
-      "orders": [66, 2, 3]
+      "orders": [
+        {
+          "id": 66,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": 3,
@@ -3459,7 +3589,16 @@
       "address": "Haridwar, Uttarakhand",
       "pincode": "360045",
       "phoneno": 9874265310,
-      "orders": [5, 88]
+      "orders": [
+        {
+          "id": 3,
+          "quantity": 1
+        },
+        {
+          "id": 88,
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": 4,
@@ -3472,7 +3611,16 @@
       "address": "Laknow, Uttar pradesh",
       "pincode": "345634",
       "phoneno": 7895641230,
-      "orders": [3, 33]
+      "orders": [
+        {
+          "id": 3,
+          "quantity": 1
+        },
+        {
+          "id": 33,
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": 5,
@@ -3485,7 +3633,20 @@
       "address": "Dharwad, Karnataka",
       "pincode": "578345",
       "phoneno": 6361586499,
-      "orders": [37, 46, 99]
+      "orders": [
+        {
+          "id": 37,
+          "quantity": 1
+        },
+        {
+          "id": 46,
+          "quantity": 1
+        },
+        {
+          "id": 99,
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": 6,
@@ -3498,7 +3659,59 @@
       "address": "Mumbai, Maharastra",
       "pincode": "876543",
       "phoneno": 8495687412,
-      "orders": [23, 58, 92]
+      "orders": [
+        {
+          "id": 23,
+          "quantity": 2
+        },
+        {
+          "id": 58,
+          "quantity": 1
+        },
+        {
+          "id": 92,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "name": "Abhi",
+      "surname": "R",
+      "email": "abhi@gmail.com",
+      "gender": "male",
+      "address": "Bengaluru, Karnataka",
+      "pincode": "583212",
+      "phoneno": "9876543210",
+      "password": "$2a$10$cqYPgducdSDNxx7xAdKdP.47UMtyDEpUuXmIyfRVWymnMzW8fcNkG",
+      "orders": [],
+      "role": "user",
+      "id": 7
+    },
+    {
+      "name": "rama",
+      "surname": "K",
+      "email": "rama@gmail.com",
+      "gender": "female",
+      "address": "Mumbai, Maharastra",
+      "pincode": "567483",
+      "phoneno": "9632587410",
+      "password": "$2a$10$Tvwq/9m/l6tC5I2HEMoXPe5MVFKOSHHG69Z0BqO.82RT8zFhiKSVW",
+      "orders": [],
+      "role": "user",
+      "id": 8
+    },
+    {
+      "name": "priya",
+      "surname": "B",
+      "email": "priya@gmail.com",
+      "gender": "female",
+      "address": "Chennai",
+      "pincode": "453627",
+      "phoneno": "9513742680",
+      "password": "$2a$10$rrcQB3UcGPdn5Sg9X45eHen8fxkjnSiqzLGbPNxTGoyH3fKiWQZc6",
+      "orders": [],
+      "role": "user",
+      "id": 9
     }
   ],
   "admin": [
@@ -3521,16 +3734,30 @@
     {
       "id": 1,
       "name": "Supplier 1",
-      "role": "supplier",
       "email": "supplier1@gmail.com",
-      "password": "Supplier1@12345"
+      "phoneno": "9876014235",
+      "address": "Bengaluru, Karnataka",
+      "pincode": "560020",
+      "password": "$2a$10$hv5bdl06qgq/PqcAmpd4/eW.c3E7syCZGpUi7kUHqsOhzGcSle06O",
+      "role": "supplier",
+      "products": [1, 19, 36, 47, 58, 60, 64, 69, 74, 78, 82, 90, 92, 97]
+    }
+  ],
+  "bag": [
+    {
+      "productId": 1,
+      "quantity": 2,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Supplier 2",
-      "role": "supplier",
-      "email": "supplier2@gmail.com",
-      "password": "Supplier@12345"
+      "productId": 3,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "productId": 4,
+      "quantity": 1,
+      "id": 4
     }
   ]
 }

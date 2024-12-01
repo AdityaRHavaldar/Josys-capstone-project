@@ -1,0 +1,19 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: 49% 25% 25%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-50 {
+  grid-column: span 1;
+}
+
+.card-25 {
+  grid-column: span 1;
+}
