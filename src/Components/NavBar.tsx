@@ -1,73 +1,199 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { FaSearch } from "react-icons/fa";
+import { Product } from "../Services/ProductServices";
+import { IoCloseSharp } from "react-icons/io5";
+import { TbShoppingBagHeart } from "react-icons/tb";
+
+const fetchSearchSuggestions = async (query: string) => {
+  const response = await fetch(`http://localhost:3200/products?q=${query}`);
+  const products = await response.json();
+  return products;
+};
 
 const NavBar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchSuggestions, setSearchSuggestions] = useState<Product[]>([]);
+  const [debounceTimeout, setDebounceTimeout] = useState<NodeJS.Timeout | null>(
+    null
+  );
+  const [user, setUser] = useState(sessionStorage.getItem("role"));
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+
+    if (debounceTimeout) {
+      clearTimeout(debounceTimeout);
+    }
+
+    const newTimeout = setTimeout(async () => {
+      if (query.trim()) {
+        const suggestions = await fetchSearchSuggestions(query);
+        setSearchSuggestions(suggestions);
+      } else {
+        setSearchSuggestions([]);
+      }
+    }, 500);
+
+    setDebounceTimeout(newTimeout);
+  };
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      console.log("Search for:", searchQuery);
+    }
+  };
+
+  const handleSearchSuggestionsClick = (selectedItem: Product) => {
+    setSearchQuery(selectedItem.name);
+    setSearchSuggestions([]);
+
+    if (selectedItem.category) {
+      navigate(`/ProductDashboard?categories=${selectedItem.category}`);
+    }
+  };
+
+  const handleLogOut = () => {
+    sessionStorage.clear();
+    window.location.href = "/";
+    setUser(null);
+  };
+
   return (
-    <nav className="bg-blue-200 shadow-md sticky top-0 z-50">
-      <div className="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
+    <nav className=" shadow-md relative top-0 z-50">
+      <div className="px-4 py-4 flex justify-between items-center">
         <Link
           to="/"
           className="text-white text-3xl font-semibold hover:text-gray-200 transition-colors duration-300"
         >
-          <img
-            src="https://www.ikea.com/global/assets/logos/brand/ikea.svg"
-            alt="Ikea"
-          />
+          <img src="/Images/ieka.webp" alt="Ikea" className="h-9" />
         </Link>
 
-        <div className="hidden md:flex space-x-6">
-          <Link
-            to="/login"
-            className=" text-lg hover:text-blue-800 transition-colors duration-300 hover:scale-105"
-          >
-            Login
-          </Link>
-        </div>
-
-        <button
-          onClick={toggleMenu}
-          className="md:hidden text-white focus:outline-none"
+        <form
+          onSubmit={handleSearchSubmit}
+          className="relative flex items-center min-w-[30rem] mr-[50%] ml-3"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            className="w-8 h-8"
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={handleSearchChange}
+            className="w-full px-4 py-2 rounded-full shadow-md focus:outline-none"
+            placeholder="What are you looking for?..."
+          />
+          <button
+            type="submit"
+            className="absolute right-0 top-0 bottom-0 px-4 py-2 text-[#ccc] rounded-tl-[0] rounded-tr-[50px] rounded-br-[50px] rounded-bl-[0] focus:outline-none hover:text-[#848383]"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-        </button>
+            <FaSearch />
+          </button>
+
+          {searchSuggestions.length > 0 && (
+            <div className="absolute top-full left-0 w-full bg-white shadow-lg rounded-md mt-1 max-h-60 overflow-auto z-10">
+              <ul className="space-y-1">
+                {searchSuggestions.map((suggestion, index) => (
+                  <li
+                    key={index}
+                    className="px-4 py-2 text-sm text-gray-700 text-left hover:bg-blue-100 cursor-pointer"
+                    onClick={() => handleSearchSuggestionsClick(suggestion)}
+                  >
+                    {suggestion.name}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </form>
+        <Link to={"/user/bag"}>
+          <button className="text-2xl p-2 rounded-full hover:bg-slate-400 transition-colors duration-300 hover:scale-105">
+            <TbShoppingBagHeart />
+          </button>
+        </Link>
+        {user ? (
+          <div>
+            <button
+              onClick={handleLogOut}
+              className="text-lg transition-colors text-nowrap p-2 rounded-full hover:bg-slate-400 duration-300 hover:scale-105"
+            >
+              Log out
+            </button>
+          </div>
+        ) : (
+          <div className="hidden md:flex space-x-6">
+            <button
+              onClick={toggleMenu}
+              className="text-lg transition-colors rounded-full p-2 hover:bg-slate-400 duration-300 hover:scale-105"
+            >
+              Login
+            </button>
+          </div>
+        )}
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-blue-600 text-white p-4 space-y-4">
-          <Link
-            to="/login"
-            className="block text-lg hover:text-blue-200 transition-colors duration-300 hover:scale-105"
-            onClick={toggleMenu}
+        <div className="fixed top-0 right-0 h-full w-full flex">
+          <div className="w-full bg-black opacity-30"></div>
+          <div
+            className=" w-[450px] bg-white p-4 space-y-4 z-30 transform transition-transform duration-300 ease-in-out"
+            style={{
+              transform: isMenuOpen ? "translateX(0)" : "translateX(100%)",
+            }}
           >
-            Login
-          </Link>
-          <Link
-            to="/register"
-            className="block text-lg hover:text-blue-200 transition-colors duration-300 hover:scale-105"
-            onClick={toggleMenu}
-          >
-            Register
-          </Link>
+            <div className="flex justify-end px-8">
+              <button
+                className="font-bold text-2xl m-4 duration-300 hover:scale-105"
+                onClick={toggleMenu}
+              >
+                <IoCloseSharp />
+              </button>
+            </div>
+            <div className="flex justify-between items-center px-8">
+              <h1 className="text-2xl font-bold">Hey</h1>
+              <Link
+                to="/login/user"
+                state={{ isSignUp: false }}
+                className="block text-lg bg-black text-white font-semibold px-4 py-2 rounded-full shadow-md duration-300 hover:scale-105"
+                onClick={toggleMenu}
+              >
+                Login
+              </Link>
+            </div>
+            <hr />
+            <Link
+              to="/login/user"
+              state={{ isSignUp: true }}
+              className="block text-lg  duration-300 hover:scale-105 px-8"
+              onClick={toggleMenu}
+            >
+              Join IEKA Family
+            </Link>
+            <hr />
+            <Link
+              to="/login/supplier"
+              state={{ isSignUp: true }}
+              className="block text-lg  duration-300 hover:scale-105 px-8"
+              onClick={toggleMenu}
+            >
+              Join IEKA Business Network
+            </Link>
+            <hr />
+            <Link
+              to="/login/admin"
+              state={{ isSignUp: true }}
+              className="block text-lg  duration-300 hover:scale-105 px-8"
+              onClick={toggleMenu}
+            >
+              Admin Controles
+            </Link>
+            <hr />
+          </div>
         </div>
       )}
     </nav>

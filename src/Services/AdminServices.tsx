@@ -1,11 +1,12 @@
+import { useQuery, useMutation } from "@tanstack/react-query";
 import api from "./Api";
 
 export interface Admin {
   id: number;
   name: string;
   email: string;
-  phoneno: number;
   password: string;
+  role: "admin";
 }
 
 export const fetchAdmins = async (): Promise<Admin[]> => {
@@ -33,4 +34,36 @@ export const updateAdmin = async (
 
 export const deleteAdmin = async (adminId: number): Promise<void> => {
   await api.delete(`/admin/${adminId}`);
+};
+
+export const useAdmins = () => {
+  return useQuery<Admin[], Error>({
+    queryKey: ["admins"],
+    queryFn: fetchAdmins,
+  });
+};
+
+export const useAdmin = (adminId: number) => {
+  return useQuery<Admin, Error>({
+    queryKey: ["admin", adminId],
+    queryFn: () => fetchAdminById(adminId),
+  });
+};
+
+export const useCreateAdmin = () => {
+  return useMutation<Admin, Error, Admin>({
+    mutationFn: createAdmin,
+  });
+};
+
+export const useUpdateAdmin = () => {
+  return useMutation<Admin, Error, { adminId: number; adminData: Admin }>({
+    mutationFn: ({ adminId, adminData }) => updateAdmin(adminId, adminData),
+  });
+};
+
+export const useDeleteAdmin = () => {
+  return useMutation<void, Error, number>({
+    mutationFn: deleteAdmin,
+  });
 };
