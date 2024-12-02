@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import {
   fetchProducts,
   Product,
-  useDeleteProduct,
-  useUpdateProduct,
+  deleteProduct,
+  // updateProduct,
 } from "../../Services/ProductServices";
 import ProductForm from "./ProductForm";
+import { toast } from "react-toastify";
 
 const SupplierDashboard: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -13,8 +14,6 @@ const SupplierDashboard: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [showModal, setShowModal] = useState(false);
   const [currentProduct, setCurrentProduct] = useState<Product | null>(null);
-  const { mutate: deleteProduct } = useDeleteProduct();
-  const { mutate: updateProduct } = useUpdateProduct();
 
   const supplierId = Number(sessionStorage.getItem("supplierId"));
 
@@ -51,13 +50,12 @@ const SupplierDashboard: React.FC = () => {
     );
     if (confirmed) {
       confirmDelete(productId);
+      deleteProduct(productId);
     }
   };
 
   const confirmDelete = async (productId: number) => {
     try {
-      await deleteProduct(productId);
-
       setProducts((prevProducts) =>
         prevProducts.filter((product) => product.id !== productId)
       );
@@ -65,9 +63,9 @@ const SupplierDashboard: React.FC = () => {
         prevProducts.filter((product) => product.id !== productId)
       );
 
-      alert("Product deleted successfully.");
+      toast.success("Product deleted successfully.");
     } catch (error) {
-      alert("Failed to delete product.");
+      toast.error("Failed to delete product.");
     }
   };
 
@@ -89,18 +87,14 @@ const SupplierDashboard: React.FC = () => {
     setCurrentProduct(null);
   };
 
+  const handleLogOut = () => {
+    sessionStorage.clear();
+    window.location.href = "/home/index";
+  };
+
   return (
     <div>
-      <div className="text-right p-4">
-        <button
-          onClick={handleAddProduct}
-          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
-        >
-          Add New Product
-        </button>
-      </div>
-
-      <div className="w-full m-auto text-center">
+      <div className="w-full text-center bg-slate-300 p-4">
         <input
           type="text"
           value={searchQuery}
@@ -108,23 +102,29 @@ const SupplierDashboard: React.FC = () => {
           className="w-[60%] px-4 py-2 rounded-full shadow-md focus:outline-none"
           placeholder="Search for products..."
         />
+        <button
+          onClick={handleAddProduct}
+          className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 ml-32 hover:scale-105"
+        >
+          Add New Product
+        </button>
+        <button
+          onClick={handleLogOut}
+          className="text-lg transition-colors text-nowrap ml-4 p-2 rounded-full hover:bg-slate-400 duration-300 hover:scale-105"
+        >
+          Logout
+        </button>
       </div>
+      <hr />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
         {filteredProducts.map((product) => {
-          const isTopSeller = product.sales > 600;
-
           return (
             <div
               key={product.id}
               className="bg-white rounded-lg hover:shadow-lg hover:scale-105 overflow-auto cursor-pointer p-3"
             >
               <div className="relative">
-                {isTopSeller && (
-                  <span className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
-                    Top Seller
-                  </span>
-                )}
                 <div className="h-80 w-full flex items-center">
                   <img
                     src={product.images[0]}
@@ -176,7 +176,14 @@ const SupplierDashboard: React.FC = () => {
       {showModal && (
         <div className="fixed inset-0 bg-gray-500 bg-opacity-50 flex justify-center items-center">
           <ProductForm
-            product={currentProduct}
+            product={
+              currentProduct
+                ? {
+                    ...currentProduct,
+                    supplierId: String(currentProduct.supplierId),
+                  }
+                : null
+            }
             onClose={handleModalClose}
             onSave={(updatedProduct) => {
               if (currentProduct) {

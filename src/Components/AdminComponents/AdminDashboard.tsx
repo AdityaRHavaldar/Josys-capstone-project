@@ -26,6 +26,11 @@ const AdminDashboard: React.FC = () => {
     }
   };
 
+  const handleLogOut = () => {
+    sessionStorage.clear();
+    window.location.href = "/home/index";
+  };
+
   return (
     <div className="flex h-screen">
       {isMenuOpen && (
@@ -75,18 +80,32 @@ const AdminDashboard: React.FC = () => {
               </button>
             </li>
           </ul>
+          <button
+            onClick={handleLogOut}
+            className="text-lg transition-colors text-nowrap p-2 rounded-full hover:bg-slate-400 duration-300 hover:scale-105 mx-2 my-4"
+          >
+            Logout
+          </button>
         </div>
       )}
 
-      <div className={`flex-1 ml-0 ${isMenuOpen && "sm:ml-64"} p-8`}>
-        <div className="mb-4">
+      <div className={`flex-1 ml-0 ${isMenuOpen && "sm:ml-64"}`}>
+        <div className="mb-4 bg-slate-300 ">
           {!isMenuOpen && (
-            <button onClick={toggleMenu} className="w-full text-2xl">
-              <MdOutlineMenu />
-            </button>
+            <div className="flex justify-between px-5">
+              <button onClick={toggleMenu} className="w-full text-2xl p-4">
+                <MdOutlineMenu />
+              </button>
+              <button
+                onClick={handleLogOut}
+                className="text-lg transition-colors text-nowrap p-2 rounded-full hover:bg-slate-400 duration-300 hover:scale-105"
+              >
+                Logout
+              </button>
+            </div>
           )}
         </div>
-        <div>{renderComponent()}</div>
+        <div className="px-8">{renderComponent()}</div>
       </div>
     </div>
   );

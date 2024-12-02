@@ -162,7 +162,7 @@ const ShopProducts: React.FC = () => {
           {categories.map((category, index) => (
             <li key={index} className="w-52 min-w-[10rem] text-center">
               <Link
-                to={`/ProductDashboard?categories=${category.filter}`}
+                to={`/home/ProductDashboard?categories=${category.filter}`}
                 className="hover:underline text-xs"
               >
                 <img

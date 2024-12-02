@@ -2,14 +2,13 @@ import React, { useEffect, useState } from "react";
 import {
   fetchProducts,
   Product,
-  useDeleteProduct,
+  deleteProduct,
 } from "../../Services/ProductServices";
 
 function AdminProductsControl() {
   const [products, setProducts] = useState<Product[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
-  const { mutate: deleteProduct } = useDeleteProduct();
 
   useEffect(() => {
     const loadProducts = async () => {

@@ -54,7 +54,7 @@ const AdminLogin = () => {
     sessionStorage.setItem("role", "admin");
 
     toast.success("Login successful!");
-    window.location.href = "/";
+    window.location.href = "/admin";
   };
 
   if (isLoading) return <p>Loading admins...</p>;

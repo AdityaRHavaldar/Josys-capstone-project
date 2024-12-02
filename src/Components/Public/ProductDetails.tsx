@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchProductById } from "../../Services/ProductServices";
-import { addItemToBag } from "../../Services/BagServices";
+import { addItemToBag, fetchBagItemsById } from "../../Services/BagServices";
 import { toast, ToastContainer } from "react-toastify";
 
 interface Product {
@@ -24,6 +24,8 @@ const ProductDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const [product, setProduct] = useState<Product | null>(null);
   const [currentImage, setCurrentImage] = useState<string>("");
+  const [addedToBag, setAddedToBag] = useState<Set<number>>(new Set());
+  const [bagItems, setBagItems] = useState<any[]>([]); // state for current items in the bag
 
   useEffect(() => {
     const loadProduct = async () => {
@@ -35,18 +37,53 @@ const ProductDetails: React.FC = () => {
     loadProduct();
   }, [id]);
 
+  useEffect(() => {
+    const loadBagItems = async () => {
+      const userId = sessionStorage.getItem("id");
+      if (userId) {
+        const items = await fetchBagItemsById(Number(userId));
+        setBagItems(items);
+      }
+    };
+    loadBagItems();
+  }, []);
+
   if (!product) return <div>Loading...</div>;
 
   const rating = (product.sales / 3) | 0;
 
   const handleAddToBag = async (productId: number) => {
-    try {
-      const newBagItem = await addItemToBag(productId, 1);
-      toast.success(
-        `Item added to bag: Product ${newBagItem.productId} with quantity ${newBagItem.quantity}`
-      );
-    } catch (error) {
-      toast.error("Error adding item to the bag.");
+    const userId = sessionStorage.getItem("id");
+
+    if (userId) {
+      try {
+        // Check if the product has already been added
+        if (addedToBag.has(productId)) {
+          toast.info("This item is already in your bag.");
+          return;
+        }
+
+        // Add the item to the bag
+        const newBagItem = await addItemToBag(productId, 1, Number(userId));
+
+        // Display a success toast.
+        toast.success(
+          `Item added to bag: Product ${newBagItem.productId} with quantity ${newBagItem.quantity}`
+        );
+
+        // Update the 'addedToBag' set to prevent adding the same product repeatedly.
+        setAddedToBag((prevSet) => new Set(prevSet.add(productId)));
+
+        // Fetch and update the bag items list after adding an item.
+        const updatedBagItems = await fetchBagItemsById(Number(userId));
+        setBagItems(updatedBagItems);
+      } catch (error) {
+        // Display an error toast if something goes wrong.
+        toast.error("Error adding item to the bag.");
+      }
+    } else {
+      // Handle the case where the user is not logged in
+      toast.error("Please log in to add items to the bag.");
     }
   };
 

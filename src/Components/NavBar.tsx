@@ -57,13 +57,13 @@ const NavBar: React.FC = () => {
     setSearchSuggestions([]);
 
     if (selectedItem.category) {
-      navigate(`/ProductDashboard?categories=${selectedItem.category}`);
+      navigate(`/home/ProductDashboard?categories=${selectedItem.category}`);
     }
   };
 
   const handleLogOut = () => {
     sessionStorage.clear();
-    window.location.href = "/";
+    window.location.href = "/home/index";
     setUser(null);
   };
 
@@ -71,7 +71,7 @@ const NavBar: React.FC = () => {
     <nav className=" shadow-md relative top-0 z-50">
       <div className="px-4 py-4 flex justify-between items-center">
         <Link
-          to="/"
+          to="/home/index"
           className="text-white text-3xl font-semibold hover:text-gray-200 transition-colors duration-300"
         >
           <img src="/Images/ieka.webp" alt="Ikea" className="h-9" />
@@ -111,7 +111,7 @@ const NavBar: React.FC = () => {
             </div>
           )}
         </form>
-        <Link to={"/user/bag"}>
+        <Link to={"/home/bag"}>
           <button className="text-2xl p-2 rounded-full hover:bg-slate-400 transition-colors duration-300 hover:scale-105">
             <TbShoppingBagHeart />
           </button>
@@ -172,7 +172,7 @@ const NavBar: React.FC = () => {
               className="block text-lg  duration-300 hover:scale-105 px-8"
               onClick={toggleMenu}
             >
-              Join IEKA Family
+              Join IEKA Family / Sign up
             </Link>
             <hr />
             <Link
@@ -181,7 +181,7 @@ const NavBar: React.FC = () => {
               className="block text-lg  duration-300 hover:scale-105 px-8"
               onClick={toggleMenu}
             >
-              Join IEKA Business Network
+              Supplier Business Network
             </Link>
             <hr />
             <Link

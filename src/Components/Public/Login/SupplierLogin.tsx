@@ -60,7 +60,7 @@ const SupplierLogin = () => {
     sessionStorage.setItem("role", "supplier");
 
     toast.success("Login successful!");
-    window.location.href = "/";
+    window.location.href = "/supplier";
   };
 
   const handlePasswordChange = () => {

@@ -58,13 +58,13 @@ export const createProduct = async (productData: Product): Promise<Product> => {
   return response.data;
 };
 
-export const updateProduct = async (
-  productId: number,
-  productData: Product
-): Promise<Product> => {
-  const response = await api.put(`/products/${productId}`, productData);
-  return response.data;
-};
+// export const updateProduct = async (
+//   productId: number,
+//   productData: Product
+// ): Promise<Product> => {
+//   const response = await api.put(`/products/${productId}`, productData);
+//   return response.data;
+// };
 
 export const deleteProduct = async (productId: number): Promise<void> => {
   await api.delete(`/products/${productId}`);
@@ -87,22 +87,5 @@ export const useProduct = (productId: number) => {
 export const useCreateProduct = () => {
   return useMutation<Product, Error, Product>({
     mutationFn: createProduct,
-  });
-};
-
-export const useUpdateProduct = () => {
-  return useMutation<
-    Product,
-    Error,
-    { productId: number; productData: Product }
-  >({
-    mutationFn: ({ productId, productData }) =>
-      updateProduct(productId, productData),
-  });
-};
-
-export const useDeleteProduct = () => {
-  return useMutation<void, Error, number>({
-    mutationFn: deleteProduct,
   });
 };

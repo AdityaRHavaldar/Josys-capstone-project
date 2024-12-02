@@ -7,7 +7,7 @@ const CommonLoginLeft: React.FC = () => {
     <div className="flex flex-col justify-between w-[40%] bg-[rgb(0,88,163)] py-[5%] px-[7%] text-white gap-[10vh]">
       <div className="flex">
         <button className="p-1 m-1">
-          <Link to="/">
+          <Link to="/home/index">
             <IoMdArrowBack />
           </Link>
         </button>

@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
               <ul className="space-y-2">
                 {links[category].map((link, idx) => (
                   <li key={idx}>
-                    <a href="/" className="hover:underline">
+                    <a href="/home/index" className="hover:underline">
                       {link.name}
                     </a>
                   </li>

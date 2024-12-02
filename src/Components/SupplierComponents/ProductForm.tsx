@@ -14,7 +14,7 @@ interface Product {
   sales: number;
   price: number;
   discount: number;
-  supplierId: number;
+  supplierId: string | null;
   stock: number;
   images: string[];
   colors: string[];
@@ -39,9 +39,9 @@ const ProductForm: React.FC<ProductFormProps> = ({
   const [price, setPrice] = useState(product?.price || 0);
   const [discount, setDiscount] = useState(product?.discount || 0);
   const [stock, setStock] = useState(product?.stock || 0);
-  const [images, setImages] = useState(product?.images || [""]);
-  const [colors, setColors] = useState(product?.colors || [""]);
-  const [materials, setMaterials] = useState(product?.materials || [""]);
+  const [images, setImages] = useState(product?.images || []);
+  const [colors, setColors] = useState(product?.colors || []);
+  const [materials, setMaterials] = useState(product?.materials || []);
   const [dimensions, setDimensions] = useState(
     product?.dimensions || { width: 0, depth: 0, height: 0 }
   );
@@ -49,15 +49,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
     product?.reviews || [{ rating: 0, comment: "" }]
   );
 
-  const addInputField = (field: string) => {
-    if (field === "colors") {
-      setColors([...colors, ""]);
-    } else if (field === "materials") {
-      setMaterials([...materials, ""]);
-    } else if (field === "reviews") {
-      setReviews([...reviews, { rating: 0, comment: "" }]);
-    }
-  };
+  const supplierId = sessionStorage.getItem("supplierId");
 
   const handleSave = () => {
     const updatedProduct = {
@@ -68,7 +60,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
       sales,
       price,
       discount,
-      supplierId: 1, // Assuming supplierId is fixed for the supplier
+      supplierId: supplierId ? supplierId : null,
       stock,
       images,
       colors,
@@ -77,6 +69,31 @@ const ProductForm: React.FC<ProductFormProps> = ({
       reviews,
     };
     onSave(updatedProduct);
+  };
+
+  const handleArrayChange = (
+    field: "colors" | "materials" | "images",
+    value: string
+  ) => {
+    if (value.trim() !== "") {
+      if (field === "colors") {
+        setColors([...colors, value.trim()]);
+      } else if (field === "materials") {
+        setMaterials([...materials, value.trim()]);
+      } else if (field === "images") {
+        setImages([...images, value.trim()]);
+      }
+    }
+  };
+
+  const handleKeyPress = (
+    event: React.KeyboardEvent<HTMLInputElement>,
+    field: "colors" | "materials" | "images",
+    currentValue: string
+  ) => {
+    if (event.key === "Enter") {
+      handleArrayChange(field, currentValue);
+    }
   };
 
   return (
@@ -137,6 +154,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   required
                 />
               </div>
+
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
                   Price
@@ -177,62 +195,51 @@ const ProductForm: React.FC<ProductFormProps> = ({
                 />
               </div>
 
+              {/* Display the colors, materials, and images as comma-separated values */}
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
                   Colors
                 </label>
-                {colors.map((color, index) => (
-                  <div key={index} className="flex mb-2 items-center">
-                    <input
-                      type="text"
-                      value={color}
-                      onChange={(e) => {
-                        const newColors = [...colors];
-                        newColors[index] = e.target.value;
-                        setColors(newColors);
-                      }}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
-                    />
-                    {index === colors.length - 1 && (
-                      <button
-                        type="button"
-                        onClick={() => addInputField("colors")}
-                        className="ml-2 text-green-600"
-                      >
-                        +
-                      </button>
-                    )}
-                  </div>
-                ))}
+                <input
+                  type="text"
+                  value={colors} // Always show an empty value here
+                  // onChange={(e) => {setColors(e.target.value)}}
+                  onKeyDown={(e) =>
+                    handleKeyPress(e, "colors", e.currentTarget.value)
+                  }
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  placeholder="Press Enter to add a new color"
+                />
               </div>
 
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
                   Materials
                 </label>
-                {materials.map((material, index) => (
-                  <div key={index} className="flex mb-2 items-center">
-                    <input
-                      type="text"
-                      value={material}
-                      onChange={(e) => {
-                        const newMaterials = [...materials];
-                        newMaterials[index] = e.target.value;
-                        setMaterials(newMaterials);
-                      }}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
-                    />
-                    {index === materials.length - 1 && (
-                      <button
-                        type="button"
-                        onClick={() => addInputField("materials")}
-                        className="ml-2 text-green-600"
-                      >
-                        +
-                      </button>
-                    )}
-                  </div>
-                ))}
+                <input
+                  type="text"
+                  value={materials}
+                  onChange={(e) => {}}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  placeholder="Press Enter to add a new material"
+                />
+              </div>
+
+              <div className="mb-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Images
+                </label>
+                <div className="mb-2">{images.join(", ")}</div>
+                <input
+                  type="text"
+                  value={""}
+                  onChange={(e) => {}}
+                  onKeyDown={(e) =>
+                    handleKeyPress(e, "images", e.currentTarget.value)
+                  }
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  placeholder="Press Enter to add a new image URL"
+                />
               </div>
             </div>
           </div>
@@ -250,7 +257,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
               onClick={handleSave}
               className="px-4 py-2 bg-blue-500 text-white rounded-md"
             >
-              {product ? "Update" : "Create"}
+              Save
             </button>
           </div>
         </form>
