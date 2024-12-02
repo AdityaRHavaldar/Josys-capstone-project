@@ -1,29 +1,33 @@
 import React, { useState, useEffect } from "react";
 import {
-  fetchBagItems,
+  fetchBagItemsById,
   removeItemFromBag,
   updateItemQuantity,
+  clearBag,
 } from "../../Services/BagServices";
 import { fetchProductById, Product } from "../../Services/ProductServices";
-
-declare global {
-  interface Window {
-    Razorpay: any;
-  }
-}
+import { toast, ToastContainer } from "react-toastify";
 
 function Bag() {
   const [bagItems, setBagItems] = useState<
-    { id: number; productId: number; quantity: number }[]
+    {
+      id: number;
+      productId: number;
+      quantity: number;
+    }[]
   >([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [totalAmount, setTotalAmount] = useState<number>(0);
-  const [userAddress, setUserAddress] = useState<string>("");
+  const [showConfirmation, setShowConfirmation] = useState(false);
+  const [tempAddress, setTempAddress] = useState<string>("");
 
   useEffect(() => {
     const loadBagItems = async () => {
-      const items = await fetchBagItems();
-      setBagItems(items);
+      const userId = Number(sessionStorage.getItem("id"));
+      if (userId) {
+        const items = await fetchBagItemsById(userId);
+        setBagItems(items);
+      }
     };
 
     loadBagItems();
@@ -69,8 +73,9 @@ function Bag() {
 
   const handleIncrementQuantity = async (productId: number) => {
     const item = bagItems.find((item) => item.productId === productId);
-    if (item) {
-      await updateItemQuantity(productId, item.quantity + 1);
+    const userId = sessionStorage.getItem("id");
+    if (item && userId) {
+      await updateItemQuantity(productId, item.quantity + 1, Number(userId));
       setBagItems((prevItems) =>
         prevItems.map((item) =>
           item.productId === productId
@@ -83,8 +88,9 @@ function Bag() {
 
   const handleDecrementQuantity = async (productId: number) => {
     const item = bagItems.find((item) => item.productId === productId);
-    if (item && item.quantity > 1) {
-      await updateItemQuantity(productId, item.quantity - 1);
+    const userId = sessionStorage.getItem("id");
+    if (item && item.quantity > 1 && userId) {
+      await updateItemQuantity(productId, item.quantity - 1, Number(userId));
       setBagItems((prevItems) =>
         prevItems.map((item) =>
           item.productId === productId
@@ -95,62 +101,51 @@ function Bag() {
     }
   };
 
+  const userId = sessionStorage.getItem("id");
+
   const handlePurchase = () => {
-    const userId = sessionStorage.getItem("id");
     if (userId) {
-      initiateRazorpay();
+      setShowConfirmation(true);
     } else {
-      const dummyAddress = "123, Dummy Street, Dummy City, 12345";
-      setUserAddress(dummyAddress);
-      initiateRazorpay();
+      setShowConfirmation(true);
     }
   };
 
-  const initiateRazorpay = () => {
-    const options = {
-      key: "your-razorpay-key",
-      amount: totalAmount * 100,
-      currency: "INR",
-      name: "Your Store",
-      description: "Payment for products in the bag",
-      image: "https://your-store-logo.png",
-      handler: function (response: any) {
-        alert(
-          "Payment successful! Payment ID: " + response.razorpay_payment_id
-        );
-      },
-      prefill: {
-        name: "User Name",
-        email: "user@example.com",
-        contact: "9876543210",
-      },
-      notes: {
-        address: userAddress,
-      },
-      theme: {
-        color: "#F37254",
-      },
-    };
+  const handleConfirmPayment = async () => {
+    try {
+      await clearBag();
+      setBagItems([]);
+      toast.success("Payment successful! Thank you for shopping at IEKA.");
+    } catch (error) {
+      console.log("Error clearing the bag. Please try again.");
+    }
+    setShowConfirmation(false);
+  };
 
-    const razorpay = new window.Razorpay(options);
-    razorpay.open();
+  const handleCancelPayment = () => {
+    setShowConfirmation(false);
   };
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-center w-full py-4 ">Your Bag</h1>
-      {bagItems.length === 0 ? (
+      <h1 className="text-2xl font-bold text-center w-full py-4">Your Bag</h1>
+      {!bagItems.length ? (
         <div className="m-auto text-center">
           <h1 className="text-2xl">Your shopping bag is empty</h1>
           <p className="my-2">
             When you add products to your shopping bag, they will appear here.
           </p>
-          <p className="my-2">
-            Can't find your products? Make sure you're logged in.
-          </p>
-          <button className="bg-black rounded-full text-white px-3 py-2">
-            Login
-          </button>
+
+          {!userId && (
+            <div>
+              <p className="my-2">
+                Can't find your products? Make sure you're logged in.
+              </p>
+              <button className="bg-black rounded-full text-white px-3 py-2">
+                Login
+              </button>
+            </div>
+          )}
         </div>
       ) : (
         <div>
@@ -193,14 +188,14 @@ function Bag() {
                       ₹{product?.price.toFixed(2)}
                     </td>
                     <td className="px-4 py-2 border-b text-center">
-                      ₹{(product?.price ?? 0) * item.quantity}
+                      ₹{(product?.price! * item.quantity).toFixed(2)}
                     </td>
                     <td className="px-4 py-2 border-b text-center">
                       <button
-                        className="bg-red-500 text-white px-4 py-2 rounded"
+                        className="bg-red-500 text-white px-2 py-1 rounded"
                         onClick={() => handleDeleteProduct(item.id)}
                       >
-                        Delete
+                        Remove
                       </button>
                     </td>
                   </tr>
@@ -209,19 +204,47 @@ function Bag() {
             </tbody>
           </table>
 
-          <div className="mt-4 flex justify-end items-center gap-8">
-            <h2 className="text-xl font-semibold">
-              Grand Total: ₹{totalAmount.toFixed(2)}
-            </h2>
-            <button
-              className="bg-green-500 text-white px-6 py-2 rounded"
-              onClick={handlePurchase}
-            >
-              Proceed to Payment
-            </button>
+          <div className="mt-4 flex justify-between items-center">
+            <div>
+              <h2 className="font-bold text-xl">
+                Total: ₹{totalAmount.toFixed(2)}
+              </h2>
+            </div>
+            <div>
+              <button
+                onClick={handlePurchase}
+                className="bg-green-500 text-white px-4 py-2 rounded"
+              >
+                Proceed to Payment
+              </button>
+            </div>
           </div>
+
+          {showConfirmation && (
+            <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex justify-center items-center">
+              <div className="bg-white p-4 rounded shadow-md max-w-sm w-full">
+                <h2 className="text-xl">Confirm Purchase</h2>
+                <p>Are you sure you want to complete the purchase?</p>
+                <div className="mt-4 flex justify-between">
+                  <button
+                    className="bg-red-500 text-white px-4 py-2 rounded"
+                    onClick={handleCancelPayment}
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    className="bg-green-500 text-white px-4 py-2 rounded"
+                    onClick={handleConfirmPayment}
+                  >
+                    Confirm
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       )}
+      <ToastContainer />
     </div>
   );
 }

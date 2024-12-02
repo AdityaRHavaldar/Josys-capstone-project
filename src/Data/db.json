@@ -3740,24 +3740,62 @@
       "pincode": "560020",
       "password": "$2a$10$hv5bdl06qgq/PqcAmpd4/eW.c3E7syCZGpUi7kUHqsOhzGcSle06O",
       "role": "supplier",
-      "products": [1, 19, 36, 47, 58, 60, 64, 69, 74, 78, 82, 90, 92, 97]
+      "myProducts": [1, 19, 36, 47, 58, 60, 64, 69, 74, 78, 82, 90, 92, 97]
+    },
+    {
+      "id": 2,
+      "name": "Supplier 2",
+      "email": "supplier2@gmail.com",
+      "phoneno": "8899665578",
+      "address": "Chennai",
+      "pincode": "684512",
+      "password": "$2a$10$xFkpK0RUfM9bocuiBJ4uHugtFMiFLDQ1jhqs5LoSKVQnTRW51GcsO",
+      "role": "supplier",
+      "myProducts": [
+        2, 5, 13, 18, 20, 22, 35, 38, 41, 46, 48, 51, 56, 62, 63, 65, 68, 73,
+        79, 88, 91
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Supplier 3",
+      "email": "supplier3@gmail.com",
+      "phoneno": "6699885511",
+      "address": "Hydrabad, Telangana",
+      "pincode": "756324",
+      "password": "$2a$10$/os4aMSBqozSQAgdl9BSn.ns2IrBFkd97dQArTbZAH6F8Puplit.e",
+      "role": "supplier",
+      "myProducts": [
+        4, 11, 24, 27, 28, 29, 49, 52, 67, 70, 72, 75, 76, 80, 86, 94
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Supplier 4",
+      "email": "supplier4@gmail.com",
+      "phoneno": "8426753159",
+      "address": "Kocchi",
+      "pincode": "852241",
+      "password": "$2a$10$OHmvNeWe4pnyM57NoF..yehopXSBilkups5dysjZnBMgm7H1/W6y6",
+      "role": "supplier",
+      "myProducts": [
+        3, 12, 31, 32, 33, 39, 42, 43, 45, 50, 53, 54, 66, 85, 89, 95
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Supplier 5",
+      "email": "supplier5@gmail.com",
+      "phoneno": "7894561302",
+      "address": "Delhi",
+      "pincode": "456895",
+      "password": "$2a$10$GTa2Ylf778eSEg6oSUA0kOpOQ9aHpX2pfI3HoM5nLDi25snWfmH/e",
+      "role": "supplier",
+      "myProducts": [
+        6, 7, 8, 9, 10, 14, 15, 16, 17, 21, 23, 25, 26, 30, 34, 37, 40, 44, 55,
+        57, 59, 61, 71, 77, 81, 83, 84, 87, 93, 96, 98, 99, 100
+      ]
     }
   ],
-  "bag": [
-    {
-      "productId": 1,
-      "quantity": 2,
-      "id": 1
-    },
-    {
-      "productId": 3,
-      "quantity": 1,
-      "id": 3
-    },
-    {
-      "productId": 4,
-      "quantity": 1,
-      "id": 4
-    }
-  ]
+  "bag": []
 }

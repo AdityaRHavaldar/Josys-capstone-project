@@ -6,6 +6,7 @@ import {
   useDeleteSupplier,
   Supplier,
 } from "../../Services/SuppliersServices";
+import { toast } from "react-toastify";
 
 const AdminSuppliersControl: React.FC = () => {
   const { data: suppliers, isLoading, isError, refetch } = useSuppliers();
@@ -19,9 +20,9 @@ const AdminSuppliersControl: React.FC = () => {
     id: 0,
     name: "",
     email: "",
-    phoneno: 0,
+    phoneno: "",
     address: "",
-    pincode: 0,
+    pincode: "",
     password: "",
     role: "supplier",
   });
@@ -40,24 +41,24 @@ const AdminSuppliersControl: React.FC = () => {
         { supplierId: supplierData.id, supplierData },
         {
           onSuccess: () => {
-            alert("Supplier updated successfully.");
+            toast.success("Supplier updated successfully.");
             setIsModalOpen(false);
             refetch();
           },
           onError: () => {
-            alert("Failed to update supplier.");
+            toast.error("Failed to update supplier.");
           },
         }
       );
     } else {
       createSupplier(supplierData, {
         onSuccess: () => {
-          alert("Supplier created successfully.");
+          toast.success("Supplier created successfully.");
           setIsModalOpen(false);
           refetch();
         },
         onError: () => {
-          alert("Failed to create supplier.");
+          toast.error("Failed to create supplier.");
         },
       });
     }
@@ -69,9 +70,9 @@ const AdminSuppliersControl: React.FC = () => {
       id: 0,
       name: "",
       email: "",
-      phoneno: 0,
+      phoneno: "",
       address: "",
-      pincode: 0,
+      pincode: "",
       password: "",
       role: "supplier",
     });
@@ -91,11 +92,11 @@ const AdminSuppliersControl: React.FC = () => {
     if (confirmed) {
       deleteSupplier(supplierId, {
         onSuccess: () => {
-          alert("Supplier deleted successfully.");
+          toast.success("Supplier deleted successfully.");
           refetch();
         },
         onError: () => {
-          alert("Failed to delete supplier.");
+          toast.error("Failed to delete supplier.");
         },
       });
     }

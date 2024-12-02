@@ -4,7 +4,7 @@ import {
   fetchProductsByValue,
   Product,
 } from "../../../Services/ProductServices";
-import { addItemToBag } from "../../../Services/BagServices";
+import { addItemToBag, fetchBagItemsById } from "../../../Services/BagServices";
 import { FaAngleDown } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router-dom";
 import CategoryGroup from "./CategorieGroups/CategoryGroup";
@@ -15,6 +15,7 @@ function ProductDashboard() {
   const [sortedProducts, setSortedProducts] = useState<Product[]>([]);
   const [selectedFilter, setSelectedFilter] = useState<string>("");
   const [addedToBag, setAddedToBag] = useState<Set<number>>(new Set());
+  const [bagItems, setBagItems] = useState<any[]>([]); // state for current items in the bag
   const navigate = useNavigate();
   const location = useLocation();
   const category = new URLSearchParams(location.search).get("categories");
@@ -34,6 +35,17 @@ function ProductDashboard() {
 
     loadProducts();
   }, [category]);
+
+  useEffect(() => {
+    const loadBagItems = async () => {
+      const userId = sessionStorage.getItem("id");
+      if (userId) {
+        const items = await fetchBagItemsById(Number(userId));
+        setBagItems(items);
+      }
+    };
+    loadBagItems();
+  }, []);
 
   const handleFilter = (filter: string) => {
     setSelectedFilter(filter);
@@ -88,19 +100,36 @@ function ProductDashboard() {
   ];
 
   const handleProductClick = (productId: number) => {
-    navigate(`/product/${productId}`);
+    navigate(`/home/product/${productId}`);
   };
 
   const handleAddToBag = async (productId: number, event: React.MouseEvent) => {
     event.stopPropagation();
-    try {
-      const newBagItem = await addItemToBag(productId, 1);
-      toast.success(
-        `Item added to bag: Product ${newBagItem.productId} with quantity ${newBagItem.quantity}`
-      );
-      setAddedToBag((prevSet) => new Set(prevSet.add(productId)));
-    } catch (error) {
-      toast.error("Error adding item to the bag.");
+    const userId = sessionStorage.getItem("id");
+
+    if (userId) {
+      try {
+        // Add the item to the bag and fetch the updated list of items.
+        const newBagItem = await addItemToBag(productId, 1, Number(userId));
+
+        // Display a success toast.
+        toast.success(
+          `Item added to bag: Product ${newBagItem.productId} with quantity ${newBagItem.quantity}`
+        );
+
+        // Update the 'addedToBag' set to prevent adding the same product repeatedly.
+        setAddedToBag((prevSet) => new Set(prevSet.add(productId)));
+
+        // Fetch and update the bag items list after adding an item.
+        const updatedBagItems = await fetchBagItemsById(Number(userId));
+        setBagItems(updatedBagItems);
+      } catch (error) {
+        // Display an error toast if something goes wrong.
+        toast.error("Error adding item to the bag.");
+      }
+    } else {
+      // Optionally, handle the case where the user is not logged in (e.g., show a login prompt).
+      toast.error("Please log in to add items to the bag.");
     }
   };
 

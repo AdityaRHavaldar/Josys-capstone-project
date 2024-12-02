@@ -21,20 +21,9 @@ function App() {
           <Route path="/login/user" element={<Login />} />
           <Route path="/login/supplier" element={<SupplierLogin />} />
           <Route path="/login/admin" element={<AdminLogin />} />
-          <Route
-            path="/"
-            element={
-              userRole === "user" ? (
-                <PublicRoutes />
-              ) : userRole === "admin" ? (
-                <AdminDashboard />
-              ) : userRole === "supplier" ? (
-                <SupplierDashboard />
-              ) : (
-                <PublicRoutes />
-              )
-            }
-          />
+          <Route path="/home/*" element={<PublicRoutes />} />
+          <Route path="/supplier" element={<SupplierDashboard />} />
+          <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
       </Router>
     </div>

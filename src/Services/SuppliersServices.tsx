@@ -6,9 +6,9 @@ export interface Supplier {
   id: number;
   name: string;
   email: string;
-  phoneno: number;
+  phoneno: number | "";
   address: string;
-  pincode: number;
+  pincode: number | "";
   password: string;
   role: "supplier";
 }

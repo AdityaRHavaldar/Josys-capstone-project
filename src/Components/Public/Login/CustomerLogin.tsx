@@ -34,7 +34,7 @@ const CustomerLogin: React.FC = () => {
       sessionStorage.setItem("userId", userOrAdmin.id.toString());
       sessionStorage.setItem("role", "user");
 
-      window.location.href = "/";
+      window.location.href = "/home/index";
     } else {
       setUnameError("Invalid email/phone number");
       setPasswordError("Invalid password");
