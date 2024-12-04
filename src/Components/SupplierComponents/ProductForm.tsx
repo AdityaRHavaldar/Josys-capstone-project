@@ -1,30 +1,10 @@
 import React, { useState } from "react";
+import { Product } from "../../Services/ProductServices";
 
 interface ProductFormProps {
   product?: Product | null;
   onClose: () => void;
   onSave: (product: Product) => void;
-}
-
-interface Product {
-  id?: number;
-  name: string;
-  description: string;
-  category: string;
-  sales: number;
-  price: number;
-  discount: number;
-  supplierId: string | null;
-  stock: number;
-  images: string[];
-  colors: string[];
-  materials: string[];
-  dimensions: {
-    width: number;
-    depth: number;
-    height: number;
-  };
-  reviews: { rating: number; comment: string }[];
 }
 
 const ProductForm: React.FC<ProductFormProps> = ({
@@ -35,7 +15,6 @@ const ProductForm: React.FC<ProductFormProps> = ({
   const [productName, setProductName] = useState(product?.name || "");
   const [description, setDescription] = useState(product?.description || "");
   const [category, setCategory] = useState(product?.category || "");
-  const [sales, setSales] = useState(product?.sales || 0);
   const [price, setPrice] = useState(product?.price || 0);
   const [discount, setDiscount] = useState(product?.discount || 0);
   const [stock, setStock] = useState(product?.stock || 0);
@@ -43,13 +22,11 @@ const ProductForm: React.FC<ProductFormProps> = ({
   const [colors, setColors] = useState(product?.colors || []);
   const [materials, setMaterials] = useState(product?.materials || []);
   const [dimensions, setDimensions] = useState(
-    product?.dimensions || { width: 0, depth: 0, height: 0 }
+    product?.dimensions || { width: 15, depth: 20, height: 18 }
   );
-  const [reviews, setReviews] = useState(
-    product?.reviews || [{ rating: 0, comment: "" }]
-  );
+  const [reviews, setReviews] = useState(product?.reviews || []);
 
-  const supplierId = sessionStorage.getItem("supplierId");
+  const supplierId = Number(sessionStorage.getItem("supplierId"));
 
   const handleSave = () => {
     const updatedProduct = {
@@ -57,10 +34,10 @@ const ProductForm: React.FC<ProductFormProps> = ({
       name: productName,
       description,
       category,
-      sales,
+      sales: 50,
       price,
       discount,
-      supplierId: supplierId ? supplierId : null,
+      supplierId: supplierId, // Make sure this is a number
       stock,
       images,
       colors,
@@ -71,29 +48,8 @@ const ProductForm: React.FC<ProductFormProps> = ({
     onSave(updatedProduct);
   };
 
-  const handleArrayChange = (
-    field: "colors" | "materials" | "images",
-    value: string
-  ) => {
-    if (value.trim() !== "") {
-      if (field === "colors") {
-        setColors([...colors, value.trim()]);
-      } else if (field === "materials") {
-        setMaterials([...materials, value.trim()]);
-      } else if (field === "images") {
-        setImages([...images, value.trim()]);
-      }
-    }
-  };
-
-  const handleKeyPress = (
-    event: React.KeyboardEvent<HTMLInputElement>,
-    field: "colors" | "materials" | "images",
-    currentValue: string
-  ) => {
-    if (event.key === "Enter") {
-      handleArrayChange(field, currentValue);
-    }
+  const handleDeleteImage = (index: number) => {
+    setImages(images.filter((_, i) => i !== index));
   };
 
   return (
@@ -144,12 +100,12 @@ const ProductForm: React.FC<ProductFormProps> = ({
 
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
-                  Sales
+                  Price
                 </label>
                 <input
                   type="number"
-                  value={sales}
-                  onChange={(e) => setSales(Number(e.target.value))}
+                  value={price === 0 ? "" : price}
+                  onChange={(e) => setPrice(Number(e.target.value))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   required
                 />
@@ -157,12 +113,12 @@ const ProductForm: React.FC<ProductFormProps> = ({
 
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
-                  Price
+                  Discount
                 </label>
                 <input
                   type="number"
-                  value={price}
-                  onChange={(e) => setPrice(Number(e.target.value))}
+                  value={discount === 0 ? "" : discount}
+                  onChange={(e) => setDiscount(Number(e.target.value))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   required
                 />
@@ -171,44 +127,31 @@ const ProductForm: React.FC<ProductFormProps> = ({
             <div>
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
-                  Discount
-                </label>
-                <input
-                  type="number"
-                  value={discount}
-                  onChange={(e) => setDiscount(Number(e.target.value))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md"
-                  required
-                />
-              </div>
-
-              <div className="mb-4">
-                <label className="block text-sm font-medium text-gray-700">
                   Stock
                 </label>
                 <input
                   type="number"
-                  value={stock}
+                  value={stock === 0 ? "" : stock}
                   onChange={(e) => setStock(Number(e.target.value))}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   required
                 />
               </div>
 
-              {/* Display the colors, materials, and images as comma-separated values */}
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
                   Colors
                 </label>
                 <input
                   type="text"
-                  value={colors} // Always show an empty value here
-                  // onChange={(e) => {setColors(e.target.value)}}
-                  onKeyDown={(e) =>
-                    handleKeyPress(e, "colors", e.currentTarget.value)
+                  value={colors.join(", ")}
+                  onChange={(e) =>
+                    setColors(
+                      e.target.value.split(",").map((color) => color.trim())
+                    )
                   }
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
-                  placeholder="Press Enter to add a new color"
+                  placeholder="Enter colors, separated by commas"
                 />
               </div>
 
@@ -218,28 +161,52 @@ const ProductForm: React.FC<ProductFormProps> = ({
                 </label>
                 <input
                   type="text"
-                  value={materials}
-                  onChange={(e) => {}}
+                  value={materials.join(", ")}
+                  onChange={(e) =>
+                    setMaterials(
+                      e.target.value
+                        .split(",")
+                        .map((material) => material.trim())
+                    )
+                  }
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
-                  placeholder="Press Enter to add a new material"
+                  placeholder="Enter materials, separated by commas"
                 />
               </div>
 
-              <div className="mb-4">
+              <div className="mb-4 max-h-56 overflow-y-auto">
                 <label className="block text-sm font-medium text-gray-700">
                   Images
                 </label>
-                <div className="mb-2">{images.join(", ")}</div>
-                <input
-                  type="text"
-                  value={""}
-                  onChange={(e) => {}}
-                  onKeyDown={(e) =>
-                    handleKeyPress(e, "images", e.currentTarget.value)
-                  }
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md"
-                  placeholder="Press Enter to add a new image URL"
-                />
+                {images.map((image, index) => (
+                  <div key={index} className="flex items-center mb-2">
+                    <input
+                      type="text"
+                      value={image}
+                      onChange={(e) => {
+                        const updatedImages = [...images];
+                        updatedImages[index] = e.target.value;
+                        setImages(updatedImages);
+                      }}
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                      placeholder="Enter image URL"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => handleDeleteImage(index)}
+                      className="ml-2 text-red-500"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                ))}
+                <button
+                  type="button"
+                  onClick={() => setImages([...images, ""])}
+                  className="mt-2 text-blue-500 rounded-md"
+                >
+                  + Add Image
+                </button>
               </div>
             </div>
           </div>
@@ -265,5 +232,4 @@ const ProductForm: React.FC<ProductFormProps> = ({
     </div>
   );
 };
-
 export default ProductForm;

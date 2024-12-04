@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import { useUsers, useDeleteUser } from "../../Services/CustomersServices";
 
 function AdminUsersControl() {
@@ -11,11 +12,11 @@ function AdminUsersControl() {
     if (confirmed) {
       deleteUser(userId, {
         onSuccess: () => {
-          alert("User deleted successfully.");
+          toast.success("User deleted successfully.");
           refetch();
         },
         onError: (error) => {
-          alert("Failed to delete user.");
+          toast.error("Failed to delete user.");
         },
       });
     }
@@ -26,7 +27,6 @@ function AdminUsersControl() {
 
   return (
     <div>
-      <h2 className="text-center text-2xl font-bold">Manage Users</h2>
       <table className="min-w-full table-auto mt-4 border-collapse border border-gray-200">
         <thead>
           <tr>

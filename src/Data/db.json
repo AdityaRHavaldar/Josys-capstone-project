@@ -5,11 +5,11 @@
       "name": "Ektorp Sofa",
       "description": "A comfortable and stylish sofa for your living room.",
       "category": "Sofas",
-      "sales": 221,
+      "sales": 50,
       "price": 299,
       "discount": 10,
       "supplierId": 1,
-      "stock": 3,
+      "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194853_pe902103_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__1194852_pe902102_s5.jpg",
@@ -3507,6 +3507,76 @@
           "comment": "Took a while to assemble, but worth it for the space."
         }
       ]
+    },
+    {
+      "name": "SVALLET",
+      "description": "This work lamp in recycled plastics has received the international design award Red Dot Award. It provides a functional directed light and is easy to match with the interior and move around in the home.",
+      "category": "Lighting",
+      "sales": 50,
+      "price": 39,
+      "discount": 10,
+      "supplierId": 6,
+      "stock": 7,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/svallet-work-lamp-dark-grey-white__1028313_ph177478_s5.jpg?f=xl",
+        "https://www.ikea.com/in/en/images/products/svallet-work-lamp-dark-grey-white__0881047_pe724753_s5.jpg?f=xl",
+        "https://www.ikea.com/in/en/images/products/svallet-work-lamp-dark-grey-white__0881047_pe724753_s5.jpg?f=xl"
+      ],
+      "colors": ["white", "darkGrey"],
+      "materials": ["plastic"],
+      "dimensions": {
+        "width": 15,
+        "depth": 20,
+        "height": 18
+      },
+      "reviews": [],
+      "id": 101
+    },
+    {
+      "id": 102,
+      "name": "FEJAN Table",
+      "description": "Outdoor Table and chairs",
+      "category": "Outdoor",
+      "sales": 50,
+      "price": 402,
+      "discount": 9,
+      "supplierId": 6,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/fejan-table-2-folding-chairs-outdoor-white-white__1035546_pe838191_s5.jpg?f=xl",
+        "https://www.ikea.com/in/en/images/products/fejan-table-2-folding-chairs-outdoor-white-white__1035547_pe838172_s5.jpg?f=xl",
+        "https://www.ikea.com/in/en/images/products/fejan-table-2-folding-chairs-outdoor-white-white__0941208_pe795378_s5.jpg?f=xl"
+      ],
+      "colors": ["white", "black"],
+      "materials": ["plastic", "metal"],
+      "dimensions": {
+        "width": 15,
+        "depth": 20,
+        "height": 18
+      },
+      "reviews": []
+    },
+    {
+      "name": "RESÖ",
+      "description": "Table",
+      "category": "Table",
+      "sales": 50,
+      "price": 200,
+      "discount": 10,
+      "supplierId": 1,
+      "stock": 2,
+      "images": [
+        "https://www.ikea.com/in/en/images/products/resoe-childrens-picnic-table-light-brown-stained__0736459_pe740547_s5.jpg?f=xl"
+      ],
+      "colors": ["wooden", "black"],
+      "materials": ["wood", "metal"],
+      "dimensions": {
+        "width": 15,
+        "depth": 20,
+        "height": 18
+      },
+      "reviews": [],
+      "id": 103
     }
   ],
   "categories": [
@@ -3548,32 +3618,6 @@
         },
         {
           "id": 6,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Aviral",
-      "surname": "Malik",
-      "role": "user",
-      "email": "aviral@gmail.com",
-      "password": "Aviral@12345",
-      "gender": "male",
-      "address": "Delhi, Delhi",
-      "pincode": "650033",
-      "phoneno": 9875315910,
-      "orders": [
-        {
-          "id": 66,
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "quantity": 1
-        },
-        {
-          "id": 3,
           "quantity": 1
         }
       ]
@@ -3740,7 +3784,9 @@
       "pincode": "560020",
       "password": "$2a$10$hv5bdl06qgq/PqcAmpd4/eW.c3E7syCZGpUi7kUHqsOhzGcSle06O",
       "role": "supplier",
-      "myProducts": [1, 19, 36, 47, 58, 60, 64, 69, 74, 78, 82, 90, 92, 97]
+      "productArray": [
+        1, 19, 36, 47, 58, 60, 64, 69, 74, 78, 82, 90, 92, 97, 103
+      ]
     },
     {
       "id": 2,
@@ -3749,9 +3795,9 @@
       "phoneno": "8899665578",
       "address": "Chennai",
       "pincode": "684512",
-      "password": "$2a$10$xFkpK0RUfM9bocuiBJ4uHugtFMiFLDQ1jhqs5LoSKVQnTRW51GcsO",
+      "password": "$2a$10$kg5.NMUYQ9c2GqHuDpN4yupO/mMr8jQ3Gsj4t9wWfnZHLRQX/SOR.",
       "role": "supplier",
-      "myProducts": [
+      "productArray": [
         2, 5, 13, 18, 20, 22, 35, 38, 41, 46, 48, 51, 56, 62, 63, 65, 68, 73,
         79, 88, 91
       ]
@@ -3765,7 +3811,7 @@
       "pincode": "756324",
       "password": "$2a$10$/os4aMSBqozSQAgdl9BSn.ns2IrBFkd97dQArTbZAH6F8Puplit.e",
       "role": "supplier",
-      "myProducts": [
+      "productArray": [
         4, 11, 24, 27, 28, 29, 49, 52, 67, 70, 72, 75, 76, 80, 86, 94
       ]
     },
@@ -3778,7 +3824,7 @@
       "pincode": "852241",
       "password": "$2a$10$OHmvNeWe4pnyM57NoF..yehopXSBilkups5dysjZnBMgm7H1/W6y6",
       "role": "supplier",
-      "myProducts": [
+      "productArray": [
         3, 12, 31, 32, 33, 39, 42, 43, 45, 50, 53, 54, 66, 85, 89, 95
       ]
     },
@@ -3791,10 +3837,21 @@
       "pincode": "456895",
       "password": "$2a$10$GTa2Ylf778eSEg6oSUA0kOpOQ9aHpX2pfI3HoM5nLDi25snWfmH/e",
       "role": "supplier",
-      "myProducts": [
+      "productArray": [
         6, 7, 8, 9, 10, 14, 15, 16, 17, 21, 23, 25, 26, 30, 34, 37, 40, 44, 55,
         57, 59, 61, 71, 77, 81, 83, 84, 87, 93, 96, 98, 99, 100
       ]
+    },
+    {
+      "id": 6,
+      "name": "Supplier 6",
+      "email": "supplier6@gmail.com",
+      "phoneno": "9480123657",
+      "address": "Goa",
+      "pincode": "754896",
+      "password": "$2a$10$Jqm2byiIng/lovW6kWXVKuUQLfzvIUtoUa5BV6T7NSUO58T3d7vNm",
+      "role": "supplier",
+      "productArray": [101, 102]
     }
   ],
   "bag": []

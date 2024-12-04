@@ -1,6 +1,6 @@
 import React from "react";
 import CategoriesGrid from "./Categories/CategoriesGrid/CategoriesGrid";
-import CategoryGroup from "./CategorieGroups/CategoryGroup";
+import CategoryGroup from "./Categories/CategorieGroups/CategoryGroup";
 import CategoriesCarousel from "./Categories/CategoriesCarousel/CategoriesCarousel";
 
 const GroupDashboard: React.FC = () => {

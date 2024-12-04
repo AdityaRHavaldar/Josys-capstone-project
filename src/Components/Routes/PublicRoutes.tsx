@@ -4,7 +4,7 @@ import NavBar from "../NavBar";
 import ProductDashboard from "../Public/Dashboard/ProductsDashboard";
 import GroupDashboard from "../Public/Dashboard/GroupDashboard";
 import ProductDetails from "../Public/ProductDetails";
-import Footer from "../Public/Footer";
+import Footer from "../Footer";
 import Bag from "../Public/Bag";
 
 const PublicRoutes: React.FC = () => {
@@ -12,6 +12,7 @@ const PublicRoutes: React.FC = () => {
     <>
       <NavBar />
       <Routes>
+        <Route index element={<GroupDashboard />} />
         <Route path="index" element={<GroupDashboard />} />
         <Route path="ProductDashboard" element={<ProductDashboard />} />
         <Route path="product/:id" element={<ProductDetails />} />

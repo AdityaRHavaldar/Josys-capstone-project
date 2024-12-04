@@ -9,7 +9,7 @@ const CategoriesCarousel: React.FC = () => {
         "Discover beautiful wedding gifts or essentials to set up your new home, making this season unforgottable",
       image:
         "https://www.ikea.com/images/cf/85/cf85a94a142aec60907f8264508509df.jpg?f=s",
-      link: "/section1",
+      link: "/home/ProductDashboard",
       color: "#9E4842",
     },
     {
@@ -18,7 +18,7 @@ const CategoriesCarousel: React.FC = () => {
         "Consider how your bedding, pyjamas, sunlight coming into the bedroom might be impacting your sleep",
       image:
         "https://www.ikea.com/images/0d/ef/0defd832985170ae598f80ce2a9529f1.jpg?f=s",
-      link: "/section2",
+      link: "/home/ProductDashboard",
       color: "#946b3d",
     },
     {
@@ -27,7 +27,7 @@ const CategoriesCarousel: React.FC = () => {
         "Fill your home with festive cheer with our christmas tree, automatic candles and hangings that bring the holiday sprit to life!",
       image:
         "https://www.ikea.com/images/41/53/4153435ae028879d6ad341d5d3174355.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#223F1A",
     },
     {
@@ -37,7 +37,7 @@ const CategoriesCarousel: React.FC = () => {
         "Outdoor essentials for every gatharing - weather-resistant chairs, stylish tables and storage solutions",
       image:
         "https://www.ikea.com/images/2b/73/2b73b9afe1a3977fa6527c3e58242464.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#656529",
     },
     {
@@ -46,7 +46,7 @@ const CategoriesCarousel: React.FC = () => {
         "Explore a range of thoughtful and budget-friendly Secret santa gift ideas starting from under $53, make every exchange fun and memorable",
       image:
         "https://www.ikea.com/ext/ingkadam/m/4a69c364207a2b3d/original/PH200548-crop001.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#731013",
     },
     {
@@ -55,7 +55,7 @@ const CategoriesCarousel: React.FC = () => {
         "Our furneatures seamlessly blends enduring thoughtful design, and every functionality, ensuring lasting beaty and comfort in your home",
       image:
         "https://www.ikea.com/images/14/33/1433df1b7b6001903ffc1476685b1eed.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#192A45",
     },
     {
@@ -63,7 +63,7 @@ const CategoriesCarousel: React.FC = () => {
       description: "Shop offordable accessaries to elevate your life",
       image:
         "https://www.ikea.com/images/3f/9e/3f9ec65a12d680768248c810f7395ea9.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#ffdb00",
     },
     {
@@ -71,7 +71,7 @@ const CategoriesCarousel: React.FC = () => {
       description: "Our favrate product now at redused price.",
       image:
         "https://www.ikea.com/images/df/3e/df3e87ca51c8bafa8b9b842b18ccd5d2.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#e2271d",
     },
     {
@@ -80,7 +80,7 @@ const CategoriesCarousel: React.FC = () => {
         "Enjoy up to 50% off on main courses and and and additional 10% off on home furnishing products. Valid only for Ikea family members",
       image:
         "https://www.ikea.com/images/54/e4/54e41be64472246f01b13e83066ba2f1.jpg?f=s",
-      link: "/section3",
+      link: "/home/ProductDashboard",
       color: "#006f34",
     },
   ];
@@ -111,8 +111,11 @@ const CategoriesCarousel: React.FC = () => {
 
         <ul ref={containerRef} className="flex gap-[10px] overflow-x-auto pb-4">
           {categories.map((category, index) => (
-            <li key={index} className="w-52 min-w-[29rem] text-left">
-              <Link to={category.link} className="">
+            <li
+              key={index}
+              className="w-52 min-w-[29rem] text-left hover:scale-[1.01]"
+            >
+              <Link to={category.link}>
                 <img
                   src={category.image}
                   alt=""

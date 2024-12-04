@@ -4,6 +4,8 @@ import {
   Product,
   deleteProduct,
 } from "../../Services/ProductServices";
+import { removeProductFromSupplierArray } from "../../Services/SuppliersServices";
+import { toast } from "react-toastify";
 
 function AdminProductsControl() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -34,20 +36,19 @@ function AdminProductsControl() {
     }
   };
 
-  const handleProductClick = (productId: number) => {};
-
-  const handleDelete = (productId: number) => {
+  const handleDelete = (productId: number, supplierId: number) => {
     const confirmed = window.confirm(
       "Are you sure you want to delete this product?"
     );
     if (confirmed) {
-      confirmDelete(productId);
+      confirmDelete(productId, supplierId);
     }
   };
 
-  const confirmDelete = async (productId: number) => {
+  const confirmDelete = async (productId: number, supplierId: number) => {
     try {
       await deleteProduct(productId);
+      await removeProductFromSupplierArray(supplierId, productId);
 
       setProducts((prevProducts) =>
         prevProducts.filter((product) => product.id !== productId)
@@ -56,9 +57,9 @@ function AdminProductsControl() {
         prevProducts.filter((product) => product.id !== productId)
       );
 
-      alert("Product deleted successfully.");
+      toast.success("Product deleted successfully.");
     } catch (error) {
-      alert("Failed to delete product.");
+      toast.error("Failed to delete product.");
     }
   };
 
@@ -82,7 +83,6 @@ function AdminProductsControl() {
             <div
               key={product.id}
               className="bg-white rounded-lg hover:shadow-lg hover:scale-105 overflow-auto cursor-pointer p-3"
-              onClick={() => handleProductClick(product.id)}
             >
               <div className="relative">
                 {isTopSeller && (
@@ -119,7 +119,7 @@ function AdminProductsControl() {
                       className="w-150px text-white bg-red-500 rounded-lg hover:bg-red-600 px-3 py-2"
                       onClick={(e) => {
                         e.stopPropagation();
-                        handleDelete(product.id);
+                        handleDelete(product.id!, product.supplierId);
                       }}
                     >
                       Delete

@@ -4,18 +4,17 @@ import {
   fetchProductsByValue,
   Product,
 } from "../../../Services/ProductServices";
-import { addItemToBag, fetchBagItemsById } from "../../../Services/BagServices";
+import { addItemToBag } from "../../../Services/BagServices";
 import { FaAngleDown } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router-dom";
-import CategoryGroup from "./CategorieGroups/CategoryGroup";
-import { toast, ToastContainer } from "react-toastify";
+import CategoryGroup from "./Categories/CategorieGroups/CategoryGroup";
+import { toast } from "react-toastify";
 
 function ProductDashboard() {
   const [products, setProducts] = useState<Product[]>([]);
   const [sortedProducts, setSortedProducts] = useState<Product[]>([]);
   const [selectedFilter, setSelectedFilter] = useState<string>("");
   const [addedToBag, setAddedToBag] = useState<Set<number>>(new Set());
-  const [bagItems, setBagItems] = useState<any[]>([]); // state for current items in the bag
   const navigate = useNavigate();
   const location = useLocation();
   const category = new URLSearchParams(location.search).get("categories");
@@ -35,17 +34,6 @@ function ProductDashboard() {
 
     loadProducts();
   }, [category]);
-
-  useEffect(() => {
-    const loadBagItems = async () => {
-      const userId = sessionStorage.getItem("id");
-      if (userId) {
-        const items = await fetchBagItemsById(Number(userId));
-        setBagItems(items);
-      }
-    };
-    loadBagItems();
-  }, []);
 
   const handleFilter = (filter: string) => {
     setSelectedFilter(filter);
@@ -105,31 +93,25 @@ function ProductDashboard() {
 
   const handleAddToBag = async (productId: number, event: React.MouseEvent) => {
     event.stopPropagation();
-    const userId = sessionStorage.getItem("id");
+    const userId = sessionStorage.getItem("userId");
 
     if (userId) {
       try {
-        // Add the item to the bag and fetch the updated list of items.
         const newBagItem = await addItemToBag(productId, 1, Number(userId));
 
-        // Display a success toast.
         toast.success(
           `Item added to bag: Product ${newBagItem.productId} with quantity ${newBagItem.quantity}`
         );
 
-        // Update the 'addedToBag' set to prevent adding the same product repeatedly.
         setAddedToBag((prevSet) => new Set(prevSet.add(productId)));
-
-        // Fetch and update the bag items list after adding an item.
-        const updatedBagItems = await fetchBagItemsById(Number(userId));
-        setBagItems(updatedBagItems);
       } catch (error) {
-        // Display an error toast if something goes wrong.
         toast.error("Error adding item to the bag.");
       }
     } else {
-      // Optionally, handle the case where the user is not logged in (e.g., show a login prompt).
       toast.error("Please log in to add items to the bag.");
+      setTimeout(() => {
+        window.location.href = "/login/user";
+      }, 3000);
     }
   };
 
@@ -159,13 +141,13 @@ function ProductDashboard() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
         {sortedProducts.map((product) => {
           const isTopSeller = product.sales > 600;
-          const isProductAdded = addedToBag.has(product.id);
+          const isProductAdded = addedToBag.has(product.id!);
 
           return (
             <div
               key={product.id}
               className="bg-white rounded-lg hover:shadow-lg hover:scale-105 overflow-auto cursor-pointer p-3"
-              onClick={() => handleProductClick(product.id)}
+              onClick={() => handleProductClick(product.id!)}
             >
               <div className="relative">
                 {isTopSeller && (
@@ -177,7 +159,8 @@ function ProductDashboard() {
                   <img
                     src={product.images[0]}
                     alt={product.name}
-                    className="w-full h-auto my-auto object-cover"
+                    className="w-full my-auto object-cover"
+                    style={{ height: "inherit" }}
                   />
                 </div>
               </div>
@@ -185,7 +168,7 @@ function ProductDashboard() {
                 <h3 className="text-lg font-semibold text-gray-800">
                   {product.name}
                 </h3>
-                <p className="text-sm text-gray-600 mt-2">
+                <p className="text-sm text-gray-600 mt-2 h-36 overflow-auto">
                   {product.description}
                 </p>
                 <div className="flex justify-between items-center">
@@ -201,7 +184,7 @@ function ProductDashboard() {
                     {!isProductAdded ? (
                       <button
                         className="w-150px bg-slate-300 rounded-lg hover:bg-slate-500 hover:text-white px-3 py-2"
-                        onClick={(event) => handleAddToBag(product.id, event)}
+                        onClick={(event) => handleAddToBag(product.id!, event)}
                       >
                         Add to Bag
                       </button>
@@ -220,7 +203,6 @@ function ProductDashboard() {
           );
         })}
       </div>
-      <ToastContainer />
     </div>
   );
 }

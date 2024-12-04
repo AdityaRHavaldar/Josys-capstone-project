@@ -4,26 +4,20 @@ import {
   removeItemFromBag,
   updateItemQuantity,
   clearBag,
+  BagItem,
 } from "../../Services/BagServices";
 import { fetchProductById, Product } from "../../Services/ProductServices";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 function Bag() {
-  const [bagItems, setBagItems] = useState<
-    {
-      id: number;
-      productId: number;
-      quantity: number;
-    }[]
-  >([]);
+  const [bagItems, setBagItems] = useState<BagItem[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [totalAmount, setTotalAmount] = useState<number>(0);
   const [showConfirmation, setShowConfirmation] = useState(false);
-  const [tempAddress, setTempAddress] = useState<string>("");
+  const userId = Number(sessionStorage.getItem("userId"));
 
   useEffect(() => {
     const loadBagItems = async () => {
-      const userId = Number(sessionStorage.getItem("id"));
       if (userId) {
         const items = await fetchBagItemsById(userId);
         setBagItems(items);
@@ -31,7 +25,7 @@ function Bag() {
     };
 
     loadBagItems();
-  }, []);
+  }, [userId]);
 
   useEffect(() => {
     const loadProducts = async () => {
@@ -73,7 +67,6 @@ function Bag() {
 
   const handleIncrementQuantity = async (productId: number) => {
     const item = bagItems.find((item) => item.productId === productId);
-    const userId = sessionStorage.getItem("id");
     if (item && userId) {
       await updateItemQuantity(productId, item.quantity + 1, Number(userId));
       setBagItems((prevItems) =>
@@ -88,7 +81,6 @@ function Bag() {
 
   const handleDecrementQuantity = async (productId: number) => {
     const item = bagItems.find((item) => item.productId === productId);
-    const userId = sessionStorage.getItem("id");
     if (item && item.quantity > 1 && userId) {
       await updateItemQuantity(productId, item.quantity - 1, Number(userId));
       setBagItems((prevItems) =>
@@ -100,9 +92,6 @@ function Bag() {
       );
     }
   };
-
-  const userId = sessionStorage.getItem("id");
-
   const handlePurchase = () => {
     if (userId) {
       setShowConfirmation(true);
@@ -188,14 +177,14 @@ function Bag() {
                       ₹{product?.price.toFixed(2)}
                     </td>
                     <td className="px-4 py-2 border-b text-center">
-                      ₹{(product?.price! * item.quantity).toFixed(2)}
+                      ₹{(product?.price ?? 0) * item.quantity}
                     </td>
                     <td className="px-4 py-2 border-b text-center">
                       <button
-                        className="bg-red-500 text-white px-2 py-1 rounded"
+                        className="bg-red-500 text-white px-4 py-2 rounded"
                         onClick={() => handleDeleteProduct(item.id)}
                       >
-                        Remove
+                        Delete
                       </button>
                     </td>
                   </tr>
@@ -204,47 +193,45 @@ function Bag() {
             </tbody>
           </table>
 
-          <div className="mt-4 flex justify-between items-center">
-            <div>
-              <h2 className="font-bold text-xl">
-                Total: ₹{totalAmount.toFixed(2)}
-              </h2>
-            </div>
-            <div>
+          <div className="mt-4 flex justify-end items-center gap-8">
+            <h2 className="text-xl font-semibold">
+              Grand Total: ₹{totalAmount.toFixed(2)}
+            </h2>
+            <button
+              className="bg-green-500 text-white px-6 py-2 rounded"
+              onClick={handlePurchase}
+            >
+              Proceed to Payment
+            </button>
+          </div>
+        </div>
+      )}
+
+      {showConfirmation && (
+        <div className="fixed top-0 left-0 w-full h-full bg-gray-600 bg-opacity-50 flex items-center justify-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <h3 className="text-xl font-bold">Confirm Payment</h3>
+            <p className="my-4">
+              Are you sure you want to confirm the payment?
+            </p>
+
+            <div className="flex justify-between">
               <button
-                onClick={handlePurchase}
-                className="bg-green-500 text-white px-4 py-2 rounded"
+                className="bg-red-500 text-white px-4 py-2 rounded"
+                onClick={handleCancelPayment}
               >
-                Proceed to Payment
+                Cancel
+              </button>
+              <button
+                className="bg-green-500 text-white px-4 py-2 rounded"
+                onClick={handleConfirmPayment}
+              >
+                Confirm
               </button>
             </div>
           </div>
-
-          {showConfirmation && (
-            <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex justify-center items-center">
-              <div className="bg-white p-4 rounded shadow-md max-w-sm w-full">
-                <h2 className="text-xl">Confirm Purchase</h2>
-                <p>Are you sure you want to complete the purchase?</p>
-                <div className="mt-4 flex justify-between">
-                  <button
-                    className="bg-red-500 text-white px-4 py-2 rounded"
-                    onClick={handleCancelPayment}
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    className="bg-green-500 text-white px-4 py-2 rounded"
-                    onClick={handleConfirmPayment}
-                  >
-                    Confirm
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
         </div>
       )}
-      <ToastContainer />
     </div>
   );
 }

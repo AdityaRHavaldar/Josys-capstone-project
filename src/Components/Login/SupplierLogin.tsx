@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import bcrypt from "bcryptjs";
 import { useQuery } from "@tanstack/react-query";
-import api from "../../../Services/Api";
+import api from "../../Services/Api";
 import { toast } from "react-toastify";
 import CommonLoginLeft from "./CommonLoginLeft";
 import "react-toastify/dist/ReactToastify.css";
@@ -22,6 +22,7 @@ const SupplierLogin = () => {
   const [password, setPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [isPasswordChange, setIsPasswordChange] = useState(false);
+  const [passwordError, setPasswordError] = useState<string | null>(null);
 
   const {
     data: suppliers,
@@ -37,7 +38,7 @@ const SupplierLogin = () => {
 
   const handleLogin = () => {
     if (!emailOrPhone || !password) {
-      toast.error("Please fill in both email/phone and password.");
+      setPasswordError("Please fill in both email/phone and password.");
       return;
     }
 
@@ -46,13 +47,13 @@ const SupplierLogin = () => {
     );
 
     if (!supplier) {
-      toast.error("Supplier not found.");
+      setPasswordError("Supplier not found.");
       return;
     }
 
     const isPasswordCorrect = bcrypt.compareSync(password, supplier.password);
     if (!isPasswordCorrect) {
-      toast.error("Incorrect password.");
+      setPasswordError("Incorrect password.");
       return;
     }
 
@@ -104,14 +105,14 @@ const SupplierLogin = () => {
           Supplier Login
         </h1>
         <div className="flex justify-center items-center bg-white p-8">
-          <div className="max-w-md w-full p-8 bg-white">
+          <div className="max-w-md w-full bg-white">
             <form onSubmit={(e) => e.preventDefault()}>
               <div className="mb-4">
                 <label
                   htmlFor="emailOrPhone"
-                  className="block text-sm font-medium text-gray-500"
+                  className="block text-left text-sm font-medium text-gray-500"
                 >
-                  Email or Phone No
+                  Email or Phone Number
                 </label>
                 <input
                   type="text"
@@ -127,7 +128,7 @@ const SupplierLogin = () => {
               <div className="mb-6">
                 <label
                   htmlFor="password"
-                  className="block text-sm font-medium text-gray-500"
+                  className="block text-left text-sm font-medium text-gray-500"
                 >
                   Password
                 </label>
@@ -140,11 +141,16 @@ const SupplierLogin = () => {
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
                   required
                 />
+                {passwordError && (
+                  <p className="text-red-500 text-sm text-left mt-2">
+                    {passwordError}
+                  </p>
+                )}
               </div>
 
               <button
-                onClick={handleLogin}
                 type="submit"
+                onClick={handleLogin}
                 className="w-full py-2 px-4 bg-[rgb(0,88,163)] text-white font-semibold rounded-full shadow-md hover:bg-[rgb(0,88,200)]"
               >
                 Login
@@ -153,7 +159,7 @@ const SupplierLogin = () => {
 
             {isPasswordChange && (
               <div className="mt-6">
-                <h3 className="text-sm font-medium text-gray-500">
+                <h3 className="text-sm text-left font-medium text-gray-500">
                   Change Password
                 </h3>
                 <input
@@ -166,6 +172,17 @@ const SupplierLogin = () => {
                 <button
                   onClick={handlePasswordChange}
                   className="mt-2 w-full py-2 px-4 bg-[rgb(0,88,163)] text-white font-semibold rounded-full shadow-md hover:bg-[rgb(0,88,200)]"
+                >
+                  Change Password
+                </button>
+              </div>
+            )}
+
+            {!isPasswordChange && (
+              <div className="mt-4 text-center">
+                <button
+                  onClick={() => setIsPasswordChange(true)}
+                  className="text-sm text-[rgb(0,88,163)] hover:underline"
                 >
                   Change Password
                 </button>

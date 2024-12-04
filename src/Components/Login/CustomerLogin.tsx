@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { authenticate } from "../../../Services/AuthServices";
+import { authenticate } from "../../Services/AuthServices";
 import { Link } from "react-router-dom";
 
 interface LoginFormData {

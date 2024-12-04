@@ -2,7 +2,7 @@ import { useQuery, useMutation } from "@tanstack/react-query";
 import api from "./Api";
 
 export interface Product {
-  id: number;
+  id: number | undefined;
   name: string;
   description: string;
   category: string;
@@ -53,18 +53,20 @@ export const fetchProductsByValue = async (
   }
 };
 
-export const createProduct = async (productData: Product): Promise<Product> => {
+export const createProduct = async (
+  productData: Omit<Product, "id">
+): Promise<Product> => {
   const response = await api.post("/products", productData);
   return response.data;
 };
 
-// export const updateProduct = async (
-//   productId: number,
-//   productData: Product
-// ): Promise<Product> => {
-//   const response = await api.put(`/products/${productId}`, productData);
-//   return response.data;
-// };
+export const updateProduct = async (
+  productId: number,
+  productData: Product
+): Promise<Product> => {
+  const response = await api.put(`/products/${productId}`, productData);
+  return response.data;
+};
 
 export const deleteProduct = async (productId: number): Promise<void> => {
   await api.delete(`/products/${productId}`);

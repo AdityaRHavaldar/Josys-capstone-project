@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Login from "./Components/Login";
 import AdminDashboard from "./Components/AdminComponents/AdminDashboard";
-import SupplierLogin from "./Components/Public/Login/SupplierLogin";
-import AdminLogin from "./Components/Public/Login/AdminLogin";
+import SupplierLogin from "./Components/Login/SupplierLogin";
+import AdminLogin from "./Components/Login/AdminLogin";
 import PublicRoutes from "./Components/Routes/PublicRoutes";
 import SupplierDashboard from "./Components/SupplierComponents/SupplierDashboard";
+import { ToastContainer } from "react-toastify";
+import Login from "./Components/Login/Login";
 
 function App() {
   const [userRole, setUserRole] = useState(sessionStorage.getItem("role"));
@@ -18,6 +19,7 @@ function App() {
     <div className="App px-16">
       <Router>
         <Routes>
+          <Route index element={<PublicRoutes />} />
           <Route path="/login/user" element={<Login />} />
           <Route path="/login/supplier" element={<SupplierLogin />} />
           <Route path="/login/admin" element={<AdminLogin />} />
@@ -26,6 +28,7 @@ function App() {
           <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
       </Router>
+      <ToastContainer position="top-center" autoClose={3000} />
     </div>
   );
 }

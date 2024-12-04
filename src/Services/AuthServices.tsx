@@ -28,7 +28,7 @@ export const authenticate = async (
   const supplier = suppliers.find(
     (s) =>
       (s.email === emailOrPhone || s.phoneno === +emailOrPhone) &&
-      bcrypt.compareSync(password, s.password)
+      bcrypt.compareSync(password, s.password!)
   );
 
   if (supplier) return supplier;

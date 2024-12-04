@@ -9,8 +9,9 @@ export interface Supplier {
   phoneno: number | "";
   address: string;
   pincode: number | "";
-  password: string;
+  password: string | undefined;
   role: "supplier";
+  productArray: number[];
 }
 
 export const fetchSuppliers = async (): Promise<Supplier[]> => {
@@ -28,12 +29,13 @@ export const fetchSupplierById = async (
 export const createSupplier = async (
   supplierData: Omit<Supplier, "id" | "role">
 ): Promise<Supplier> => {
-  const hashedPassword = await bcrypt.hash(supplierData.password, 10);
+  const hashedPassword = await bcrypt.hash(supplierData.password!, 10);
 
   const supplierWithHashedPassword = {
     ...supplierData,
     password: hashedPassword,
     role: "supplier",
+    productArray: [],
   };
 
   const response = await api.post("/suppliers", supplierWithHashedPassword);
@@ -91,4 +93,32 @@ export const useDeleteSupplier = () => {
   return useMutation<void, Error, number>({
     mutationFn: deleteSupplier,
   });
+};
+
+export const updateSupplierProductArray = async (
+  supplierId: number,
+  productArray: number[]
+): Promise<Supplier> => {
+  const supplier = await fetchSupplierById(supplierId);
+
+  const updatedSupplier = { ...supplier, productArray };
+
+  const response = await api.put(`/suppliers/${supplierId}`, updatedSupplier);
+  return response.data;
+};
+
+export const removeProductFromSupplierArray = async (
+  supplierId: number,
+  productId: number
+): Promise<Supplier> => {
+  const supplier = await fetchSupplierById(supplierId);
+
+  const updatedProductArray = supplier.productArray.filter(
+    (id) => id !== productId
+  );
+
+  const updatedSupplier = { ...supplier, productArray: updatedProductArray };
+
+  const response = await api.put(`/suppliers/${supplierId}`, updatedSupplier);
+  return response.data;
 };
