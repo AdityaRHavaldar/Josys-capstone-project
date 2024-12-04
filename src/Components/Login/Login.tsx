@@ -1,8 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import CommonLoginLeft from "./Public/Login/CommonLoginLeft";
+import CommonLoginLeft from "./CommonLoginLeft";
 import SignUp from "./SignUp";
-import CustomerLogin from "./Public/Login/CustomerLogin";
+import CustomerLogin from "./CustomerLogin";
 
 const Login: React.FC = () => {
   const location = useLocation();

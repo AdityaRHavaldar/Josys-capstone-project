@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import api from "../../../Services/Api";
+import api from "../../Services/Api";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import CommonLoginLeft from "./CommonLoginLeft";

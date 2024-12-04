@@ -32,11 +32,11 @@ const AdminDashboard: React.FC = () => {
   };
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-full">
       {isMenuOpen && (
         <div
-          className={`bg-gray-800 absolute text-white p-4 top-0 left-0 transition-transform ${
-            isMenuOpen ? "translate-x-0 w-[250px] h-full" : "w-0 hidden"
+          className={`bg-gray-800 fixed text-white p-4 top-0 left-0 transition-transform ${
+            isMenuOpen ? "translate-x-0 w-[250px] h-[100vh]" : "w-0 hidden"
           } sm:translate-x-0`}
         >
           <div className="flex justify-end py-2 px-4">
@@ -92,10 +92,19 @@ const AdminDashboard: React.FC = () => {
       <div className={`flex-1 ml-0 ${isMenuOpen && "sm:ml-64"}`}>
         <div className="mb-4 bg-slate-300 ">
           {!isMenuOpen && (
-            <div className="flex justify-between px-5">
-              <button onClick={toggleMenu} className="w-full text-2xl p-4">
+            <div className="flex justify-between items-center px-5">
+              <button onClick={toggleMenu} className="text-2xl p-4">
                 <MdOutlineMenu />
               </button>
+              <h1 className="text-2xl font-bold">
+                {selectedMenu === 1
+                  ? "Manage Products"
+                  : selectedMenu === 2
+                  ? "Manage Users"
+                  : selectedMenu === 3
+                  ? "Manage Suppliers"
+                  : ""}
+              </h1>
               <button
                 onClick={handleLogOut}
                 className="text-lg transition-colors text-nowrap p-2 rounded-full hover:bg-slate-400 duration-300 hover:scale-105"

@@ -1,13 +1,13 @@
 import React, { useState, Suspense } from "react";
 
 enum Category {
-  ShopProducts = "ShopProducts",
-  ShopByRooms = "ShopByRooms",
+  ShopProducts = "Shop Products",
+  ShopByRooms = "Shop By Rooms",
   Offers = "Offers",
-  NewAtIkea = "NewAtIkea",
-  IkeaForBusiness = "IkeaForBusiness",
-  CustomerService = "CustomerService",
-  TipsIdeasTrends = "TipsIdeas_trends",
+  NewAtIkea = "New At Ieka",
+  IkeaForBusiness = "Ieka For Business",
+  CustomerService = "Customer Service",
+  TipsIdeasTrends = "Tips,Ideas & trends",
   More = "More",
 }
 
@@ -47,8 +47,8 @@ const CategoryGroup: React.FC = () => {
 
   return (
     <div className="min-h-44">
-      <div>
-        <ul className="flex space-x-4 m-4 gap-2">
+      <div className="m-auto">
+        <ul className="flex justify-evenly space-x-4 m-3 gap-2">
           {Object.values(Category).map((category) => (
             <li key={category}>
               <CategoryButton
@@ -59,10 +59,11 @@ const CategoryGroup: React.FC = () => {
             </li>
           ))}
         </ul>
+        <hr />
       </div>
 
       <Suspense fallback={<div className="p-6 text-center">Loading...</div>}>
-        <div className="mt-4">{renderActiveComponent()}</div>
+        <div className="my-6">{renderActiveComponent()}</div>
       </Suspense>
     </div>
   );

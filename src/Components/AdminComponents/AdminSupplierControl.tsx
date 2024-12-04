@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent } from "react";
+import React, { useState, ChangeEvent, useEffect } from "react";
 import {
   useSuppliers,
   useCreateSupplier,
@@ -23,8 +23,9 @@ const AdminSuppliersControl: React.FC = () => {
     phoneno: "",
     address: "",
     pincode: "",
-    password: "",
+    password: "", // For new supplier, this will be empty, for existing suppliers, this will be blank initially.
     role: "supplier",
+    productArray: [],
   });
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -37,8 +38,14 @@ const AdminSuppliersControl: React.FC = () => {
 
   const handleSubmit = () => {
     if (isEdit) {
+      // If password is not changed, remove it from the supplierData object
+      const updatedSupplierData = {
+        ...supplierData,
+        password: supplierData.password ? supplierData.password : undefined,
+      };
+
       updateSupplier(
-        { supplierId: supplierData.id, supplierData },
+        { supplierId: supplierData.id, supplierData: updatedSupplierData },
         {
           onSuccess: () => {
             toast.success("Supplier updated successfully.");
@@ -51,6 +58,7 @@ const AdminSuppliersControl: React.FC = () => {
         }
       );
     } else {
+      // Hash the password before sending it to the server
       createSupplier(supplierData, {
         onSuccess: () => {
           toast.success("Supplier created successfully.");
@@ -75,6 +83,7 @@ const AdminSuppliersControl: React.FC = () => {
       pincode: "",
       password: "",
       role: "supplier",
+      productArray: [],
     });
     setIsModalOpen(true);
   };
@@ -102,12 +111,20 @@ const AdminSuppliersControl: React.FC = () => {
     }
   };
 
+  useEffect(() => {
+    if (isEdit && supplierData.password === "") {
+      setSupplierData((prevState) => ({
+        ...prevState,
+        password: "",
+      }));
+    }
+  }, [isEdit, supplierData.password]);
+
   if (isLoading) return <p>Loading...</p>;
   if (isError) return <p>Error fetching suppliers!</p>;
 
   return (
     <div>
-      <h2 className="text-center text-2xl font-bold">Manage Suppliers</h2>
       <div className="flex justify-end mb-4">
         <button
           className="bg-green-500 text-white px-4 py-2 rounded"
@@ -210,11 +227,12 @@ const AdminSuppliersControl: React.FC = () => {
               />
               <label>Password:</label>
               <input
-                type="text"
+                type="password"
                 name="password"
                 value={supplierData.password}
                 onChange={handleChange}
                 className="w-full border p-2 mb-4"
+                placeholder={isEdit ? "Leave blank to keep unchanged" : ""}
               />
             </div>
             <div className="flex justify-between">
