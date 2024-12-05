@@ -37,7 +37,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
       sales: 50,
       price,
       discount,
-      supplierId: supplierId, // Make sure this is a number
+      supplierId: supplierId,
       stock,
       images,
       colors,

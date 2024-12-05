@@ -23,7 +23,8 @@ const AdminSuppliersControl: React.FC = () => {
     phoneno: "",
     address: "",
     pincode: "",
-    password: "", // For new supplier, this will be empty, for existing suppliers, this will be blank initially.
+    password: "",
+    newPassword: "",
     role: "supplier",
     productArray: [],
   });
@@ -38,7 +39,6 @@ const AdminSuppliersControl: React.FC = () => {
 
   const handleSubmit = () => {
     if (isEdit) {
-      // If password is not changed, remove it from the supplierData object
       const updatedSupplierData = {
         ...supplierData,
         password: supplierData.password ? supplierData.password : undefined,
@@ -58,7 +58,6 @@ const AdminSuppliersControl: React.FC = () => {
         }
       );
     } else {
-      // Hash the password before sending it to the server
       createSupplier(supplierData, {
         onSuccess: () => {
           toast.success("Supplier created successfully.");
@@ -82,6 +81,7 @@ const AdminSuppliersControl: React.FC = () => {
       address: "",
       pincode: "",
       password: "",
+      newPassword: "",
       role: "supplier",
       productArray: [],
     });

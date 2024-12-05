@@ -44,7 +44,7 @@ const CustomerLogin: React.FC = () => {
   return (
     <div className="flex justify-center items-center bg-white p-8">
       <div className="max-w-md w-full bg-white">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} autoComplete="on" method="POST">
           <div className="mb-4">
             <label
               htmlFor="emailOrPhone"
@@ -60,6 +60,7 @@ const CustomerLogin: React.FC = () => {
               onChange={handleInputChange}
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
               required
+              autoComplete="username"
             />
             {uNameError && (
               <p className="text-red-500 text-sm text-left mt-2">
@@ -83,6 +84,7 @@ const CustomerLogin: React.FC = () => {
               onChange={handleInputChange}
               className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
               required
+              autoComplete="current-password"
             />
             {passwordError && (
               <p className="text-red-500 text-sm text-left mt-2">

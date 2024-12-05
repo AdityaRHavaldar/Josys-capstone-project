@@ -8,6 +8,7 @@ import {
 } from "../../Services/BagServices";
 import { fetchProductById, Product } from "../../Services/ProductServices";
 import { toast } from "react-toastify";
+import { useUser, useUpdateUser } from "../../Services/CustomersServices";
 
 function Bag() {
   const [bagItems, setBagItems] = useState<BagItem[]>([]);
@@ -15,6 +16,9 @@ function Bag() {
   const [totalAmount, setTotalAmount] = useState<number>(0);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const userId = Number(sessionStorage.getItem("userId"));
+
+  const { data: user, refetch: refetchUser } = useUser(userId);
+  const { mutate: updateUser } = useUpdateUser();
 
   useEffect(() => {
     const loadBagItems = async () => {
@@ -92,6 +96,7 @@ function Bag() {
       );
     }
   };
+
   const handlePurchase = () => {
     if (userId) {
       setShowConfirmation(true);
@@ -102,11 +107,31 @@ function Bag() {
 
   const handleConfirmPayment = async () => {
     try {
-      await clearBag();
-      setBagItems([]);
-      toast.success("Payment successful! Thank you for shopping at IEKA.");
+      if (user && userId) {
+        const updatedOrders = [...user.orders];
+
+        bagItems.forEach((item) => {
+          const existingOrder = updatedOrders.find(
+            (order) => order.id === item.productId
+          );
+          if (existingOrder) {
+            existingOrder.quantity += item.quantity;
+          } else {
+            updatedOrders.push({ id: item.productId, quantity: item.quantity });
+          }
+        });
+
+        await updateUser({
+          userId,
+          userData: { ...user, orders: updatedOrders },
+        });
+        setBagItems([]);
+        await clearBag();
+
+        toast.success("Payment successful! Thank you for shopping at IEKA.");
+      }
     } catch (error) {
-      console.log("Error clearing the bag. Please try again.");
+      console.log("Error processing the payment. Please try again.");
     }
     setShowConfirmation(false);
   };
@@ -174,10 +199,10 @@ function Bag() {
                       </button>
                     </td>
                     <td className="px-4 py-2 border-b text-center">
-                      ₹{product?.price.toFixed(2)}
+                      ${product?.price.toFixed(2)}
                     </td>
                     <td className="px-4 py-2 border-b text-center">
-                      ₹{(product?.price ?? 0) * item.quantity}
+                      ${(product?.price ?? 0) * item.quantity}
                     </td>
                     <td className="px-4 py-2 border-b text-center">
                       <button
@@ -195,7 +220,7 @@ function Bag() {
 
           <div className="mt-4 flex justify-end items-center gap-8">
             <h2 className="text-xl font-semibold">
-              Grand Total: ₹{totalAmount.toFixed(2)}
+              Grand Total: ${totalAmount.toFixed(2)}
             </h2>
             <button
               className="bg-green-500 text-white px-6 py-2 rounded"
