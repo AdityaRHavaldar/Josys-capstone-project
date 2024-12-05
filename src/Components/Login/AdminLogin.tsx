@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import api from "../../Services/Api";
 import { toast } from "react-toastify";
@@ -57,7 +57,7 @@ const AdminLogin = () => {
     window.location.href = "/admin";
   };
 
-  if (isLoading) return <p>Loading admins...</p>;
+  if (isLoading) return <p data-testid="Loading">Loading admins...</p>;
   if (isError) return <p>Error fetching admins!</p>;
 
   return (
@@ -67,11 +67,16 @@ const AdminLogin = () => {
         <h1 className="text-2xl w-full text-center font-bold">Admin Login</h1>
         <div className="flex justify-center items-center bg-white p-8">
           <div className="max-w-md w-full bg-white">
-            <form onSubmit={(e) => e.preventDefault()}>
+            <form
+              onSubmit={(e) => e.preventDefault()}
+              autoComplete="on"
+              method="POST"
+            >
               <div className="mb-4">
                 <label
                   htmlFor="email"
                   className="block text-sm font-medium text-gray-500"
+                  data-testid="email-label"
                 >
                   Email
                 </label>
@@ -83,6 +88,7 @@ const AdminLogin = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
                   required
+                  data-testid="email-input"
                 />
               </div>
 
@@ -90,6 +96,7 @@ const AdminLogin = () => {
                 <label
                   htmlFor="password"
                   className="block text-sm font-medium text-gray-500"
+                  data-testid="password-label"
                 >
                   Password
                 </label>
@@ -101,6 +108,7 @@ const AdminLogin = () => {
                   onChange={(e) => setPassword(e.target.value)}
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
                   required
+                  data-testid="password-input"
                 />
               </div>
 
@@ -112,6 +120,7 @@ const AdminLogin = () => {
                 onClick={handleLogin}
                 type="submit"
                 className="w-full py-2 px-4 bg-[rgb(0,88,163)] text-white font-semibold rounded-full shadow-md hover:bg-[rgb(0,88,200)]"
+                data-testid="login-button"
               >
                 Login
               </button>

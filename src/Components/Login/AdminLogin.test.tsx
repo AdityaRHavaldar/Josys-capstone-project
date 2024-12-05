@@ -1,16 +1,37 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter } from "react-router-dom";
 import AdminLogin from "./AdminLogin";
 
-jest.mock("axios");
+const queryClient = new QueryClient();
 
-describe("AdminLogin Component", () => {
-  test("renders Admin Login form", () => {
-    render(<AdminLogin />);
+describe("AdminLogin", () => {
+  it("should render the component properly", async () => {
+    render(
+      <QueryClientProvider client={queryClient}>
+        <BrowserRouter>
+          <AdminLogin />
+        </BrowserRouter>
+      </QueryClientProvider>
+    );
 
-    // Ensure the form fields are rendered
-    expect(screen.getByLabelText(/email/i)).toBeInTheDocument();
-    expect(screen.getByLabelText(/password/i)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /login/i })).toBeInTheDocument();
+    expect(await screen.findByTestId("email-label")).toBeInTheDocument();
+    expect(await screen.findByTestId("password-label")).toBeInTheDocument();
+  });
+
+  it("should display the correct labels and inputs", async () => {
+    render(
+      <QueryClientProvider client={queryClient}>
+        <BrowserRouter>
+          <AdminLogin />
+        </BrowserRouter>
+      </QueryClientProvider>
+    );
+
+    expect(await screen.findByTestId("email-label")).toBeInTheDocument();
+    expect(await screen.findByTestId("password-label")).toBeInTheDocument();
+
+    expect(await screen.findByTestId("email-input")).toBeInTheDocument();
+    expect(await screen.findByTestId("password-input")).toBeInTheDocument();
   });
 });

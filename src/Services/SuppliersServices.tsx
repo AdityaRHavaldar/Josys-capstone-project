@@ -10,6 +10,7 @@ export interface Supplier {
   address: string;
   pincode: number | "";
   password: string | undefined;
+  newPassword: string | "";
   role: "supplier";
   productArray: number[];
 }

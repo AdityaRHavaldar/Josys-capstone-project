@@ -5,17 +5,7 @@ import api from "../../Services/Api";
 import { toast } from "react-toastify";
 import CommonLoginLeft from "./CommonLoginLeft";
 import "react-toastify/dist/ReactToastify.css";
-
-interface Supplier {
-  id: number;
-  name: string;
-  email: string;
-  phoneno: string;
-  address: string;
-  pincode: string;
-  password: string;
-  role: "supplier";
-}
+import { Supplier } from "../../Services/SuppliersServices";
 
 const SupplierLogin = () => {
   const [emailOrPhone, setEmailOrPhone] = useState("");
@@ -51,17 +41,21 @@ const SupplierLogin = () => {
       return;
     }
 
-    const isPasswordCorrect = bcrypt.compareSync(password, supplier.password);
+    const isPasswordCorrect = bcrypt.compareSync(password, supplier.password!);
     if (!isPasswordCorrect) {
       setPasswordError("Incorrect password.");
       return;
     }
 
-    sessionStorage.setItem("supplierId", supplier.id.toString());
-    sessionStorage.setItem("role", "supplier");
+    if (!supplier.newPassword) {
+      setIsPasswordChange(true);
+    } else {
+      sessionStorage.setItem("supplierId", supplier.id.toString());
+      sessionStorage.setItem("role", "supplier");
 
-    toast.success("Login successful!");
-    window.location.href = "/supplier";
+      toast.success("Login successful!");
+      window.location.href = "/supplier";
+    }
   };
 
   const handlePasswordChange = () => {
@@ -84,10 +78,18 @@ const SupplierLogin = () => {
       .put(`/suppliers/${supplier.id}`, {
         ...supplier,
         password: hashedPassword,
+        newPassword: hashedPassword,
       })
       .then(() => {
         toast.success("Password changed successfully.");
         setIsPasswordChange(false);
+        sessionStorage.setItem("supplierId", supplier.id.toString());
+        sessionStorage.setItem("role", "supplier");
+
+        toast.success("Login successful!");
+        setTimeout(() => {
+          window.location.href = "/supplier";
+        }, 1000);
       })
       .catch(() => {
         toast.error("Failed to change password.");
@@ -106,7 +108,11 @@ const SupplierLogin = () => {
         </h1>
         <div className="flex justify-center items-center bg-white p-8">
           <div className="max-w-md w-full bg-white">
-            <form onSubmit={(e) => e.preventDefault()}>
+            <form
+              onSubmit={(e) => e.preventDefault()}
+              autoComplete="on"
+              method="POST"
+            >
               <div className="mb-4">
                 <label
                   htmlFor="emailOrPhone"
@@ -178,7 +184,7 @@ const SupplierLogin = () => {
               </div>
             )}
 
-            {!isPasswordChange && (
+            {!isPasswordChange && !newPassword && (
               <div className="mt-4 text-center">
                 <button
                   onClick={() => setIsPasswordChange(true)}

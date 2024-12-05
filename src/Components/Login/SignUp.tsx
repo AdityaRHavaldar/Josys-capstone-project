@@ -88,7 +88,7 @@ const SignUp: React.FC = () => {
           </div>
         )}
 
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} autoComplete="on" method="POST">
           <div className="mb-4">
             <label
               htmlFor="name"

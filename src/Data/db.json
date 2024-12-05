@@ -18,8 +18,15 @@
         "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__0717901_pe731384_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ektorp-3-seat-sofa-kilanda-light-beige__0733160_pe738876_s5.jpg"
       ],
-      "colors": ["Grey", "Blue", "Red"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Blue",
+        "Red"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 200,
         "depth": 90,
@@ -56,8 +63,15 @@
         "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1052475_pe846138_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1127792_pe876401_s5.jpg"
       ],
-      "colors": ["Black", "White", "Grey"],
-      "materials": ["Plastic", "Metal"],
+      "colors": [
+        "Black",
+        "White",
+        "Grey"
+      ],
+      "materials": [
+        "Plastic",
+        "Metal"
+      ],
       "dimensions": {
         "width": 50,
         "depth": 50,
@@ -93,8 +107,14 @@
         "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__0742588_ph159783_s5.jpg",
         "https://www.ikea.com/in/en/images/products/hemnes-bed-frame-white-stain-luroey__0752902_pe747502_s5.jpg"
       ],
-      "colors": ["White", "Brown"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Brown"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -127,8 +147,14 @@
         "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__0258017_pe401973_s5.jpg",
         "https://www.ikea.com/in/en/images/products/lack-coffee-table-black-brown__0664929_pe712922_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Wood", "Laminate"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Laminate"
+      ],
       "dimensions": {
         "width": 100,
         "depth": 50,
@@ -163,8 +189,12 @@
         "https://www.ikea.com/in/en/images/products/marius-stool-black__0871987_pe590538_s5.jpg",
         "https://www.ikea.com/in/en/images/products/marius-stool-black__1154596_pe886224_s5.jpg"
       ],
-      "colors": ["Wood"],
-      "materials": ["Wood"],
+      "colors": [
+        "Wood"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 30,
         "depth": 30,
@@ -198,8 +228,15 @@
         "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0898070_pe782466_s5.jpg",
         "https://www.ikea.com/in/en/images/products/himmelsby-frame-white__0928719_pe789962_s5.jpg"
       ],
-      "colors": ["Black", "White", "Natural wood"],
-      "materials": ["Wood", "Glass"],
+      "colors": [
+        "Black",
+        "White",
+        "Natural wood"
+      ],
+      "materials": [
+        "Wood",
+        "Glass"
+      ],
       "dimensions": {
         "width": 40,
         "depth": 2,
@@ -232,8 +269,14 @@
         "https://www.ikea.com/images/a-large-ivar-storage-combination-in-natural-pine-and-dark-gr-2853f736536936f941963ee6f179899b.jpg",
         "https://www.ikea.com/images/a-wide-ivar-cabinet-combination-with-woven-bamboo-doors-is-s-b04fbc161356955fb6b5e2e27a62b334.jpg"
       ],
-      "colors": ["Natural wood", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Natural wood",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 90,
         "depth": 30,
@@ -265,8 +308,15 @@
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white__1246691_pe922236_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-underframe-with-2-doors-4-drawers-white__1063294_pe851317_s5.jpg"
       ],
-      "colors": ["White", "Black", "Oak"],
-      "materials": ["Wood", "Laminate"],
+      "colors": [
+        "White",
+        "Black",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "Laminate"
+      ],
       "dimensions": {
         "width": 77,
         "depth": 39,
@@ -301,8 +351,14 @@
         "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__0380367_pe555288_s5.jpg",
         "https://www.ikea.com/in/en/images/products/hemnes-chest-of-6-drawers-black-brown__1126814_pe875869_s5.jpg"
       ],
-      "colors": ["White", "Brown"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Brown"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 50,
@@ -337,8 +393,14 @@
         "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__0955263_pe803703_s5.jpg",
         "https://www.ikea.com/in/en/images/products/lack-tv-bench-white__1009129_pe827482_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Wood", "Laminate"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Laminate"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 35,
@@ -375,8 +437,13 @@
         "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0918152_pe786077_s5.jpg",
         "https://www.ikea.com/in/en/images/products/danderyd-dining-table-oak-veneer-white__0963458_pe808507_s5.jpg"
       ],
-      "colors": ["Natural wood", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "Natural wood",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 150,
         "depth": 80,
@@ -410,8 +477,14 @@
         "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0752415_pe747433_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nodeland-bed-frame-medium-brown-luroey__0722034_pe733476_s5.jpg"
       ],
-      "colors": ["Grey", "Beige"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Beige"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -447,8 +520,14 @@
         "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__1052573_pe846228_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ekedalen-chair-dark-brown-orrsta-light-grey__0947751_pe798632_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Wood", "Fabric"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Fabric"
+      ],
       "dimensions": {
         "width": 45,
         "depth": 45,
@@ -482,8 +561,13 @@
         "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1109688_pe870155_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ekenaeset-bench-jonsbyn-black__1161813_pe889527_s5.jpg"
       ],
-      "colors": ["Natural wood", "White"],
-      "materials": ["Wood"],
+      "colors": [
+        "Natural wood",
+        "White"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 35,
@@ -517,8 +601,14 @@
         "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1051540_pe845592_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vihals-storage-unit-white__1051540_pe845592_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 60,
         "depth": 40,
@@ -550,8 +640,14 @@
         "https://www.ikea.com/in/en/images/products/nodeland-bedside-table-medium-brown__0752421_pe747437_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nodeland-bedside-table-medium-brown__0752422_pe747439_s5.jpg"
       ],
-      "colors": ["White", "Oak"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 40,
         "depth": 35,
@@ -585,8 +681,13 @@
         "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0763203_ph158873_s5.jpg",
         "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__1012435_ph170907_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 70,
@@ -621,8 +722,14 @@
         "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__1036737_pe838523_s5.jpg",
         "https://www.ikea.com/in/en/images/products/faergklar-plate-glossy-dark-turquoise__1038755_pe839867_s5.jpg"
       ],
-      "colors": ["Red", "Blue", "Yellow"],
-      "materials": ["Ceramic"],
+      "colors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ],
+      "materials": [
+        "Ceramic"
+      ],
       "dimensions": {
         "width": 25,
         "depth": 25,
@@ -644,7 +751,7 @@
       "name": "Rörelse Desk Lamp",
       "description": "A sleek and modern desk lamp with adjustable height and angle.",
       "category": "Lighting",
-      "sales": 654,
+      "sales": 50,
       "price": 39,
       "discount": 10,
       "supplierId": 1,
@@ -657,8 +764,14 @@
         "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1222795_pe914355_s5.jpg",
         "https://www.ikea.com/in/en/images/products/flottilj-desk-lamp-dark-blue__1222796_pe914357_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Metal", "Plastic"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Metal",
+        "Plastic"
+      ],
       "dimensions": {
         "width": 25,
         "depth": 25,
@@ -692,8 +805,14 @@
         "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0908540_pe783273_s5.jpg",
         "https://www.ikea.com/in/en/images/products/muren-recliner-remmarn-dark-grey__0681591_pe720190_s5.jpg"
       ],
-      "colors": ["Grey", "Black"],
-      "materials": ["Fabric", "Metal"],
+      "colors": [
+        "Grey",
+        "Black"
+      ],
+      "materials": [
+        "Fabric",
+        "Metal"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 85,
@@ -728,8 +847,14 @@
         "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0671200_ph153107_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vittsjoe-shelving-unit-black-brown-glass__0778385_pe758941_s5.jpg"
       ],
-      "colors": ["Black", "Glass"],
-      "materials": ["Glass", "Metal"],
+      "colors": [
+        "Black",
+        "Glass"
+      ],
+      "materials": [
+        "Glass",
+        "Metal"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 35,
@@ -764,8 +889,15 @@
         "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864929_pe781285_s5.jpg",
         "https://www.ikea.com/in/en/images/products/gammalbyn-armchair-beige__0864926_pe781288_s5.jpg"
       ],
-      "colors": ["Beige", "Grey", "Green"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Beige",
+        "Grey",
+        "Green"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 75,
         "depth": 80,
@@ -800,8 +932,13 @@
         "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1189873_pe900030_s5.jpg",
         "https://www.ikea.com/in/en/images/products/barndroem-box-beige__1189873_pe900030_s5.jpg"
       ],
-      "colors": ["White", "Blue"],
-      "materials": ["Plastic"],
+      "colors": [
+        "White",
+        "Blue"
+      ],
+      "materials": [
+        "Plastic"
+      ],
       "dimensions": {
         "width": 40,
         "depth": 30,
@@ -836,8 +973,13 @@
         "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg",
         "https://www.ikea.com/in/en/images/products/norberg-wall-mounted-drop-leaf-table-white__1133306_ph186556_s5.jpg"
       ],
-      "colors": ["Brown", "Oak"],
-      "materials": ["Wood"],
+      "colors": [
+        "Brown",
+        "Oak"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 140,
         "depth": 85,
@@ -871,8 +1013,14 @@
         "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224572_pe915039_s5.jpg",
         "https://www.ikea.com/in/en/images/products/mjoelkkanna-basket-bamboo__1224572_pe915039_s5.jpg"
       ],
-      "colors": ["Natural", "Brown"],
-      "materials": ["Wicker", "Seagrass"],
+      "colors": [
+        "Natural",
+        "Brown"
+      ],
+      "materials": [
+        "Wicker",
+        "Seagrass"
+      ],
       "dimensions": {
         "width": 40,
         "depth": 40,
@@ -906,8 +1054,14 @@
         "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
         "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg"
       ],
-      "colors": ["White", "Black", "Oak"],
-      "materials": ["Wood"],
+      "colors": [
+        "White",
+        "Black",
+        "Oak"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 110,
         "depth": 20,
@@ -943,8 +1097,14 @@
         "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__1420929_ph181562_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vittsjoe-coffee-table-black-brown-glass__0719688_pe732149_s5.jpg"
       ],
-      "colors": ["Black", "Wooden"],
-      "materials": ["Glass", "Wood"],
+      "colors": [
+        "Black",
+        "Wooden"
+      ],
+      "materials": [
+        "Glass",
+        "Wood"
+      ],
       "dimensions": {
         "width": 100,
         "depth": 50,
@@ -979,8 +1139,13 @@
         "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086041_pe860316_s5.jpg",
         "https://www.ikea.com/in/en/images/products/svindinge-rug-beige__1086040_pe860317_s5.jpg"
       ],
-      "colors": ["Grey", "Beige"],
-      "materials": ["Polyester"],
+      "colors": [
+        "Grey",
+        "Beige"
+      ],
+      "materials": [
+        "Polyester"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 230,
@@ -1013,8 +1178,14 @@
         "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__1030336_ph172894_s5.jpg",
         "https://www.ikea.com/in/en/images/products/metod-maximera-base-cab-f-sink-2-fronts-2-drawers-white-bodbyn-grey__1030336_ph172894_s5.jpg"
       ],
-      "colors": ["White", "Gray"],
-      "materials": ["Wood", "Ceramic"],
+      "colors": [
+        "White",
+        "Gray"
+      ],
+      "materials": [
+        "Wood",
+        "Ceramic"
+      ],
       "dimensions": {
         "width": 60,
         "depth": 40,
@@ -1049,8 +1220,13 @@
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1106841_pe868817_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-black-brown__1215324_pe911961_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 77,
         "depth": 39,
@@ -1085,8 +1261,15 @@
         "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1298298_pe936193_s5.jpg",
         "https://www.ikea.com/in/en/images/products/roedalm-frame-oak-effect__1330543_pe945715_s5.jpg"
       ],
-      "colors": ["Black", "White", "Natural"],
-      "materials": ["Wood", "Glass"],
+      "colors": [
+        "Black",
+        "White",
+        "Natural"
+      ],
+      "materials": [
+        "Wood",
+        "Glass"
+      ],
       "dimensions": {
         "width": 40,
         "depth": 2,
@@ -1122,8 +1305,14 @@
         "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__1154397_pe886046_s5.jpg",
         "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-4-storage-boxes-white-loenset__0730841_pe737814_s5.jpg"
       ],
-      "colors": ["Black-brown", "White"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Black-brown",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -1154,8 +1343,12 @@
         "https://www.ikea.com/in/en/images/products/luroey-slatted-bed-base__0268301_pe406268_s5.jpg",
         "https://www.ikea.com/in/en/images/products/luroey-slatted-bed-base__1273465_pe930077_s5.jpg"
       ],
-      "colors": ["Wooden"],
-      "materials": ["Wood"],
+      "colors": [
+        "Wooden"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -1190,8 +1383,14 @@
         "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__0763982_pe753016_s5.jpg",
         "https://www.ikea.com/in/en/images/products/besta-tv-storage-combination-glass-doors-black-brown-selsviken-high-gloss-black-clear-glass__1026892_pe834629_s5.jpg"
       ],
-      "colors": ["Black", "Oak"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Black",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 40,
@@ -1225,8 +1424,15 @@
         "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1247952_pe922900_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ektorp-armchair-and-footstool-kilanda-light-beige__1144353_pe881795_s5.jpg"
       ],
-      "colors": ["Beige", "Green", "Blue"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Beige",
+        "Green",
+        "Blue"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 90,
@@ -1259,8 +1465,14 @@
         "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0759291_pe750285_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kryssmast-floor-lamp-nickel-plated__0880289_pe730685_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Metal", "Plastic"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Metal",
+        "Plastic"
+      ],
       "dimensions": {
         "width": 25,
         "depth": 25,
@@ -1294,8 +1506,15 @@
         "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1182667_pe897284_s5.jpg",
         "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-white-double-sided-white-mirror-glass__1184486_pe897918_s5.jpg"
       ],
-      "colors": ["White", "Oak", "Black-brown"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Oak",
+        "Black-brown"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 100,
         "depth": 60,
@@ -1329,8 +1548,14 @@
         "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0906064_pe555927_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ekne-mirror-oval__0906064_pe555927_s5.jpg"
       ],
-      "colors": ["Black", "Gold"],
-      "materials": ["Metal", "Glass"],
+      "colors": [
+        "Black",
+        "Gold"
+      ],
+      "materials": [
+        "Metal",
+        "Glass"
+      ],
       "dimensions": {
         "width": 60,
         "depth": 4,
@@ -1364,8 +1589,14 @@
         "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1025510_pe834049_s5.jpg",
         "https://www.ikea.com/in/en/images/products/symfonisk-wifi-bookshelf-speaker-black-smart-gen-2__1180731_pe896431_s5.jpg"
       ],
-      "colors": ["Black", "Red"],
-      "materials": ["Plastic", "Metal"],
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "materials": [
+        "Plastic",
+        "Metal"
+      ],
       "dimensions": {
         "width": 10,
         "depth": 10,
@@ -1400,8 +1631,14 @@
         "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0476335_pe616238_s5.jpg",
         "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0553788_pe659558_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 35,
@@ -1432,8 +1669,15 @@
         "https://www.ikea.com/in/en/images/products/toftlund-rug-grey__0834498_pe778811_s5.jpg",
         "https://www.ikea.com/in/en/images/products/toftlund-rug-grey__0834499_pe778810_s5.jpg"
       ],
-      "colors": ["Grey", "Black", "White"],
-      "materials": ["Polyester", "Cotton"],
+      "colors": [
+        "Grey",
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Polyester",
+        "Cotton"
+      ],
       "dimensions": {
         "width": 140,
         "depth": 200,
@@ -1467,8 +1711,14 @@
         "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1005812_pe825546_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kringsynt-lantern-for-tealight-in-outdoor-white__1079462_pe857539_s5.jpg"
       ],
-      "colors": ["Black", "Silver"],
-      "materials": ["Metal", "Glass"],
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "materials": [
+        "Metal",
+        "Glass"
+      ],
       "dimensions": {
         "width": 25,
         "depth": 25,
@@ -1502,8 +1752,14 @@
         "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035352_pe840526_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vevelstad-bed-frame-white__1035716_pe838155_s5.jpg"
       ],
-      "colors": ["Dark Grey", "Light Beige"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Dark Grey",
+        "Light Beige"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -1536,8 +1792,13 @@
         "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818651_pe774529_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nodeland-chest-of-3-drawers-medium-brown__0818659_pe774533_s5.jpg"
       ],
-      "colors": ["Natural Wood", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "Natural Wood",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 45,
@@ -1570,8 +1831,14 @@
         "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__1245927_pe921864_s5.jpg",
         "https://www.ikea.com/in/en/images/products/askholmen-chair-outdoor-foldable-acacia__0940866_pe795223_s5.jpg"
       ],
-      "colors": ["Grey", "Beige"],
-      "materials": ["Metal", "Fabric"],
+      "colors": [
+        "Grey",
+        "Beige"
+      ],
+      "materials": [
+        "Metal",
+        "Fabric"
+      ],
       "dimensions": {
         "width": 70,
         "depth": 70,
@@ -1606,8 +1873,14 @@
         "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0871205_pe594901_s5.jpg",
         "https://www.ikea.com/in/en/images/products/moerbylanga-table-oak-veneer-brown-stained__0976344_pe813145_s5.jpg"
       ],
-      "colors": ["Wooden", "White"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Wooden",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 180,
         "depth": 90,
@@ -1643,8 +1916,15 @@
         "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1057804_pe848990_s5.jpg",
         "https://www.ikea.com/in/en/images/products/soederhamn-corner-sofa-4-seat-with-open-end-tonerud-grey__1350206_pe951654_s5.jpg"
       ],
-      "colors": ["Grey", "Beige", "Blue"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Beige",
+        "Blue"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 300,
         "depth": 90,
@@ -1678,8 +1958,14 @@
         "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__1110707_pe870568_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ekenaeset-armchair-kilanda-light-beige__0940909_pe795235_s5.jpg"
       ],
-      "colors": ["Beige", "Red"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Beige",
+        "Red"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 75,
         "depth": 80,
@@ -1711,8 +1997,13 @@
         "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__0258094_pe402078_s5.jpg",
         "https://www.ikea.com/in/en/images/products/loevbacken-side-table-medium-brown__1372857_ph195746_s5.jpg"
       ],
-      "colors": ["Wooden", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "Wooden",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 90,
         "depth": 50,
@@ -1748,8 +2039,14 @@
         "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg",
         "https://www.ikea.com/in/en/images/products/malm-bed-frame-high-w-2-storage-boxes-black-brown-luroey__1101552_pe866728_s5.jpg"
       ],
-      "colors": ["White", "Black-brown"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black-brown"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -1781,8 +2078,14 @@
         "https://www.ikea.com/in/en/images/products/enhet-kitchen-white-grey-frame__0991960_pe819713_s5.jpg",
         "https://www.ikea.com/in/en/images/products/enhet-kitchen-white-grey-frame__1003056_pe825015_s5.jpg"
       ],
-      "colors": ["White", "Natural Wood"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Natural Wood"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 40,
@@ -1814,8 +2117,14 @@
         "https://www.ikea.com/in/en/images/products/vesken-corner-shelf-unit-white__0832000_pe777544_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vesken-corner-shelf-unit-white__0832000_pe777544_s5.jpg"
       ],
-      "colors": ["White", "Grey"],
-      "materials": ["Metal", "Wood"],
+      "colors": [
+        "White",
+        "Grey"
+      ],
+      "materials": [
+        "Metal",
+        "Wood"
+      ],
       "dimensions": {
         "width": 60,
         "depth": 25,
@@ -1851,8 +2160,14 @@
         "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__1101606_pe866776_s5.jpg",
         "https://www.ikea.com/in/en/images/products/idanaes-bed-frame-dark-brown-stained__0934823_pe792547_s5.jpg"
       ],
-      "colors": ["Grey", "Beige"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Beige"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 180,
         "depth": 200,
@@ -1887,8 +2202,14 @@
         "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__1116061_ph179907_s5.jpg",
         "https://www.ikea.com/in/en/images/products/snoeyra-led-lighting-chain-with-40-lights-indoor-battery-operated-silver-colour__0687608_pe722094_s5.jpg"
       ],
-      "colors": ["White", "Orange"],
-      "materials": ["Plastic", "Glass"],
+      "colors": [
+        "White",
+        "Orange"
+      ],
+      "materials": [
+        "Plastic",
+        "Glass"
+      ],
       "dimensions": {
         "width": 20,
         "depth": 20,
@@ -1923,8 +2244,15 @@
         "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__0763977_pe753011_s5.jpg",
         "https://www.ikea.com/in/en/images/products/besta-tv-bench-with-doors-and-drawers-black-brown-lappviken-stubbarp-light-grey-beige__1026902_pe834627_s5.jpg"
       ],
-      "colors": ["Black", "White", "Oak"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Black",
+        "White",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 40,
@@ -1958,8 +2286,15 @@
         "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__0840386_pe585812_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nolmyra-easy-chair-black-black__1249048_pe923327_s5.jpg"
       ],
-      "colors": ["Grey", "Beige", "Blue"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Beige",
+        "Blue"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 75,
         "depth": 80,
@@ -1993,8 +2328,14 @@
         "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0476335_pe616238_s5.jpg",
         "https://www.ikea.com/in/en/images/products/eket-wall-mounted-shelving-unit-white__0553788_pe659558_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Metal", "Wood"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Metal",
+        "Wood"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 30,
@@ -2028,8 +2369,14 @@
         "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__1028363_pe835300_s5.jpg",
         "https://www.ikea.com/in/en/images/products/lagkapten-adils-desk-white__1013517_pe829229_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 60,
@@ -2063,8 +2410,15 @@
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__1106846_pe868822_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kallax-shelving-unit-with-doors-white__1215327_pe911964_s5.jpg"
       ],
-      "colors": ["Black-brown", "White", "Oak"],
-      "materials": ["Wood", "Plastic"],
+      "colors": [
+        "Black-brown",
+        "White",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "Plastic"
+      ],
       "dimensions": {
         "width": 77,
         "depth": 39,
@@ -2100,8 +2454,14 @@
         "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0178614_pe245813_s5.jpg",
         "https://www.ikea.com/in/en/images/products/arstid-wall-lamp-nickel-plated-white__0459991_ph132611_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Metal", "Glass"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Metal",
+        "Glass"
+      ],
       "dimensions": {
         "width": 30,
         "depth": 10,
@@ -2135,8 +2495,15 @@
         "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__0334737_pe523975_s5.jpg",
         "https://www.ikea.com/in/en/images/products/tyssedal-chest-of-6-drawers-white__1329683_pe945243_s5.jpg"
       ],
-      "colors": ["White", "Grey", "Oak"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Grey",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 100,
         "depth": 50,
@@ -2171,8 +2538,15 @@
         "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1061036_pe850233_s5.jpg",
         "https://www.ikea.com/in/en/images/products/sandsberg-chair-black-brown-stained__1028047_pe835187_s5.jpg"
       ],
-      "colors": ["Beige", "Black", "Red"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Beige",
+        "Black",
+        "Red"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 45,
         "depth": 50,
@@ -2206,8 +2580,15 @@
         "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1157595_pe887786_s5.jpg",
         "https://www.ikea.com/in/en/images/products/dytag-throw-dark-blue__1285727_pe933382_s5.jpg"
       ],
-      "colors": ["Grey", "Blue", "Beige"],
-      "materials": ["Cotton", "Polyester"],
+      "colors": [
+        "Grey",
+        "Blue",
+        "Beige"
+      ],
+      "materials": [
+        "Cotton",
+        "Polyester"
+      ],
       "dimensions": {
         "width": 130,
         "depth": 180,
@@ -2242,8 +2623,15 @@
         "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__1026757_pe834509_s5.jpg",
         "https://www.ikea.com/in/en/images/products/brimnes-day-bed-w-2-drawers-2-mattresses-white-agotnes-firm__0767736_pe754240_s5.jpg"
       ],
-      "colors": ["Grey", "Beige", "Blue"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Beige",
+        "Blue"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 200,
         "depth": 90,
@@ -2277,8 +2665,12 @@
         "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__1383705_pe962648_s5.jpg",
         "https://www.ikea.com/in/en/images/products/faergklar-10-piece-service-matt-light-turquoise__1038689_pe839820_s5.jpg"
       ],
-      "colors": ["Multi-color"],
-      "materials": ["Ceramic"],
+      "colors": [
+        "Multi-color"
+      ],
+      "materials": [
+        "Ceramic"
+      ],
       "dimensions": {
         "width": 25,
         "depth": 25,
@@ -2311,8 +2703,15 @@
         "https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0907227_pe617047_s5.jpg",
         "https://www.ikea.com/in/en/images/products/laeckoe-chair-outdoor-grey__0943757_pe797034_s5.jpg"
       ],
-      "colors": ["Black", "Green", "Grey"],
-      "materials": ["Plastic", "Aluminum"],
+      "colors": [
+        "Black",
+        "Green",
+        "Grey"
+      ],
+      "materials": [
+        "Plastic",
+        "Aluminum"
+      ],
       "dimensions": {
         "width": 60,
         "depth": 60,
@@ -2346,8 +2745,15 @@
         "https://www.ikea.com/in/en/images/products/docksta-table-white-white__1111486_pe870782_s5.jpg",
         "https://www.ikea.com/in/en/images/products/docksta-table-white-white__0981151_pe815274_s5.jpg"
       ],
-      "colors": ["Black", "Oak", "White"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Black",
+        "Oak",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 200,
         "depth": 90,
@@ -2381,8 +2787,15 @@
         "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920168_pe786888_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ormaryd-armchair-dark-blue__0920167_pe786890_s5.jpg"
       ],
-      "colors": ["Grey", "Red", "Blue"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Grey",
+        "Red",
+        "Blue"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 85,
@@ -2415,8 +2828,15 @@
         "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__1049495_pe844178_s5.jpg",
         "https://www.ikea.com/in/en/images/products/tomelilla-table-lamp-nickel-plated-white__1049491_pe844177_s5.jpg"
       ],
-      "colors": ["Black", "Silver", "White"],
-      "materials": ["Metal", "Plastic"],
+      "colors": [
+        "Black",
+        "Silver",
+        "White"
+      ],
+      "materials": [
+        "Metal",
+        "Plastic"
+      ],
       "dimensions": {
         "width": 15,
         "depth": 15,
@@ -2451,8 +2871,14 @@
         "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1089707_pe861670_s5.jpg",
         "https://www.ikea.com/in/en/images/products/svartsenap-table-runner-natural__1196690_pe903167_s5.jpg"
       ],
-      "colors": ["Red", "Grey", "Black"],
-      "materials": ["Fabric"],
+      "colors": [
+        "Red",
+        "Grey",
+        "Black"
+      ],
+      "materials": [
+        "Fabric"
+      ],
       "dimensions": {
         "width": 35,
         "depth": 120,
@@ -2486,8 +2912,15 @@
         "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1139588_pe880450_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kuggis-storage-box-with-lid-white__1103348_pe867259_s5.jpg"
       ],
-      "colors": ["Black", "White", "Grey"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Black",
+        "White",
+        "Grey"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 35,
         "depth": 35,
@@ -2521,8 +2954,14 @@
         "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1353809_pe952333_s5.jpg",
         "https://www.ikea.com/in/en/images/products/relatera-writing-board-whiteboard-set-of-2-light-grey-green__1274811_pe930482_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 60,
@@ -2556,8 +2995,14 @@
         "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0245206_pe384474_s5.jpg",
         "https://www.ikea.com/in/en/images/products/voerda-utility-knife-black__0171932_pe241594_s5.jpg"
       ],
-      "colors": ["Green", "Black", "Grey"],
-      "materials": ["Metal"],
+      "colors": [
+        "Green",
+        "Black",
+        "Grey"
+      ],
+      "materials": [
+        "Metal"
+      ],
       "dimensions": {
         "width": 35,
         "depth": 45,
@@ -2592,8 +3037,15 @@
         "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088022_pe861015_s5.jpghttps://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1092547_pe862904_s5.jpg",
         "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1099699_pe865858_s5.jpg"
       ],
-      "colors": ["Grey", "Blue", "Red"],
-      "materials": ["Cotton", "Polyester"],
+      "colors": [
+        "Grey",
+        "Blue",
+        "Red"
+      ],
+      "materials": [
+        "Cotton",
+        "Polyester"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 180,
@@ -2626,8 +3078,15 @@
         "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__0963718_pe809746_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vaenkrets-blanket-light-grey__0963715_pe809747_s5.jpg"
       ],
-      "colors": ["Grey", "Beige", "Pink"],
-      "materials": ["Fabric", "Polyester"],
+      "colors": [
+        "Grey",
+        "Beige",
+        "Pink"
+      ],
+      "materials": [
+        "Fabric",
+        "Polyester"
+      ],
       "dimensions": {
         "width": 45,
         "depth": 45,
@@ -2661,8 +3120,14 @@
         "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0738814_ph151995_s5.jpg",
         "https://www.ikea.com/in/en/images/products/vittsjoe-nest-of-tables-set-of-2-black-brown-glass__0719689_pe732148_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Glass", "Metal"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Glass",
+        "Metal"
+      ],
       "dimensions": {
         "width": 110,
         "depth": 60,
@@ -2697,8 +3162,14 @@
         "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__0763972_pe753006_s5.jpg",
         "https://www.ikea.com/in/en/images/products/besta-tv-bench-black-brown__1026888_pe834620_s5.jpg"
       ],
-      "colors": ["Oak", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Oak",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 40,
@@ -2731,8 +3202,14 @@
         "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244476_pe921200_s5.jpg",
         "https://www.ikea.com/in/en/images/products/flyghoejd-floor-lamp-brass-beige__1244475_pe921197_s5.jpg"
       ],
-      "colors": ["Gold", "Black"],
-      "materials": ["Metal", "Fabric"],
+      "colors": [
+        "Gold",
+        "Black"
+      ],
+      "materials": [
+        "Metal",
+        "Fabric"
+      ],
       "dimensions": {
         "width": 25,
         "depth": 25,
@@ -2766,8 +3243,15 @@
         "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0809770_pe771141_s5.jpg",
         "https://www.ikea.com/in/en/images/products/bingsta-armchair-vissle-dark-grey-kabusa-dark-grey__0815168_pe772789_s5.jpg"
       ],
-      "colors": ["Beige", "Grey", "Blue"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Beige",
+        "Grey",
+        "Blue"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 75,
         "depth": 80,
@@ -2802,8 +3286,14 @@
         "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1157495_pe887719_s5.jpg",
         "https://www.ikea.com/in/en/images/products/olseroed-side-table-anthracite-birch-effect-dark-yellow__1233791_pe916969_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 45,
         "depth": 45,
@@ -2837,8 +3327,14 @@
         "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__1154553_pe886134_s5.jpg",
         "https://www.ikea.com/in/en/images/products/malm-chest-of-6-drawers-white__0766581_pe753827_s5.jpg"
       ],
-      "colors": ["White", "Black-brown"],
-      "materials": ["Wood", "Fiberboard"],
+      "colors": [
+        "White",
+        "Black-brown"
+      ],
+      "materials": [
+        "Wood",
+        "Fiberboard"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 40,
@@ -2873,8 +3369,15 @@
         "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0721439_ph151991_s5.jpg",
         "https://www.ikea.com/in/en/images/products/klippan-2-seat-sofa-vissle-grey__0562987_pe663640_s5.jpg"
       ],
-      "colors": ["Red", "Blue", "Grey"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Red",
+        "Blue",
+        "Grey"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 150,
         "depth": 85,
@@ -2907,8 +3410,14 @@
         "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__0876341_pe642052_s5.jpg",
         "https://www.ikea.com/in/en/images/products/sundvik-childrens-table-white__1012435_ph170907_s5.jpg"
       ],
-      "colors": ["White", "Oak"],
-      "materials": ["Wood", "MDF"],
+      "colors": [
+        "White",
+        "Oak"
+      ],
+      "materials": [
+        "Wood",
+        "MDF"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 55,
@@ -2941,8 +3450,15 @@
         "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__1343067_pe949301_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nissedal-mirror-white__1315306_ph184476_s5.jpg"
       ],
-      "colors": ["Black", "White", "Silver"],
-      "materials": ["Glass", "Metal"],
+      "colors": [
+        "Black",
+        "White",
+        "Silver"
+      ],
+      "materials": [
+        "Glass",
+        "Metal"
+      ],
       "dimensions": {
         "width": 40,
         "depth": 5,
@@ -2976,8 +3492,14 @@
         "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__1150679_pe884643_s5.jpg",
         "https://www.ikea.com/in/en/images/products/songesand-bed-frame-brown-luroey__0752928_pe747519_s5.jpg"
       ],
-      "colors": ["Black", "Brown"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Black",
+        "Brown"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 160,
         "depth": 200,
@@ -3011,8 +3533,14 @@
         "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__0734654_pe739562_s5.jpg",
         "https://www.ikea.com/in/en/images/products/linnmon-spaend-desk-white__1343926_pe949656_s5.jpg"
       ],
-      "colors": ["Oak", "White"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Oak",
+        "White"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 140,
         "depth": 60,
@@ -3046,8 +3574,14 @@
         "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1298974_pe936411_s5.jpg",
         "https://www.ikea.com/in/en/images/products/skomakare-wall-shelf-white-aspen__1298975_pe936410_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 25,
@@ -3081,8 +3615,15 @@
         "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__0391729_pe559950_s5.jpg",
         "https://www.ikea.com/in/en/images/products/hemnes-bench-with-shoe-storage-black-brown__1153985_pe885915_s5.jpg"
       ],
-      "colors": ["Brown", "White", "Grey"],
-      "materials": ["Wood", "Fabric"],
+      "colors": [
+        "Brown",
+        "White",
+        "Grey"
+      ],
+      "materials": [
+        "Wood",
+        "Fabric"
+      ],
       "dimensions": {
         "width": 50,
         "depth": 60,
@@ -3115,8 +3656,14 @@
         "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1191479_ph191232_s5.jpg",
         "https://www.ikea.com/in/en/images/products/jolpen-2-seat-sofa-outdoor-white-grey__1175328_pe894656_s5.jpg"
       ],
-      "colors": ["Grey", "Beige"],
-      "materials": ["Fabric", "Steel"],
+      "colors": [
+        "Grey",
+        "Beige"
+      ],
+      "materials": [
+        "Fabric",
+        "Steel"
+      ],
       "dimensions": {
         "width": 200,
         "depth": 90,
@@ -3148,8 +3695,15 @@
         "https://www.ikea.com/in/en/images/products/gurli-floor-cushion-grey__0889604_pe682088_s5.jpg",
         "https://www.ikea.com/in/en/images/products/gurli-floor-cushion-grey__0606157_pe682086_s5.jpg"
       ],
-      "colors": ["Grey", "Beige", "Pink"],
-      "materials": ["Cotton", "Polyester"],
+      "colors": [
+        "Grey",
+        "Beige",
+        "Pink"
+      ],
+      "materials": [
+        "Cotton",
+        "Polyester"
+      ],
       "dimensions": {
         "width": 90,
         "depth": 90,
@@ -3182,8 +3736,13 @@
         "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200176_pe904874_s5.jpg",
         "https://www.ikea.com/in/en/images/products/sandskaedda-mug-light-grey-beige__1200177_pe904875_s5.jpg"
       ],
-      "colors": ["White", "Blue"],
-      "materials": ["Ceramic"],
+      "colors": [
+        "White",
+        "Blue"
+      ],
+      "materials": [
+        "Ceramic"
+      ],
       "dimensions": {
         "width": 10,
         "depth": 10,
@@ -3215,8 +3774,14 @@
         "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974638_pe812501_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nodeland-coffee-table-medium-brown__0974639_pe812500_s5.jpg"
       ],
-      "colors": ["Oak", "Black"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "Oak",
+        "Black"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 35,
@@ -3248,8 +3813,15 @@
         "https://www.ikea.com/in/en/images/products/kivik-cover-for-footstool-with-storage-tibbleby-beige-grey__1056133_pe848264_s5.jpg",
         "https://www.ikea.com/in/en/images/products/kivik-cover-for-footstool-with-storage-tibbleby-beige-grey__1056130_pe848263_s5.jpg"
       ],
-      "colors": ["Blue", "Grey", "Beige"],
-      "materials": ["Fabric", "Wood"],
+      "colors": [
+        "Blue",
+        "Grey",
+        "Beige"
+      ],
+      "materials": [
+        "Fabric",
+        "Wood"
+      ],
       "dimensions": {
         "width": 60,
         "depth": 60,
@@ -3283,8 +3855,13 @@
         "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1217861_ph185238_s5.jpg",
         "https://www.ikea.com/in/en/images/products/nackanaes-table-acacia__1113426_pe871469_s5.jpg"
       ],
-      "colors": ["Oak", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "Oak",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 200,
         "depth": 90,
@@ -3316,8 +3893,13 @@
         "https://www.ikea.com/in/en/images/products/naemmaroe-table-2-chairs-bench-outdoor-light-brown-stained__1231261_pe915758_s5.jpg",
         "https://www.ikea.com/in/en/images/products/naemmaroe-table-2-chairs-bench-outdoor-light-brown-stained__1125470_pe875438_s5.jpg"
       ],
-      "colors": ["Brown", "Black"],
-      "materials": ["Wood"],
+      "colors": [
+        "Brown",
+        "Black"
+      ],
+      "materials": [
+        "Wood"
+      ],
       "dimensions": {
         "width": 140,
         "depth": 35,
@@ -3352,8 +3934,14 @@
         "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0909406_pe654339_s5.jpg",
         "https://www.ikea.com/in/en/images/products/stuk-storage-with-7-compartments-white-grey__0623110_pe690935_s5.jpg"
       ],
-      "colors": ["White", "Grey"],
-      "materials": ["Wood", "MDF"],
+      "colors": [
+        "White",
+        "Grey"
+      ],
+      "materials": [
+        "Wood",
+        "MDF"
+      ],
       "dimensions": {
         "width": 80,
         "depth": 50,
@@ -3387,8 +3975,14 @@
         "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0177096_pe245534_s5.jpg",
         "https://www.ikea.com/in/en/images/products/lampan-table-lamp-white__0177096_pe245534_s5.jpg"
       ],
-      "colors": ["White", "Black"],
-      "materials": ["Plastic", "Metal"],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "materials": [
+        "Plastic",
+        "Metal"
+      ],
       "dimensions": {
         "width": 15,
         "depth": 15,
@@ -3422,8 +4016,14 @@
         "https://www.ikea.com/in/en/images/products/sortera-waste-sorting-bin-with-lid-white__0612583_pe374571_s5.jpg",
         "https://www.ikea.com/in/en/images/products/sortera-waste-sorting-bin-with-lid-white__0612583_pe374571_s5.jpg"
       ],
-      "colors": ["Black", "White"],
-      "materials": ["Metal", "Glass"],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "materials": [
+        "Metal",
+        "Glass"
+      ],
       "dimensions": {
         "width": 120,
         "depth": 30,
@@ -3456,8 +4056,15 @@
         "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0683198_ph119820_s5.jpg",
         "https://www.ikea.com/in/en/images/products/blecka-hook-nickel-plated__0683200_ph130970_s5.jpg"
       ],
-      "colors": ["Black", "White", "Wood"],
-      "materials": ["Metal", "Wood"],
+      "colors": [
+        "Black",
+        "White",
+        "Wood"
+      ],
+      "materials": [
+        "Metal",
+        "Wood"
+      ],
       "dimensions": {
         "width": 10,
         "depth": 5,
@@ -3490,8 +4097,14 @@
         "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__1131652_pe878064_s5.jpg",
         "https://www.ikea.com/in/en/images/products/visthus-wardrobe-grey-white__1135083_pe878916_s5.jpg"
       ],
-      "colors": ["White", "Black-brown"],
-      "materials": ["Wood", "Metal"],
+      "colors": [
+        "White",
+        "Black-brown"
+      ],
+      "materials": [
+        "Wood",
+        "Metal"
+      ],
       "dimensions": {
         "width": 150,
         "depth": 60,
@@ -3522,8 +4135,13 @@
         "https://www.ikea.com/in/en/images/products/svallet-work-lamp-dark-grey-white__0881047_pe724753_s5.jpg?f=xl",
         "https://www.ikea.com/in/en/images/products/svallet-work-lamp-dark-grey-white__0881047_pe724753_s5.jpg?f=xl"
       ],
-      "colors": ["white", "darkGrey"],
-      "materials": ["plastic"],
+      "colors": [
+        "white",
+        "darkGrey"
+      ],
+      "materials": [
+        "plastic"
+      ],
       "dimensions": {
         "width": 15,
         "depth": 20,
@@ -3547,8 +4165,14 @@
         "https://www.ikea.com/in/en/images/products/fejan-table-2-folding-chairs-outdoor-white-white__1035547_pe838172_s5.jpg?f=xl",
         "https://www.ikea.com/in/en/images/products/fejan-table-2-folding-chairs-outdoor-white-white__0941208_pe795378_s5.jpg?f=xl"
       ],
-      "colors": ["white", "black"],
-      "materials": ["plastic", "metal"],
+      "colors": [
+        "white",
+        "black"
+      ],
+      "materials": [
+        "plastic",
+        "metal"
+      ],
       "dimensions": {
         "width": 15,
         "depth": 20,
@@ -3568,8 +4192,14 @@
       "images": [
         "https://www.ikea.com/in/en/images/products/resoe-childrens-picnic-table-light-brown-stained__0736459_pe740547_s5.jpg?f=xl"
       ],
-      "colors": ["wooden", "black"],
-      "materials": ["wood", "metal"],
+      "colors": [
+        "wooden",
+        "black"
+      ],
+      "materials": [
+        "wood",
+        "metal"
+      ],
       "dimensions": {
         "width": 15,
         "depth": 20,
@@ -3592,106 +4222,6 @@
     "Childrens"
   ],
   "customers": [
-    {
-      "id": 1,
-      "name": "Narasimha",
-      "surname": "Rao",
-      "role": "user",
-      "email": "tnrao@gmail.com",
-      "password": "Narasimha@12345",
-      "gender": "male",
-      "address": "Bengaluru, Karnataka",
-      "pincode": "560035",
-      "phoneno": 9876543210,
-      "orders": [
-        {
-          "id": 1,
-          "quantity": 1
-        },
-        {
-          "id": 23,
-          "quantity": 1
-        },
-        {
-          "id": 4,
-          "quantity": 1
-        },
-        {
-          "id": 6,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Archit",
-      "surname": "Kumar",
-      "role": "user",
-      "email": "aarchit@gmail.com",
-      "password": "Archit@12345",
-      "gender": "male",
-      "address": "Haridwar, Uttarakhand",
-      "pincode": "360045",
-      "phoneno": 9874265310,
-      "orders": [
-        {
-          "id": 3,
-          "quantity": 1
-        },
-        {
-          "id": 88,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Sameer",
-      "surname": "Chand",
-      "role": "user",
-      "email": "sameer@gmail.com",
-      "password": "Sameer@12345",
-      "gender": "male",
-      "address": "Laknow, Uttar pradesh",
-      "pincode": "345634",
-      "phoneno": 7895641230,
-      "orders": [
-        {
-          "id": 3,
-          "quantity": 1
-        },
-        {
-          "id": 33,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Priyanka",
-      "surname": "R",
-      "role": "user",
-      "email": "priyanka@gmail.com",
-      "password": "Priyanka@12345",
-      "gender": "female",
-      "address": "Dharwad, Karnataka",
-      "pincode": "578345",
-      "phoneno": 6361586499,
-      "orders": [
-        {
-          "id": 37,
-          "quantity": 1
-        },
-        {
-          "id": 46,
-          "quantity": 1
-        },
-        {
-          "id": 99,
-          "quantity": 1
-        }
-      ]
-    },
     {
       "id": 6,
       "name": "siri",
@@ -3727,7 +4257,28 @@
       "pincode": "583212",
       "phoneno": "9876543210",
       "password": "$2a$10$cqYPgducdSDNxx7xAdKdP.47UMtyDEpUuXmIyfRVWymnMzW8fcNkG",
-      "orders": [],
+      "orders": [
+        {
+          "id": 6,
+          "quantity": 1
+        },
+        {
+          "id": 23,
+          "quantity": 1
+        },
+        {
+          "id": 25,
+          "quantity": 1
+        },
+        {
+          "id": 71,
+          "quantity": 1
+        },
+        {
+          "id": 21,
+          "quantity": 1
+        }
+      ],
       "role": "user",
       "id": 7
     },
@@ -3740,7 +4291,28 @@
       "pincode": "567483",
       "phoneno": "9632587410",
       "password": "$2a$10$Tvwq/9m/l6tC5I2HEMoXPe5MVFKOSHHG69Z0BqO.82RT8zFhiKSVW",
-      "orders": [],
+      "orders": [
+        {
+          "id": 30,
+          "quantity": 1
+        },
+        {
+          "id": 32,
+          "quantity": 2
+        },
+        {
+          "id": 34,
+          "quantity": 2
+        },
+        {
+          "id": 33,
+          "quantity": 2
+        },
+        {
+          "id": 36,
+          "quantity": 2
+        }
+      ],
       "role": "user",
       "id": 8
     },
@@ -3756,6 +4328,56 @@
       "orders": [],
       "role": "user",
       "id": 9
+    },
+    {
+      "name": "user",
+      "surname": "one",
+      "email": "user1@gmail.com",
+      "gender": "male",
+      "address": "Bengaluru, Karnataka",
+      "pincode": "560021",
+      "phoneno": "9468274653",
+      "password": "$2a$10$mdGj3x9szQQUD8dM29cSIeJNK1OAPMzeBVGE4/p1vxgf9UOzBD.sK",
+      "orders": [
+        {
+          "id": 65,
+          "quantity": 3
+        },
+        {
+          "id": 73,
+          "quantity": 2
+        },
+        {
+          "id": 18,
+          "quantity": 3
+        },
+        {
+          "id": 91,
+          "quantity": 1
+        },
+        {
+          "id": 51,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "role": "user",
+      "id": 10
     }
   ],
   "admin": [
@@ -3782,10 +4404,25 @@
       "phoneno": "9876014235",
       "address": "Bengaluru, Karnataka",
       "pincode": "560020",
-      "password": "$2a$10$hv5bdl06qgq/PqcAmpd4/eW.c3E7syCZGpUi7kUHqsOhzGcSle06O",
+      "password": "$2a$10$VdemXOqUO0cmdNlbExQpKOXkSEv0qpZykNd5L9WFYT.sPUVDQUo5O",
+      "newPassword": "$2a$10$VdemXOqUO0cmdNlbExQpKOXkSEv0qpZykNd5L9WFYT.sPUVDQUo5O",
       "role": "supplier",
       "productArray": [
-        1, 19, 36, 47, 58, 60, 64, 69, 74, 78, 82, 90, 92, 97, 103
+        1,
+        19,
+        36,
+        47,
+        58,
+        60,
+        64,
+        69,
+        74,
+        78,
+        82,
+        90,
+        92,
+        97,
+        103
       ]
     },
     {
@@ -3795,11 +4432,31 @@
       "phoneno": "8899665578",
       "address": "Chennai",
       "pincode": "684512",
-      "password": "$2a$10$kg5.NMUYQ9c2GqHuDpN4yupO/mMr8jQ3Gsj4t9wWfnZHLRQX/SOR.",
+      "password": "$2a$10$98rESknqnZGtEKYXcEADqey6L.6V9u...xNbcFmzVzSuFgRAVvNTC",
+      "newPassword": "$2a$10$98rESknqnZGtEKYXcEADqey6L.6V9u...xNbcFmzVzSuFgRAVvNTC",
       "role": "supplier",
       "productArray": [
-        2, 5, 13, 18, 20, 22, 35, 38, 41, 46, 48, 51, 56, 62, 63, 65, 68, 73,
-        79, 88, 91
+        2,
+        5,
+        13,
+        18,
+        20,
+        22,
+        35,
+        38,
+        41,
+        46,
+        48,
+        51,
+        56,
+        62,
+        63,
+        65,
+        68,
+        73,
+        79,
+        88,
+        91
       ]
     },
     {
@@ -3809,10 +4466,26 @@
       "phoneno": "6699885511",
       "address": "Hydrabad, Telangana",
       "pincode": "756324",
-      "password": "$2a$10$/os4aMSBqozSQAgdl9BSn.ns2IrBFkd97dQArTbZAH6F8Puplit.e",
+      "password": "$2a$10$RT8syMergMSpT6I1L/42EuJLHArEsHMXSVGvI9nRsksajQsOtUlgG",
+      "newPassword": "$2a$10$RT8syMergMSpT6I1L/42EuJLHArEsHMXSVGvI9nRsksajQsOtUlgG",
       "role": "supplier",
       "productArray": [
-        4, 11, 24, 27, 28, 29, 49, 52, 67, 70, 72, 75, 76, 80, 86, 94
+        4,
+        11,
+        24,
+        27,
+        28,
+        29,
+        49,
+        52,
+        67,
+        70,
+        72,
+        75,
+        76,
+        80,
+        86,
+        94
       ]
     },
     {
@@ -3822,10 +4495,26 @@
       "phoneno": "8426753159",
       "address": "Kocchi",
       "pincode": "852241",
-      "password": "$2a$10$OHmvNeWe4pnyM57NoF..yehopXSBilkups5dysjZnBMgm7H1/W6y6",
+      "password": "$2a$10$UTs03vfs7HNbxB20zR/cAut/0oLbV4rzeHE5XE8Hn9lpO0ZiuE1GC",
+      "newPassword": "$2a$10$UTs03vfs7HNbxB20zR/cAut/0oLbV4rzeHE5XE8Hn9lpO0ZiuE1GC",
       "role": "supplier",
       "productArray": [
-        3, 12, 31, 32, 33, 39, 42, 43, 45, 50, 53, 54, 66, 85, 89, 95
+        3,
+        12,
+        31,
+        32,
+        33,
+        39,
+        42,
+        43,
+        45,
+        50,
+        53,
+        54,
+        66,
+        85,
+        89,
+        95
       ]
     },
     {
@@ -3835,11 +4524,43 @@
       "phoneno": "7894561302",
       "address": "Delhi",
       "pincode": "456895",
-      "password": "$2a$10$GTa2Ylf778eSEg6oSUA0kOpOQ9aHpX2pfI3HoM5nLDi25snWfmH/e",
+      "password": "$2a$10$65sKEEpTfj5C/ES24OUAnOcTqJQZCLNZN58X.KzPPu9kXVHWC5/0G",
+      "newPassword": "$2a$10$65sKEEpTfj5C/ES24OUAnOcTqJQZCLNZN58X.KzPPu9kXVHWC5/0G",
       "role": "supplier",
       "productArray": [
-        6, 7, 8, 9, 10, 14, 15, 16, 17, 21, 23, 25, 26, 30, 34, 37, 40, 44, 55,
-        57, 59, 61, 71, 77, 81, 83, 84, 87, 93, 96, 98, 99, 100
+        6,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        21,
+        23,
+        25,
+        26,
+        30,
+        34,
+        37,
+        40,
+        44,
+        55,
+        57,
+        59,
+        61,
+        71,
+        77,
+        81,
+        83,
+        84,
+        87,
+        93,
+        96,
+        98,
+        99,
+        100
       ]
     },
     {
@@ -3849,10 +4570,34 @@
       "phoneno": "9480123657",
       "address": "Goa",
       "pincode": "754896",
-      "password": "$2a$10$Jqm2byiIng/lovW6kWXVKuUQLfzvIUtoUa5BV6T7NSUO58T3d7vNm",
+      "password": "$2a$10$S1ri93MmGsYE/QYvGjaEy.nmlKnZ3iJBR1KKIC0IWgd8HN2WfY/j.",
+      "newPassword": "$2a$10$S1ri93MmGsYE/QYvGjaEy.nmlKnZ3iJBR1KKIC0IWgd8HN2WfY/j.",
       "role": "supplier",
-      "productArray": [101, 102]
+      "productArray": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Supplier 7",
+      "email": "supplier7@gmail.com",
+      "phoneno": "6567811496",
+      "address": "Manglore",
+      "pincode": "867543",
+      "password": "$2a$10$DTD.blGxCQmsuLfKDOxN.OQ1mCg1EPjNAMeDAgyrjphQQUXqyvUGe",
+      "newPassword": "$2a$10$DTD.blGxCQmsuLfKDOxN.OQ1mCg1EPjNAMeDAgyrjphQQUXqyvUGe",
+      "role": "supplier",
+      "productArray": []
     }
   ],
-  "bag": []
+  "bag": [
+    {
+      "productId": 3,
+      "quantity": 1,
+      "userId": 10,
+      "cartId": "70276812-4985-4f53-a8cf-d167d082c8c2",
+      "id": 2
+    }
+  ]
 }

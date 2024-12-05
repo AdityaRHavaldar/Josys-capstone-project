@@ -69,6 +69,11 @@ const NavBar: React.FC = () => {
 
   return (
     <nav className=" shadow-md relative top-0 z-50">
+      {!user && (
+        <div className="bg-slate-700 text-white p-1 text-center w-full">
+          Join IEKA family & get 50% off on delivery services. T&C apply.
+        </div>
+      )}
       <div className="px-4 py-4 flex justify-between items-center">
         <Link
           to="/home/index"
