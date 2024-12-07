@@ -10,6 +10,7 @@ const ProductDetails: React.FC = () => {
   const [product, setProduct] = useState<Product | null>(null);
   const [currentImage, setCurrentImage] = useState<string>("");
   const [addedToBag, setAddedToBag] = useState<Set<number>>(new Set());
+  const [isProductAdded, setIsProductAdded] = useState(false);
 
   useEffect(() => {
     const loadProduct = async () => {
@@ -88,7 +89,10 @@ const ProductDetails: React.FC = () => {
             ${product.price}
           </span>
           <span className="text-2xl font-bold ml-4">
-            ${(product.price - product.discount).toFixed(2)}
+            $
+            {(product.price - (product.discount / 100) * product.price).toFixed(
+              2
+            )}
           </span>
         </div>
         <span className="text-sm text-gray-500 mt-2 block">
@@ -123,12 +127,27 @@ const ProductDetails: React.FC = () => {
           <p>{product.stock} in stock</p>
         </div>
 
-        <button
-          onClick={() => handleAddToBag(product.id!)}
-          className="mt-6 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition"
-        >
-          Add to Bag
-        </button>
+        {isProductAdded && sessionStorage.getItem("userId") ? (
+          <button
+            onClick={() => {
+              handleAddToBag(product.id!);
+              setIsProductAdded(true);
+            }}
+            className="mt-6 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition"
+          >
+            Added
+          </button>
+        ) : (
+          <button
+            onClick={() => {
+              handleAddToBag(product.id!);
+              setIsProductAdded(true);
+            }}
+            className="mt-6 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition"
+          >
+            Add to Bag
+          </button>
+        )}
       </div>
     </div>
   );

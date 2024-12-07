@@ -70,8 +70,11 @@ const NavBar: React.FC = () => {
   return (
     <nav className=" shadow-md relative top-0 z-50">
       {!user && (
-        <div className="bg-slate-700 text-white p-1 text-center w-full">
-          Join IEKA family & get 50% off on delivery services. T&C apply.
+        <div className="relative text-white font-bold p-1 text-center w-full">
+          <div className="absolute inset-0 bg-[url('https://tse1.mm.bing.net/th?id=OIP.kYbbsGihwsxYJ94z5k948AHaFj&pid=Api&P=0&h=180')] bg-repeat-x bg-cover filter shadow-inner"></div>
+          <div className="relative z-10">
+            Join IEKA family & get 50% off on delivery services. T&C apply.
+          </div>
         </div>
       )}
       <div className="px-4 py-4 flex justify-between items-center">
@@ -79,7 +82,7 @@ const NavBar: React.FC = () => {
           to="/home/index"
           className="text-white text-3xl font-semibold hover:text-gray-200 transition-colors duration-300"
         >
-          <img src="/Images/ieka.webp" alt="Ikea" className="h-9" />
+          <img src="/Images/ieka.webp" alt="Ieka" className="h-9" />
         </Link>
 
         <form

@@ -105,10 +105,11 @@ const CustomerLogin: React.FC = () => {
             I'm Buying for my Home
           </button>
         </Link>
-
-        <button className="w-full py-2 px-4  font-semibold rounded-full shadow-md border border-gray-500 focus:ring-2 focus:ring-[rgb(0,88,163)]">
-          I'm Buying for my Office
-        </button>
+        <Link to="/login/user" state={{ isSignUp: true }}>
+          <button className="w-full py-2 px-4  font-semibold rounded-full shadow-md border border-gray-500 focus:ring-2 focus:ring-[rgb(0,88,163)]">
+            I'm Buying for my Office
+          </button>
+        </Link>
       </div>
     </div>
   );

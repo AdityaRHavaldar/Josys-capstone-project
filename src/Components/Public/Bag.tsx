@@ -17,7 +17,7 @@ function Bag() {
   const [showConfirmation, setShowConfirmation] = useState(false);
   const userId = Number(sessionStorage.getItem("userId"));
 
-  const { data: user, refetch: refetchUser } = useUser(userId);
+  const { data: user } = useUser(userId);
   const { mutate: updateUser } = useUpdateUser();
 
   useEffect(() => {
@@ -125,10 +125,9 @@ function Bag() {
           userId,
           userData: { ...user, orders: updatedOrders },
         });
+        toast.success("Payment successful! Thank you for shopping at IEKA.");
         setBagItems([]);
         await clearBag();
-
-        toast.success("Payment successful! Thank you for shopping at IEKA.");
       }
     } catch (error) {
       console.log("Error processing the payment. Please try again.");
@@ -220,7 +219,11 @@ function Bag() {
 
           <div className="mt-4 flex justify-end items-center gap-8">
             <h2 className="text-xl font-semibold">
-              Grand Total: ${totalAmount.toFixed(2)}
+              Grand Total: $
+              {(totalAmount - (10 / 100) * totalAmount).toFixed(2)}
+              <span className="line-through text-sm pl-1 text-slate-500">
+                {`(${totalAmount.toFixed(2)})`}
+              </span>
             </h2>
             <button
               className="bg-green-500 text-white px-6 py-2 rounded"

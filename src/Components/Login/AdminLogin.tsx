@@ -84,6 +84,7 @@ const AdminLogin = () => {
                   type="email"
                   id="email"
                   name="email"
+                  placeholder="Ex: xyz@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
@@ -92,7 +93,7 @@ const AdminLogin = () => {
                 />
               </div>
 
-              <div className="mb-6">
+              <div className="mb-4">
                 <label
                   htmlFor="password"
                   className="block text-sm font-medium text-gray-500"
@@ -104,6 +105,7 @@ const AdminLogin = () => {
                   type="password"
                   id="password"
                   name="password"
+                  placeholder="min 8 characters"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[rgb(0,88,163)]"
@@ -113,7 +115,7 @@ const AdminLogin = () => {
               </div>
 
               {error && (
-                <p className="text-red-500 text-sm text-left mt-2">{error}</p>
+                <p className="text-red-500 text-sm text-left mb-4">{error}</p>
               )}
 
               <button

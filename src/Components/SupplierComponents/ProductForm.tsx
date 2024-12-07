@@ -21,10 +21,10 @@ const ProductForm: React.FC<ProductFormProps> = ({
   const [images, setImages] = useState(product?.images || []);
   const [colors, setColors] = useState(product?.colors || []);
   const [materials, setMaterials] = useState(product?.materials || []);
-  const [dimensions, setDimensions] = useState(
+  const [dimensions] = useState(
     product?.dimensions || { width: 15, depth: 20, height: 18 }
   );
-  const [reviews, setReviews] = useState(product?.reviews || []);
+  const [reviews] = useState(product?.reviews || []);
 
   const supplierId = Number(sessionStorage.getItem("supplierId"));
 
@@ -70,6 +70,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   value={productName}
                   onChange={(e) => setProductName(e.target.value)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  placeholder="Enter Name"
                   required
                 />
               </div>
@@ -82,6 +83,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                  placeholder="Enter Description"
                   required
                 />
               </div>
@@ -94,6 +96,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   type="text"
                   value={category}
                   onChange={(e) => setCategory(e.target.value)}
+                  placeholder="Enter Category"
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                 />
               </div>
@@ -106,6 +109,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   type="number"
                   value={price === 0 ? "" : price}
                   onChange={(e) => setPrice(Number(e.target.value))}
+                  placeholder="Enter Price"
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   required
                 />
@@ -119,6 +123,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   type="number"
                   value={discount === 0 ? "" : discount}
                   onChange={(e) => setDiscount(Number(e.target.value))}
+                  placeholder="Enter Discount"
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   required
                 />
@@ -133,6 +138,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                   type="number"
                   value={stock === 0 ? "" : stock}
                   onChange={(e) => setStock(Number(e.target.value))}
+                  placeholder="Enter Stock"
                   className="w-full px-3 py-2 border border-gray-300 rounded-md"
                   required
                 />
@@ -140,7 +146,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
 
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
-                  Colors
+                  Colors (Comma separated)
                 </label>
                 <input
                   type="text"
@@ -157,7 +163,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
 
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700">
-                  Materials
+                  Materials (Comma separated)
                 </label>
                 <input
                   type="text"
@@ -194,7 +200,7 @@ const ProductForm: React.FC<ProductFormProps> = ({
                     <button
                       type="button"
                       onClick={() => handleDeleteImage(index)}
-                      className="ml-2 text-red-500"
+                      className="ml-2 text-red-500 mr-2"
                     >
                       Delete
                     </button>
