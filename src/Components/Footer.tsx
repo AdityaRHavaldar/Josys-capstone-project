@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-interface Link {
+interface LinkType {
   name: string;
   link: string;
 }
 
 interface Links {
-  [category: string]: Link[];
+  [category: string]: LinkType[];
 }
 
 const Footer: React.FC = () => {
@@ -64,9 +65,11 @@ const Footer: React.FC = () => {
                 Enjoy member-only discounts & offers, early access to IEKA sale,
                 delicious food offers and much more. Join for free.
               </p>
-              <button className="rounded-full w-32 bg-slate-600 text-white py-1">
-                Join the club
-              </button>
+              <Link to="/login/user" state={{ isSignUp: true }}>
+                <button className="rounded-full w-32 bg-slate-600 text-white py-1">
+                  Join the club
+                </button>
+              </Link>
             </div>
             <div className="h-60 flex flex-col justify-evenly">
               <h2 className="font-bold text-2xl my-2">IEKA Business Network</h2>
@@ -76,9 +79,11 @@ const Footer: React.FC = () => {
                 benefits and features. Join us for free and enjoy member
                 discounts, quick-fix tips, online tutorials and a lot more.
               </p>
-              <button className="rounded-full w-32 bg-slate-600 text-white py-1">
-                Join now
-              </button>
+              <Link to="/login/user" state={{ isSignUp: true }}>
+                <button className="rounded-full w-32 bg-slate-600 text-white py-1">
+                  Join now
+                </button>
+              </Link>
             </div>
           </div>
           {Object.keys(links).map((category) => (

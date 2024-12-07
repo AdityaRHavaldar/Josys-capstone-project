@@ -48,11 +48,11 @@
       "name": "Malmo Chair",
       "description": "A modern, minimalist chair perfect for any room.",
       "category": "Chairs",
-      "sales": 304,
+      "sales": 50,
       "price": 129,
       "discount": 10,
       "supplierId": 2,
-      "stock": 5,
+      "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/ingolf-chair-white__0728152_pe736113_s5.jpg",
         "https://www.ikea.com/in/en/images/products/ingolf-chair-white__1409673_pe972365_s5.jpg",
@@ -1034,47 +1034,6 @@
         {
           "rating": 4,
           "comment": "Great size, but wish it had handles."
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Lack Wall Shelf",
-      "description": "A minimalist wall shelf that’s perfect for displaying your decor items.",
-      "category": "Storage",
-      "sales": 472,
-      "price": 29,
-      "discount": 10,
-      "supplierId": 5,
-      "stock": 3,
-      "images": [
-        "https://www.ikea.com/global/assets/range-categorisation/images/lack-series-09063.jpeg",
-        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
-        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
-        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg",
-        "https://www.ikea.com/in/en/images/products/lack-side-table-black-brown__0836402_pe601418_s5.jpg"
-      ],
-      "colors": [
-        "White",
-        "Black",
-        "Oak"
-      ],
-      "materials": [
-        "Wood"
-      ],
-      "dimensions": {
-        "width": 110,
-        "depth": 20,
-        "height": 15
-      },
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Perfect for small spaces, holds all my books and small decor."
-        },
-        {
-          "rating": 4,
-          "comment": "Good shelf, but requires more secure mounting."
         }
       ]
     },
@@ -3024,11 +2983,11 @@
       "name": "LÄTTHET Rug",
       "description": "A soft and cozy rug to add warmth and texture to your living room or bedroom.",
       "category": "Beds",
-      "sales": 44,
+      "sales": 50,
       "price": 59,
       "discount": 10,
       "supplierId": 1,
-      "stock": 3,
+      "stock": 4,
       "images": [
         "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1088024_pe861013_s5.jpg",
         "https://www.ikea.com/in/en/images/products/blavingad-rug-ocean-animals-pattern-multicolour__1071214_pe854886_s5.jpg",
@@ -4277,6 +4236,30 @@
         {
           "id": 21,
           "quantity": 1
+        },
+        {
+          "id": 11,
+          "quantity": 2
+        },
+        {
+          "id": 94,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "id": 73,
+          "quantity": 1
+        },
+        {
+          "id": 64,
+          "quantity": 1
+        },
+        {
+          "id": 58,
+          "quantity": 1
         }
       ],
       "role": "user",
@@ -4378,6 +4361,19 @@
       ],
       "role": "user",
       "id": 10
+    },
+    {
+      "name": "Mithi",
+      "surname": "R",
+      "email": "mithi@gmail.com",
+      "gender": "male",
+      "address": "Bengaluru, Karnataka",
+      "pincode": "560020",
+      "phoneno": "6361684595",
+      "password": "$2a$10$uTXSgUuhfA1V37GQGwiLsO6cmhXG9rkdJlhSZxEZ3WotmHKv2uU.m",
+      "orders": [],
+      "role": "user",
+      "id": 11
     }
   ],
   "admin": [
@@ -4401,10 +4397,10 @@
       "id": 1,
       "name": "Supplier 1",
       "email": "supplier1@gmail.com",
-      "phoneno": "9876014235",
+      "phoneno": "9876014283",
       "address": "Bengaluru, Karnataka",
       "pincode": "560020",
-      "password": "$2a$10$VdemXOqUO0cmdNlbExQpKOXkSEv0qpZykNd5L9WFYT.sPUVDQUo5O",
+      "password": "$2a$10$s9qP8UUBcrJIpV.1ez6mB.6cP4iQrMenPAJCoKJLyXPu2UnYm3nWG",
       "newPassword": "$2a$10$VdemXOqUO0cmdNlbExQpKOXkSEv0qpZykNd5L9WFYT.sPUVDQUo5O",
       "role": "supplier",
       "productArray": [
@@ -4540,7 +4536,6 @@
         21,
         23,
         25,
-        26,
         30,
         34,
         37,
@@ -4593,11 +4588,25 @@
   ],
   "bag": [
     {
-      "productId": 3,
+      "productId": 11,
       "quantity": 1,
-      "userId": 10,
-      "cartId": "70276812-4985-4f53-a8cf-d167d082c8c2",
+      "userId": 7,
+      "cartId": "01a12f20-f7ed-4e74-a3d5-44931e4b34d3",
+      "id": 1
+    },
+    {
+      "productId": 24,
+      "quantity": 1,
+      "userId": 7,
+      "cartId": "a25a2546-0d3d-480a-a59d-3cf1f2a8072a",
       "id": 2
+    },
+    {
+      "productId": 4,
+      "quantity": 1,
+      "userId": 7,
+      "cartId": "182de5e7-3fa3-4702-8749-f5fd061d5b75",
+      "id": 3
     }
   ]
 }

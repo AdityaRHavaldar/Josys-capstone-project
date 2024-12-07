@@ -9,6 +9,7 @@ import { FaAngleDown } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router-dom";
 import CategoryGroup from "./Categories/CategorieGroups/CategoryGroup";
 import { toast } from "react-toastify";
+import { FaHeart } from "react-icons/fa";
 
 function ProductDashboard() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -40,10 +41,10 @@ function ProductDashboard() {
     let filteredProducts = [...products];
 
     switch (filter) {
-      case "price":
+      case "Price":
         filteredProducts.sort((a, b) => a.price - b.price);
         break;
-      case "ratings":
+      case "Ratings":
         filteredProducts.sort((a, b) => {
           const avgRatingA =
             a.reviews.reduce((sum, review) => sum + review.rating, 0) /
@@ -57,15 +58,15 @@ function ProductDashboard() {
       case "Top seller":
         filteredProducts.sort((a, b) => b.sales - a.sales);
         break;
-      case "offers":
+      case "Offers":
         filteredProducts = products.filter((product) => product.discount > 0);
         break;
       case "Material":
-      case "size":
+      case "Size":
       case "Color":
       case "Doors":
       case "Features":
-      case "sales":
+      case "Sales":
         break;
       default:
         filteredProducts = [...products];
@@ -75,16 +76,16 @@ function ProductDashboard() {
   };
 
   const filters = [
-    { name: "price" },
-    { name: "ratings" },
+    { name: "Price" },
+    { name: "Ratings" },
     { name: "Top seller" },
-    { name: "offers" },
+    { name: "Offers" },
     { name: "Material" },
-    { name: "size" },
+    { name: "Size" },
     { name: "Color" },
     { name: "Doors" },
     { name: "Features" },
-    { name: "sales" },
+    { name: "Sales" },
   ];
 
   const handleProductClick = (productId: number) => {
@@ -115,10 +116,14 @@ function ProductDashboard() {
     }
   };
 
+  const addToFav = (productId: number): void => {
+    console.log(productId);
+  };
+
   return (
     <div>
       <CategoryGroup />
-      <div>
+      {/* <div>
         <ul className="flex justify-evenly items-center gap-2.5 overflow-x-auto pb-4 mt-2">
           <h2 className="font-bold whitespace-nowrap">Sort By :</h2>
           {filters.map((filter, index) => (
@@ -137,7 +142,7 @@ function ProductDashboard() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
         {sortedProducts.map((product) => {
           const isTopSeller = product.sales > 600;
@@ -174,16 +179,31 @@ function ProductDashboard() {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="text-xl font-bold text-gray-900 mt-2">
-                      ${product.price.toFixed(2)}
+                      $
+                      {(
+                        product.price -
+                        (product.discount / 100) * product.price
+                      ).toFixed(2)}
+                      <span className="line-through text-sm pl-1 text-slate-500">
+                        {`(${product.price.toFixed(2)})`}
+                      </span>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">
                       {product.stock} in stock
                     </p>
                   </div>
                   <div>
+                    <button
+                      className="w-150px bg-orange-400 rounded-lg hover:bg-slate-500 hover:text-white px-3 py-2"
+                      onClick={() => addToFav(product.id!)}
+                    >
+                      <FaHeart />
+                    </button>
+                  </div>
+                  <div>
                     {!isProductAdded ? (
                       <button
-                        className="w-150px bg-slate-300 rounded-lg hover:bg-slate-500 hover:text-white px-3 py-2"
+                        className="w-150px bg-orange-400 rounded-lg hover:bg-slate-500 hover:text-white px-3 py-2"
                         onClick={(event) => handleAddToBag(product.id!, event)}
                       >
                         Add to Bag
